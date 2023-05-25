@@ -34,3 +34,21 @@
   overflow: hidden;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
+.readmore-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+.readmore-link:hover {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.readmore-link svg {
+  margin-right: 5px;
+}

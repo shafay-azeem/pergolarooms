@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../EthicalEssence/EthicalEssence.css";
 import imgagedemo from "../../assets/EthicalEssenceImages/iMAGE-1.jpg";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 const EthicalEssence = () => {
   const [selected, setSelected] = useState(0);
@@ -58,6 +59,10 @@ const EthicalEssence = () => {
                 <div class="col-md-6">
                   <h4 class="subheading">{item.subHeading}</h4>
                   <p class="text-muted">{item.description}</p>
+                  <a className="readmore-link">
+                    <BsFillPlusCircleFill />
+                    {item.btntext}
+                  </a>
                 </div>
                 <div class="col-md-6 p-5">
                   <img src={item.image} class="img-fluid" alt="" />
