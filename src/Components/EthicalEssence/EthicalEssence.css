@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.item {
+  margin-top: 10px;
+  background-color: white;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.title {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.content {
+  color: black;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+
+.content.show {
+  color: auto;
+  max-height: 9999px;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
