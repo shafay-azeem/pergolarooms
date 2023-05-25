@@ -1,4 +1,5 @@
 import "./App.css";
+import ContactForm from "./Components/Contact/ContactForm";
 import EthicalEssence from "./Components/EthicalEssence/EthicalEssence";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
 import ServiceSlider from "./Components/Service/ServiceSlider";
@@ -10,7 +11,8 @@ function App() {
       {/* <NavigationBar /> */}
       {/* <WorkFlow /> */}
       {/* <EthicalEssence /> */}
-      <ServiceSlider />
+      {/* <ServiceSlider /> */}
+      <ContactForm />
     </div>
   );
 }
