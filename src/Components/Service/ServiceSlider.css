@@ -1,0 +1,64 @@
+.service-content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 5rem;
+  color: #ffffff;
+}
+.service-content h5 {
+  font-weight: 700;
+}
+
+.content-subheading {
+  font-size: 25px;
+  font-weight: 200;
+  line-height: 25px;
+}
+.content-description {
+  font-weight: 200;
+}
+.service-readmore-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+.service-readmore-link:hover {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.service-readmore-link svg {
+  margin-right: 5px;
+}
+.container-fluid {
+  position: relative;
+}
+
+.slider-dots {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #fff;
+}

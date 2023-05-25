@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "../EthicalEssence/EthicalEssence.css";
-import imgagedemo from "../../assets/EthicalEssenceImages/iMAGE-1.jpg";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 
 const EthicalEssence = () => {

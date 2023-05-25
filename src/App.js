@@ -1,6 +1,7 @@
 import "./App.css";
 import EthicalEssence from "./Components/EthicalEssence/EthicalEssence";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
+import ServiceSlider from "./Components/Service/ServiceSlider";
 import WorkFlow from "./Components/WorkFlow/WorkFlow";
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <NavigationBar /> */}
       {/* <WorkFlow /> */}
-      <EthicalEssence />
+      {/* <EthicalEssence /> */}
+      <ServiceSlider />
     </div>
   );
 }
