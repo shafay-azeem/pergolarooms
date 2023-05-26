@@ -18,7 +18,7 @@ function App() {
       {/* <ServiceSlider /> */}
       {/* <EthicalEssence /> */}
       {/* <ContactForm /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
