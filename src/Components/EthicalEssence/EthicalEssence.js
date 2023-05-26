@@ -58,6 +58,7 @@ const EthicalEssence = () => {
                 <div class="col-md-6">
                   <h4 class="subheading">{item.subHeading}</h4>
                   <p class="text-muted">{item.description}</p>
+
                   <a className="readmore-link">
                     <BsFillPlusCircleFill />
                     {item.btntext}

@@ -4,6 +4,7 @@ import ContactForm from "./Components/Contact/ContactForm";
 import EthicalEssence from "./Components/EthicalEssence/EthicalEssence";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import PortfolioSlider from "./Components/Portfolio/PortfolioSlider";
 import ServiceSlider from "./Components/Service/ServiceSlider";
 import WorkFlow from "./Components/WorkFlow/WorkFlow";
 
@@ -12,11 +13,10 @@ function App() {
     <div className="App">
       {/* <NavigationBar /> */}
       {/* <WorkFlow /> */}
-      {/* <EthicalEssence /> */}
+      {/* <Portfolio /> */}
       {/* <ServiceSlider /> */}
+      {/* <EthicalEssence /> */}
       {/* <ContactForm /> */}
-
-      <Portfolio />
     </div>
   );
 }

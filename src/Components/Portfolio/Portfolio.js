@@ -1,29 +1,31 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import imgd1 from "../../assets/PortfolioImages/400-x-400.jpg";
-import imgd2 from "../../assets/PortfolioImages/400-x-550.jpg";
+import "../Portfolio/Portfolio.css";
+import PortfolioSlider from "./PortfolioSlider";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 const Portfolio = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    cssEase: "linear",
-    centerMode: true,
-    centerPadding: "50px",
-  };
   return (
-    <Slider {...settings} className="py-5">
-      <img src={imgd1} className="my-5 px-4" />
-      <img src={imgd2} className="px-4" />
-      <img src={imgd1} className="my-5 px-4" />
-      <img src={imgd2} className="px-4" />
-      <img src={imgd1} className="my-5 px-4" />
-      <img src={imgd2} className="px-4" />
-    </Slider>
+    <div className="portfolio-container">
+      <div className="row">
+        <div className="col-md-6 py-5">
+          <h5 className="portfolio-heading">MODERN WORLD EXTERIORS</h5>
+          <p className="portfolio-subheading">PERGOLAS DESIGNS</p>
+        </div>
+        <div className="col-md-6 py-5 ">
+          <p className="portfolio-description">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <a className="portfolio-link">
+            <BsFillPlusCircleFill />
+            READ MORE
+          </a>
+        </div>
+      </div>
+      <PortfolioSlider />
+    </div>
   );
 };
 
