@@ -1,54 +1,30 @@
 .section-padding {
-  padding: 45px 0;
+  padding: 100px 0;
 }
-.section-dark {
+/* .section-dark {
   background-color: #f9f9f9;
   z-index: -2;
+} */
+.section-dark {
+  background-image: url("../../assets/ContactFormImages/ContactFormBackground.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .form-control,
 .form-group .form-control {
   border: 0;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(#009688),
-      to(#009688)
-    ),
-    -webkit-gradient(linear, left top, left bottom, from(#d2d2d2), to(#d2d2d2));
-  background-image: -webkit-linear-gradient(#009688, #009688),
-    -webkit-linear-gradient(#d2d2d2, #d2d2d2);
-  background-image: -o-linear-gradient(#009688, #009688),
-    -o-linear-gradient(#d2d2d2, #d2d2d2);
   background-image: linear-gradient(#009688, #009688),
     linear-gradient(#d2d2d2, #d2d2d2);
-  -webkit-background-size: 0 2px, 100% 1px;
   background-size: 0 2px, 100% 1px;
   background-repeat: no-repeat;
   background-position: center bottom, center -webkit-calc(100% - 1px);
-  background-position: center bottom, center calc(100% - 1px);
   background-color: rgba(0, 0, 0, 0);
-  -webkit-transition: background 0s ease-out;
-  -o-transition: background 0s ease-out;
-  transition: background 0s ease-out;
-  float: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
   border-radius: 0;
 }
 
 .form-group {
   position: relative;
-}
-
-.form-group.label-floating label.control-label,
-.form-group.label-placeholder label.control-label,
-.form-group.label-static label.control-label {
-  position: absolute;
-  pointer-events: none;
-  -webkit-transition: 0.3s ease all;
-  -o-transition: 0.3s ease all;
-  transition: 0.3s ease all;
 }
 
 .form-group textarea {
@@ -67,13 +43,6 @@
   margin: 16px 0 0 0;
 }
 
-.form-group.label-floating label.control-label,
-.form-group.label-placeholder label.control-label {
-  top: -7px;
-  font-size: 16px;
-  line-height: 1.42857143;
-}
-
 .form-group.label-floating.is-focused label.control-label,
 .form-group.label-floating:not(.is-empty) label.control-label,
 .form-group.label-static label.control-label {
@@ -88,5 +57,36 @@
 }
 
 #contactForm .form-group label.control-label {
-  color: #8c8c8c;
+  color: white;
+  font-size: 14px;
+}
+.form-control:focus,
+.form-control:active {
+  background: transparent !important;
+  box-shadow: 0 0 5px #d2d2d2 !important;
+}
+
+.section-title {
+  color: white;
+}
+.section-subtitle {
+  color: white;
+  font-weight: 300;
+}
+.section-description {
+  color: white;
+}
+.find-widget {
+  color: white;
+}
+.btn-send {
+  background-color: white;
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 3px;
+  width: 300px;
+}
+.form-control {
+  color: white !important;
 }
