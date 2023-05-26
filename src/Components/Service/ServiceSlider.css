@@ -3,9 +3,14 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 5rem;
+  /* padding: 5rem; */
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 5rem;
+  padding-left: 5rem;
   color: #ffffff;
 }
+
 .service-content h5 {
   font-weight: 700;
 }
@@ -15,9 +20,11 @@
   font-weight: 200;
   line-height: 25px;
 }
+
 .content-description {
   font-weight: 200;
 }
+
 .service-readmore-link {
   display: flex;
   align-items: center;
@@ -26,6 +33,7 @@
   color: white;
   font-size: 15px;
 }
+
 .service-readmore-link:hover {
   display: flex;
   align-items: center;
@@ -37,6 +45,7 @@
 .service-readmore-link svg {
   margin-right: 5px;
 }
+
 .container-fluid {
   position: relative;
 }

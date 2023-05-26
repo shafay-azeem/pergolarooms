@@ -42,7 +42,7 @@ const ServiceSlider = () => {
 
   return (
     <div className="container-fluid">
-      <div className="row">
+      <div className="row py-5">
         <div className="col-md-6 px-0">
           <img
             src={currentSlide.imgSrc}

@@ -12,12 +12,12 @@ import WorkFlow from "./Components/WorkFlow/WorkFlow";
 function App() {
   return (
     <div className="App">
-      {/* <NavigationBar /> */}
-      {/* <WorkFlow /> */}
+      <NavigationBar />
+      <WorkFlow />
       {/* <Portfolio /> */}
-      {/* <ServiceSlider /> */}
-      {/* <EthicalEssence /> */}
-      {/* <ContactForm /> */}
+      <ServiceSlider />
+      <EthicalEssence />
+      <ContactForm />
       {/* <Footer /> */}
     </div>
   );

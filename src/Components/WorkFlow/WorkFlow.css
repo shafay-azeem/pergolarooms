@@ -1,5 +1,14 @@
-.workflow-section {
-}
+.workflow-section {}
+
 .workflow-box p {
   font-size: 15px;
+  width: 80%;
+}
+
+.workflow-box img {
+  width: 100px;
+}
+
+.workflow-box h5 {
+  font-weight: bold;
 }

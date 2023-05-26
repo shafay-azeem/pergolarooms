@@ -50,22 +50,25 @@ const EthicalEssence = () => {
         {data.map((item, i) => (
           <div className="item" key={i}>
             <div className="title" onClick={() => toggle(i)}>
-              <h2>{item.heading}</h2>
-              <span>{selected == i ? "-" : "+"}</span>
+              <div className="title-inner container">
+                <h2 className="py-5">{item.heading}</h2>
+                <span>{selected == i ? "-" : "+"}</span>
+              </div>
             </div>
             <div className={selected == i ? "content show" : "content"}>
-              <div className="row">
-                <div class="col-md-6">
-                  <h4 class="subheading">{item.subHeading}</h4>
-                  <p class="text-muted">{item.description}</p>
-
-                  <a className="readmore-link">
-                    <BsFillPlusCircleFill />
-                    {item.btntext}
-                  </a>
-                </div>
-                <div class="col-md-6 p-5">
-                  <img src={item.image} class="img-fluid" alt="" />
+              <div className="container">
+                <div className="row d-md-flex align-items-center">
+                  <div class="col-md-6">
+                    <h4 class="subheading py-4">{item.subHeading}</h4>
+                    <p class="text-muted">{item.description}</p>
+                    <a className="readmore-link">
+                      <BsFillPlusCircleFill />
+                      {item.btntext}
+                    </a>
+                  </div>
+                  <div class="col-md-6 p-5">
+                    <img src={item.image} class="img-fluid" alt="" />
+                  </div>
                 </div>
               </div>
             </div>

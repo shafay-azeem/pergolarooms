@@ -1,20 +1,23 @@
-.portfolio-container {
+.portfolio {
   background-image: url("../../assets/PortfolioImages/bg-architecture-agency copy.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
   height: 800px;
 }
+
 .portfolio-heading {
   color: white;
   font-weight: 700;
 }
+
 .portfolio-subheading {
   color: white;
   font-size: 40px;
   font-weight: 200;
   line-height: 45px;
 }
+
 .portfolio-description {
   color: white;
 }
@@ -26,6 +29,7 @@
   cursor: pointer;
   color: white;
 }
+
 .portfolio-link:hover {
   display: flex;
   align-items: center;

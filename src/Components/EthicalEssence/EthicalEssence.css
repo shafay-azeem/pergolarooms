@@ -12,15 +12,25 @@
   margin-bottom: 5px;
   padding: 0;
 }
+
 .title {
+  /* border-top: 1px solid black; */
+  border-bottom: 1px solid black;
+}
+
+.title-inner {
   color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
+
+.title span {
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .content {
   color: black;
   max-height: 0;
@@ -34,6 +44,7 @@
   overflow: hidden;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
+
 .readmore-link {
   display: flex;
   align-items: center;
@@ -41,6 +52,7 @@
   cursor: pointer;
   color: black;
 }
+
 .readmore-link:hover {
   display: flex;
   align-items: center;

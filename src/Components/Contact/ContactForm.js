@@ -6,9 +6,9 @@ const ContactForm = () => {
     <section class="section-padding section-dark">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 mt-3">
+          <div class="col-md-6">
             <h4 class="section-title">CONTACT US</h4>
-            <h2 class="section-subtitle">REACH US OUT</h2>
+            <h2 class="section-subtitle py-3">REACH US OUT</h2>
             <p class="section-description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -16,7 +16,7 @@ const ContactForm = () => {
               type and scrambled it to make a type specimen book.
             </p>
 
-            <div class="find-widget">Dubai, United Arab Emirates</div>
+            <div class="find-widget py-2">Dubai, United Arab Emirates</div>
             <div class="find-widget">Sharjah, United Arab Emirates</div>
           </div>
           <div class="col-md-6">
