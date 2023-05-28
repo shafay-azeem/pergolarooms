@@ -2,6 +2,7 @@ import "./App.css";
 import ContactForm from "./Components/Contact/ContactForm";
 
 import EthicalEssence from "./Components/EthicalEssence/EthicalEssence";
+import FeaturedImage from "./Components/Featured/FeaturedImage";
 import Footer from "./Components/Footer/Footer";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
 import Portfolio from "./Components/Portfolio/Portfolio";
@@ -13,6 +14,7 @@ function App() {
   return (
     <div className="App">
       <NavigationBar />
+      <FeaturedImage />
       <WorkFlow />
       <Portfolio />
       <ServiceSlider />
