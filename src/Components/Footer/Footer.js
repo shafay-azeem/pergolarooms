@@ -40,7 +40,7 @@ const Footer = () => {
 
               <div class="col-lg-2 col-md-12 col-sm-12">
                 <h5 class="">Call Us</h5>
-                <ul class="mb-4">
+                <ul style={{ listStyle: 'none' }} class="mb-4">
                   <li>
                     <span href="#!" class="">+971585799666</span>
                   </li>
@@ -50,7 +50,7 @@ const Footer = () => {
               <div class="col-lg-3 col-md-12 sm-12">
                 <h5>Email Us</h5>
 
-                <ul class="mb-4">
+                <ul style={{ listStyle: 'none' }} class="mb-4">
                   <li>
                     <span href="#!" class="">info@pergolasroom.ae</span>
                   </li>
@@ -60,7 +60,7 @@ const Footer = () => {
               <div class="col-lg-3 col-md-12 col-sm-12">
                 <h5 class="text-uppercase">Visit Us</h5>
 
-                <ul class="mb-4">
+                <ul style={{ listStyle: 'none' }} class="mb-4">
                   <li className="py-1">
                     <span href="#!" class="">Dubai, United Arab Emirates</span>
                   </li>
@@ -73,7 +73,7 @@ const Footer = () => {
               <div class="Footer-Social-Icons col-lg-2 col-md-12 col-sm-12">
                 <h5 class="">Follow Us</h5>
 
-                <ul class="list-unstyled mb-2">
+                <ul style={{ listStyle: 'none' }} class="list-unstyled mb-2">
                   <li className="d-sm-flex">
                     <img className="FbLogo" src={FooterFbLogo} alt="fb" />
                     <img className="ms-2 InstaLogo" src={FooterInstaLogo} alt="insta" />

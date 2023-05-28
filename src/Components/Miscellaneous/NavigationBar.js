@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import "../Miscellaneous/NavigationBar.css";
+import { BsList, BsSearch, BsXLg } from "react-icons/bs";
 
 const NavigationBar = () => {
   const [show, setShow] = useState(false);
@@ -16,18 +17,20 @@ const NavigationBar = () => {
       <Navbar bg="light">
         <Container fluid className="py-2">
           <Navbar.Brand href="#home">PERGOlASROOMS</Navbar.Brand>
-          <div className="Search-Icon me-2" onClick={handleShow}>
-            SearchIcon
+          <div className="icons">
+            <BsSearch size={28} />
+            <BsList onClick={handleShow} size={30} className="ms-3" />
           </div>
         </Container>
       </Navbar>
 
       <Offcanvas show={show} placement="top">
         <Offcanvas.Header>
-          <Offcanvas.Title >Corbesier</Offcanvas.Title>
-          <Button onClick={handleClose} className="me-2">
-            Close
-          </Button>
+          <Offcanvas.Title >Pergolasroom</Offcanvas.Title>
+          <div className="icons">
+            <span className="text-white">Close</span>
+            <BsXLg color="white" onClick={handleClose} size={25} className="ms-3" />
+          </div>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div id="Floating-Menu" className="container text-white">
