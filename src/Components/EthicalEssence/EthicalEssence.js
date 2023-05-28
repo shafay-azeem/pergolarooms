@@ -66,7 +66,7 @@ const EthicalEssence = () => {
                       {item.btntext}
                     </a>
                   </div>
-                  <div class="col-md-6 p-5">
+                  <div class="col-md-6 p-2">
                     <img src={item.image} class="img-fluid" alt="" />
                   </div>
                 </div>
