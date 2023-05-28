@@ -1,10 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import imgd1 from "../../assets/PortfolioImages/400-x-400.jpg";
-import imgd2 from "../../assets/PortfolioImages/400-x-550.jpg";
+
 const PortfolioSlider = () => {
+
+  const [PortfolioImages, setPortfolioImages] = useState([
+    {
+      id: 1,
+      image: require('../../assets/PortfolioImages/400-x-400.jpg')
+    },
+    {
+      id: 2,
+      image: require('../../assets/PortfolioImages/400-x-550.jpg')
+    },
+    {
+      id: 3,
+      image: require('../../assets/PortfolioImages/400-x-400.jpg')
+    },
+    {
+      id: 4,
+      image: require('../../assets/PortfolioImages/400-x-550.jpg')
+    },
+    {
+      id: 5,
+      image: require('../../assets/PortfolioImages/400-x-400.jpg')
+    },
+    {
+      id: 6,
+      image: require('../../assets/PortfolioImages/400-x-550.jpg')
+    },
+  ])
+
   const settings = {
     dots: true,
     infinite: true,
@@ -13,16 +40,44 @@ const PortfolioSlider = () => {
     cssEase: "linear",
     centerMode: true,
     centerPadding: "50px",
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
   return (
-    <Slider {...settings} className="py-5">
-      <img src={imgd1} className="my-5 px-4" />
-      <img src={imgd2} className="px-4" />
-      <img src={imgd1} className="my-5 px-4" />
-      <img src={imgd2} className="px-4" />
-      <img src={imgd1} className="my-5 px-4" />
-      <img src={imgd2} className="px-4" />
-    </Slider>
+    <>
+      <div className="Portfolio-Slider py-5">
+        <div className="row">
+          <Slider {...settings}>
+            {PortfolioImages.map((x, index) => {
+              return (
+                <div key={index} className="col-lg-4 col-md-4 col-sm-4">
+                  <div className="Portfolio-inner align-items-center d-flex px-3">
+                    <img className="img-fluid" src={x.image} alt="1" />
+                  </div>
+                </div>
+              )
+            })}
+          </Slider>
+
+        </div>
+      </div>
+    </>
   );
 };
 

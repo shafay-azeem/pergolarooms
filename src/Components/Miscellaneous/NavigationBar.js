@@ -14,24 +14,22 @@ const NavigationBar = () => {
   return (
     <div>
       <Navbar bg="light">
-        <Container>
-          <Navbar.Brand href="#home">Brand link</Navbar.Brand>
-          <Button onClick={handleShow} className="me-2">
-            Open
-          </Button>
+        <Container fluid className="py-2">
+          <Navbar.Brand href="#home">PERGOlASROOMS</Navbar.Brand>
+          <div style={{ cursor: 'pointer' }} className="me-2" onClick={handleShow}>
+            SearchIcon
+          </div>
         </Container>
       </Navbar>
 
-      <Offcanvas show={show} placement="top">
+      <Offcanvas style={{ backgroundColor: '#1b1b1b' }} show={show} placement="top">
         <Offcanvas.Header>
-          <Offcanvas.Title>Offcanvas</Offcanvas.Title>
+          <Offcanvas.Title style={{ color: 'white' }}>Corbesier</Offcanvas.Title>
           <Button onClick={handleClose} className="me-2">
             Close
           </Button>
         </Offcanvas.Header>
         <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
         </Offcanvas.Body>
       </Offcanvas>
     </div>

@@ -1,9 +1,8 @@
 .portfolio {
   background-image: url("../../assets/PortfolioImages/bg-architecture-agency copy.jpg");
-
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 1000px;
 }
 
 .portfolio-heading {
@@ -40,4 +39,16 @@
 
 .portfolio-link svg {
   margin-right: 5px;
+}
+
+.Portfolio-Slider .slick-slider {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .portfolio {
+    height: 800px;
+  }
 }

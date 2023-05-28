@@ -56,7 +56,7 @@ const EthicalEssence = () => {
               </div>
             </div>
             <div className={selected == i ? "content show" : "content"}>
-              <div className="container">
+              <div className="container py-5 px-5">
                 <div className="row d-md-flex align-items-center">
                   <div class="col-md-6">
                     <h4 class="subheading py-4">{item.subHeading}</h4>

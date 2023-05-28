@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <NavigationBar />
       <WorkFlow />
-      {/* <Portfolio /> */}
+      <Portfolio />
       <ServiceSlider />
       <EthicalEssence />
       <ContactForm />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

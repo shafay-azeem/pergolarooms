@@ -9,8 +9,8 @@ const Portfolio = () => {
       <div className="container">
         <div className="row py-5 d-md-flex align-items-center">
           <div className="col-md-6">
-            <h5 className="portfolio-heading">MODERN WORLD EXTERIORS</h5>
-            <p className="portfolio-subheading">PERGOLAS DESIGNS</p>
+            <h4 className="portfolio-heading text-center">MODERN WORLD EXTERIORS</h4>
+            <p className="portfolio-subheading text-center">PERGOLAS DESIGNS</p>
           </div>
           <div className="col-md-6">
             <p className="portfolio-description">

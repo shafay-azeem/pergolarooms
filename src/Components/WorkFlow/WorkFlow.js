@@ -31,7 +31,7 @@ const WorkFlow = () => {
   return (
     <>
       <section class="workflow-section">
-        <div class="container">
+        <div class="container py-5">
           <div class="row py-5">
             {workFlowItems.map((x, index) => {
               return (
