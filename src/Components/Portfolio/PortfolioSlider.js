@@ -65,7 +65,8 @@ const PortfolioSlider = () => {
           <Slider {...settings}>
             {PortfolioImages.map((x, index) => {
               return (
-                <div key={index} className="col-lg-4 col-md-4 col-sm-4">
+                <div key={index} className={`col-lg-4 col-md-4 col-sm-4 ${index % 2 === 0 ? "py-5" : ""
+                  } `}>
                   <div className="Portfolio-inner justify-content-center align-items-center d-flex px-3">
                     <img className="d-block img-fluid" src={x.image} alt="1" />
                   </div>

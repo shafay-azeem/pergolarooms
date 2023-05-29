@@ -4,6 +4,7 @@
   background-color: #1b1b1b !important;
   font-family: 'Courier New', Courier, monospace;
   cursor: pointer;
+  overflow-y: scroll;
 }
 
 .Search-Icon {
@@ -25,7 +26,8 @@
 }
 
 .floating-icons {
-  padding-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
