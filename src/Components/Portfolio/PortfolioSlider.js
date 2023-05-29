@@ -4,33 +4,32 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const PortfolioSlider = () => {
-
   const [PortfolioImages, setPortfolioImages] = useState([
     {
       id: 1,
-      image: require('../../assets/PortfolioImages/400-x-400.jpg')
+      image: require("../../assets/PortfolioImages/400-x-400.jpg"),
     },
     {
       id: 2,
-      image: require('../../assets/PortfolioImages/400-x-550.jpg')
+      image: require("../../assets/PortfolioImages/400-x-550.jpg"),
     },
     {
       id: 3,
-      image: require('../../assets/PortfolioImages/400-x-400.jpg')
+      image: require("../../assets/PortfolioImages/400-x-400.jpg"),
     },
     {
       id: 4,
-      image: require('../../assets/PortfolioImages/400-x-550.jpg')
+      image: require("../../assets/PortfolioImages/400-x-550.jpg"),
     },
     {
       id: 5,
-      image: require('../../assets/PortfolioImages/400-x-400.jpg')
+      image: require("../../assets/PortfolioImages/400-x-400.jpg"),
     },
     {
       id: 6,
-      image: require('../../assets/PortfolioImages/400-x-550.jpg')
+      image: require("../../assets/PortfolioImages/400-x-550.jpg"),
     },
-  ])
+  ]);
 
   const settings = {
     dots: true,
@@ -71,10 +70,9 @@ const PortfolioSlider = () => {
                     <img className="d-block img-fluid" src={x.image} alt="1" />
                   </div>
                 </div>
-              )
+              );
             })}
           </Slider>
-
         </div>
       </div>
     </>

@@ -1,4 +1,5 @@
 import "./App.css";
+import ClientTestimony from "./Components/ClientTestimony/ClientTestimony";
 import ContactForm from "./Components/Contact/ContactForm";
 
 import EthicalEssence from "./Components/EthicalEssence/EthicalEssence";
@@ -21,6 +22,7 @@ function App() {
       <EthicalEssence />
       <ContactForm />
       <Footer />
+      {/* <ClientTestimony /> */}
     </div>
   );
 }
