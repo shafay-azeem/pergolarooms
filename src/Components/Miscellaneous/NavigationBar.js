@@ -16,7 +16,9 @@ const NavigationBar = () => {
     <div>
       <Navbar bg="light">
         <Container fluid className="py-2">
-          <Navbar.Brand href="#home">PERGOlASROOMS</Navbar.Brand>
+          <Navbar.Brand href="#home" className="font-face-rb">
+            PERGOlASROOMS
+          </Navbar.Brand>
           <div className="icons">
             <BsSearch size={28} />
             <BsList onClick={handleShow} size={30} className="ms-3" />
@@ -26,22 +28,29 @@ const NavigationBar = () => {
 
       <Offcanvas show={show} placement="top">
         <Offcanvas.Header>
-          <Offcanvas.Title >Pergolasroom</Offcanvas.Title>
+          <Offcanvas.Title>Pergolasroom</Offcanvas.Title>
           <div className="icons">
             <span className="text-white">Close</span>
-            <BsXLg color="white" onClick={handleClose} size={25} className="ms-3" />
+            <BsXLg
+              color="white"
+              onClick={handleClose}
+              size={25}
+              className="ms-3"
+            />
           </div>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div id="Floating-Menu" className="container text-white">
             <div className="row">
               <div className="first col-lg-3">
-                Germany-<br />
+                Germany-
+                <br />
                 785 15th Street, <br /> Office 478 <br /> Berlin, De 81566
               </div>
               <div className="second col-lg-3 pb-2">
                 <br />
-                <br />+1840 841 25 69  <br /> info@email.com
+                <br />
+                +1840 841 25 69 <br /> info@email.com
               </div>
               <div id="nav-List" className="col-lg-6">
                 <ul className="pb-2 items">Home</ul>
@@ -61,7 +70,6 @@ const NavigationBar = () => {
               <span className="ms-2">Instagram Icon</span>
             </div>
           </div>
-
         </Offcanvas.Body>
       </Offcanvas>
     </div>
