@@ -24,7 +24,7 @@ const Footer = () => {
           <section class="container">
             <div class="row">
               <div class="col-lg-2 col-md-12 col-sm-12">
-                <h5 className="font-face-rb">Quick Links</h5>
+                <h6 className="font-face-rb">Quick Links</h6>
                 <ul class="mb-4">
                   <li className="font-face-rr">Pergolas</li>
                   <li className="font-face-rr">Pergola Room</li>
@@ -34,14 +34,14 @@ const Footer = () => {
               </div>
 
               <div class="col-lg-2 col-md-12 col-sm-12">
-                <h5 class="font-face-rb">Call Us</h5>
+                <h6 class="font-face-rb">Call Us</h6>
                 <ul style={{ listStyle: "none" }} class="mb-4">
                   <li className="font-face-rr">+971585799666</li>
                 </ul>
               </div>
 
               <div class="col-lg-3 col-md-12 sm-12">
-                <h5 className="font-face-rb">Email Us</h5>
+                <h6 className="font-face-rb">Email Us</h6>
 
                 <ul style={{ listStyle: "none" }} class="mb-4">
                   <li className="font-face-rr">info@pergolasroom.ae</li>
@@ -49,7 +49,7 @@ const Footer = () => {
               </div>
 
               <div class="col-lg-3 col-md-12 col-sm-12">
-                <h5 class="text-uppercase font-face-rb">Visit Us</h5>
+                <h6 class="text-uppercase font-face-rb">Visit Us</h6>
 
                 <ul style={{ listStyle: "none" }} class="mb-4">
                   <li className="font-face-rr">Dubai, United Arab Emirates</li>
@@ -60,7 +60,7 @@ const Footer = () => {
               </div>
 
               <div class="Footer-Social-Icons col-lg-2 col-md-12 col-sm-12">
-                <h5 class="font-face-rb">Follow Us</h5>
+                <h6 class="font-face-rb">Follow Us</h6>
 
                 <ul style={{ listStyle: "none" }} class="list-unstyled mb-2">
                   <li className="d-sm-flex">
