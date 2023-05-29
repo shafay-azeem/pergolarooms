@@ -7,17 +7,17 @@ const Portfolio = () => {
   return (
     <div className="portfolio container-fluid">
       <div className="container">
-        <div className="row py-5 d-md-flex align-items-center">
+        <div className="row py-5 d-md-flex">
           <div className="col-md-6">
-            <h4 className="portfolio-heading text-center font-face-rb">
+            <h4 className="portfolio-heading text-start font-face-rb">
               MODERN WORLD EXTERIORS
             </h4>
-            <p className="portfolio-subheading text-center font-face-rl">
+            <p className="portfolio-subheading text-start font-face-rl">
               PERGOLAS DESIGNS
             </p>
           </div>
           <div className="col-md-6">
-            <p className="portfolio-description font-face-rr">
+            <p className="portfolio-description font-face-rr  ">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nihil
               perferendis quidem, voluptatum assumenda fugit cum sequi hic
               repudiandae est recusandae harum inventore reiciendis ipsam sit

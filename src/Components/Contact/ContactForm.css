@@ -80,10 +80,13 @@
 
 .section-description {
   color: white;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .find-widget {
   color: white;
+  font-size: 14px;
 }
 
 .btn-send {
@@ -98,7 +101,6 @@
 .form-control {
   color: white !important;
 }
-
 
 .section-description {
   width: 90%;

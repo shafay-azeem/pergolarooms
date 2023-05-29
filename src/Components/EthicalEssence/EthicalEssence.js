@@ -62,7 +62,9 @@ const EthicalEssence = () => {
                     <h4 class="subheading py-4 font-face-rr">
                       {item.subHeading}
                     </h4>
-                    <p class="text-muted font-face-rr">{item.description}</p>
+                    <p class="description-ethicalessence text-muted font-face-rr">
+                      {item.description}
+                    </p>
                     <a className="readmore-link font-face-rr">
                       <BsFillPlusCircleFill />
                       {item.btntext}

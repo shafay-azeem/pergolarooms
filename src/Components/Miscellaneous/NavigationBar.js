@@ -8,6 +8,8 @@ import searchIcon from "../../assets/NavgigationBarImages/search.png";
 import closeIcon from "../../assets/NavgigationBarImages/cr1.png";
 import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
+import logoblack from "../../assets/NavgigationBarImages/PergolaroomLogoBlack.png";
+import logowhite from "../../assets/NavgigationBarImages/PergolaroomLogoWhite.png";
 
 const NavigationBar = () => {
   const [show, setShow] = useState(false);
@@ -20,7 +22,8 @@ const NavigationBar = () => {
       <Navbar bg="white">
         <Container fluid className="py-2">
           <Navbar.Brand href="#home" className="font-face-rb">
-            PERGOlASROOMS
+            {/* <img src={logoblack} className="img-fluid" /> */}
+            PERGOLASROOM
           </Navbar.Brand>
           <div className="icons">
             <img src={searchIcon} alt="search" />
@@ -36,7 +39,10 @@ const NavigationBar = () => {
 
       <Offcanvas show={show} placement="top">
         <Offcanvas.Header>
-          <Offcanvas.Title>Pergolasroom</Offcanvas.Title>
+          <Offcanvas.Title>
+            {/* <img src={logowhite} className="img-fluid" /> */}
+            PERGOLASROOM
+          </Offcanvas.Title>
           <div className="icons">
             <span className="font-face-rr">Close</span>
             <img

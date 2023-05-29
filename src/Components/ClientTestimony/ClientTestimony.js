@@ -55,7 +55,9 @@ const ClientTestimony = () => {
                   {testimonyData.map((x, index) => {
                     return (
                       <div key={index} className="">
-                        <p className="font-face-rr">{x.testimonyReview}</p>
+                        <p className="testimony-review font-face-rr">
+                          {x.testimonyReview}
+                        </p>
                         <p>
                           <b className="font-face-rb">{x.testimonyName}</b>
                         </p>

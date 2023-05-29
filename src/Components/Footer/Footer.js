@@ -26,37 +26,17 @@ const Footer = () => {
               <div class="col-lg-2 col-md-12 col-sm-12">
                 <h5 className="font-face-rb">Quick Links</h5>
                 <ul class="mb-4">
-                  <li className="py-1">
-                    <span href="#!" class="">
-                      Pergolas
-                    </span>
-                  </li>
-                  <li className="py-1">
-                    <span href="#!" class="">
-                      Pergola Room
-                    </span>
-                  </li>
-                  <li className="py-1">
-                    <span href="#!" class="">
-                      BBQ Area
-                    </span>
-                  </li>
-                  <li className="py-1">
-                    <span href="#!" class="">
-                      Villas Extension
-                    </span>
-                  </li>
+                  <li className="font-face-rr">Pergolas</li>
+                  <li className="font-face-rr">Pergola Room</li>
+                  <li className="font-face-rr">BBQ Area</li>
+                  <li className="font-face-rr">Villas Extension</li>
                 </ul>
               </div>
 
               <div class="col-lg-2 col-md-12 col-sm-12">
                 <h5 class="font-face-rb">Call Us</h5>
                 <ul style={{ listStyle: "none" }} class="mb-4">
-                  <li>
-                    <span href="#!" class="font-face-rr">
-                      +971585799666
-                    </span>
-                  </li>
+                  <li className="font-face-rr">+971585799666</li>
                 </ul>
               </div>
 
@@ -64,11 +44,7 @@ const Footer = () => {
                 <h5 className="font-face-rb">Email Us</h5>
 
                 <ul style={{ listStyle: "none" }} class="mb-4">
-                  <li>
-                    <span href="#!" class="font-face-rr">
-                      info@pergolasroom.ae
-                    </span>
-                  </li>
+                  <li className="font-face-rr">info@pergolasroom.ae</li>
                 </ul>
               </div>
 
@@ -76,15 +52,9 @@ const Footer = () => {
                 <h5 class="text-uppercase font-face-rb">Visit Us</h5>
 
                 <ul style={{ listStyle: "none" }} class="mb-4">
-                  <li className="py-1">
-                    <span href="#!" class="font-face-rr">
-                      Dubai, United Arab Emirates
-                    </span>
-                  </li>
-                  <li className="py-1">
-                    <span href="#!" class="font-face-rr">
-                      Sharjah, United Arab Emirates
-                    </span>
+                  <li className="font-face-rr">Dubai, United Arab Emirates</li>
+                  <li className="font-face-rr">
+                    Sharjah, United Arab Emirates
                   </li>
                 </ul>
               </div>
@@ -109,7 +79,7 @@ const Footer = () => {
 
         <div class="bg-black text-white text-center py-4">
           <div className="container font-face-rr">
-            Copyrights & All Rights Reserved @{" "}
+            Copyrights & All Rights Reserved @
             <b className="font-face-rb">pergolasroom.ae</b> Designed and
             Developed By <span></span>
             <span class="text-white">

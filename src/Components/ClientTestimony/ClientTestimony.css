@@ -33,3 +33,8 @@
     visibility: hidden;
   }
 }
+
+.testimony-review {
+  font-size: 14px;
+  line-height: 20px;
+}

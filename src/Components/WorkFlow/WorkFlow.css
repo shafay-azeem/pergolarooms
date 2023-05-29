@@ -2,8 +2,9 @@
 }
 
 .workflow-box p {
-  font-size: 15px;
-  width: 90%;
+  font-size: 14px;
+  line-height: 20px;
+  /* width: 90%; */
 }
 
 .workflow-box img {
