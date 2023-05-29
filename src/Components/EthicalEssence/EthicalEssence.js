@@ -50,8 +50,8 @@ const EthicalEssence = () => {
         {data.map((item, i) => (
           <div className="item" key={i}>
             <div className="title" onClick={() => toggle(i)}>
-              <div className="title-inner container">
-                <h2 className="py-5">{item.heading}</h2>
+              <div className="title-inner container px-5">
+                <h5 className="py-5">{item.heading}</h5>
                 <span>{selected == i ? "-" : "+"}</span>
               </div>
             </div>

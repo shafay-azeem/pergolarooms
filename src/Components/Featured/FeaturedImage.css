@@ -2,6 +2,10 @@
     background-color: white;
 }
 
+.Featured-Left-Image img {
+    transform: rotate(90deg);
+}
+
 .Featured-Right-Image {
     background-image: url('../../assets/FeaturedImages/h1-port-slider-img-1.jpg');
     background-size: cover;

@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <>
       <footer class="Footer">
-        <div class="container mt-3 py-3">
-          <div className="row d-flex justify-content-center align-items-center text-center">
+        <div class="container mt-3 py-3 px-lg-5">
+          <div className="row px-lg-5 d-flex justify-content-center align-items-center text-center">
             <div className="col-md-6">
               <img src={FooterLogo} className="img-fluid" alt="footerMain" />
               <p className="py-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime autem, non magni nesciunt fuga ea recusandae minus sequi ex impedit velit dolores, quaerat omnis excepturi sunt molestias nobis fugiat sed.</p>

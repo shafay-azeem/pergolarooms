@@ -1,9 +1,9 @@
 import React from "react";
 import "../ClientTestimony/ClientTestimony.css";
-import ClientTestimonyImg from "../../assets/ClientTestimonyImages/about-us-hero.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import icon from "../../assets/ClientTestimonyImages/MArks.png";
 
 const ClientTestimony = () => {
   const testimonyData = [
@@ -41,43 +41,14 @@ const ClientTestimony = () => {
   };
   return (
     <>
-      {/* <section class="page-header">
-        <div class="row no-gutter flex-column">
-          <img src={ClientTestimonyImg} class="img-fluid" />
-        </div>
-      </section>
-
-      <section class="scounter">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
-              <div class="row">
-                <Slider {...settings}>
-                  {testimonyData.map((x, index) => {
-                    return (
-                      <div className="col-md-12 text-center testimony-card">
-                        <p>{x.testimonyReview}</p>
-
-                        <p>{x.testimonyName}</p>
-                      </div>
-                    );
-                  })}
-                </Slider>
-              </div>
-            </div>
-            <div class="col-md-1"></div>
-          </div>
-        </div>
-      </section> */}
-
       <div id="testimonial-header" className="container-fluid">
-        <div className="container">
+        <div className="container py-2">
           <div className="row py-5 d-flex flex-column align-items-center justify-content-between">
             <div className="Testimoni-first col-lg-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in magnam ipsa quas enim consequuntur, omnis eum non accusamus eos.
             </div>
-            <div className="py-5 bg-white shadow col-lg-8 col-md-12 text-center">
+            <div className="py-4 bg-white shadow col-lg-8 col-md-12 text-center">
+              <img className="img-fluid" src={icon} alt="img" />
               <div className="Test-inner p-5">
                 <Slider {...settings}>
                   {testimonyData.map((x, index) => {
