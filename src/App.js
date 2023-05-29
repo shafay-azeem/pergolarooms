@@ -20,9 +20,9 @@ function App() {
       <Portfolio />
       <ServiceSlider />
       <EthicalEssence />
+      <ClientTestimony />
       <ContactForm />
       <Footer />
-      {/* <ClientTestimony /> */}
     </div>
   );
 }

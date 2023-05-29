@@ -35,11 +35,11 @@ const NavigationBar = () => {
         <Offcanvas.Body>
           <div id="Floating-Menu" className="container text-white">
             <div className="row">
-              <div className="col-lg-3">
+              <div className="first col-lg-3">
                 Germany-<br />
                 785 15th Street, <br /> Office 478 <br /> Berlin, De 81566
               </div>
-              <div className="col-lg-3 pb-2">
+              <div className="second col-lg-3 pb-2">
                 <br />
                 <br />+1840 841 25 69  <br /> info@email.com
               </div>
@@ -55,7 +55,7 @@ const NavigationBar = () => {
             <hr className="Horizontal-line text-white mt-5" />
 
             <div className="floating-icons text-white">
-              <span>Facebook Icon</span>
+              <span className="ms-2">Facebook Icon</span>
               <span className="ms-2">Twitter Icon</span>
               <span className="ms-2">Dribble Icon</span>
               <span className="ms-2">Instagram Icon</span>

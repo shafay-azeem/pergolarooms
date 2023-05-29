@@ -25,7 +25,9 @@
     border: none;
 }
 
-@media screen and (min-width: 1024px) {
+/* -----------MEDIA QUERIES------------- */
+
+@media screen and (min-width: 768px) {
     .Featured-Left-Image {
         background-color: white;
         writing-mode: vertical-lr;
@@ -36,5 +38,11 @@
         align-items: center;
         justify-content: flex-start;
         cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Featured-Left-Image {
+        display: none;
     }
 }

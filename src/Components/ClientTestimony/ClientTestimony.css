@@ -1,5 +1,4 @@
-.page-header {
-  /* padding: 50px 0 0; */
+/* .page-header {
   text-align: center;
 }
 
@@ -14,10 +13,6 @@
 .scounter {
   margin-top: -120px;
 }
-/* .counters {
-  background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-} */
 
 .testimony-card {
   background-color: red;
@@ -35,5 +30,42 @@
 
   .imgStyle {
     margin-bottom: 10px;
+  }
+} */
+
+
+#testimonial-header {
+  background-image: url('../../assets/FeaturedImages/h1-port-slider-img-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+
+.Testimoni-first {
+  visibility: hidden;
+}
+
+
+/* ----------MEDIA QUERIES FOR TABLET----------- */
+@media screen and (min-width: 768px) and (max-width: 912px) {
+  .Testimoni-first {
+    height: 150px;
+    visibility: hidden;
+
+  }
+}
+
+@media screen and (min-width: 912px) and (max-width: 1024px) {
+  .Testimoni-first {
+    height: 150px;
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .Testimoni-first {
+    height: 150px;
+    visibility: hidden;
   }
 }
