@@ -24,7 +24,12 @@ const NavigationBar = () => {
           </Navbar.Brand>
           <div className="icons">
             <img src={searchIcon} alt="search" />
-            <img onClick={handleShow} src={menuIcon} alt="menu" className="ms-3" />
+            <img
+              onClick={handleShow}
+              src={menuIcon}
+              alt="menu"
+              className="ms-3"
+            />
           </div>
         </Container>
       </Navbar>
@@ -33,40 +38,50 @@ const NavigationBar = () => {
         <Offcanvas.Header>
           <Offcanvas.Title>Pergolasroom</Offcanvas.Title>
           <div className="icons">
-            <span>Close</span>
-            <img src={closeIcon} alt="close" className="ms-2" onClick={handleClose} />
+            <span className="font-face-rr">Close</span>
+            <img
+              src={closeIcon}
+              alt="close"
+              className="ms-2"
+              onClick={handleClose}
+            />
           </div>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <div id="Floating-Menu" className="container">
             <div className="row">
-              <div className="first col-lg-2">
+              <div className="first col-lg-2 font-face-rb ">
                 Call Us <br />
-                <small>+971585799666</small>
+                <small className="font-face-rr">+971585799666</small>
               </div>
-              <div className="second col-lg-2 pb-2">
+              <div className="second col-lg-2 pb-2 font-face-rb ">
                 Email Us <br />
-                <small>info@pergolasroom.ae</small>
+                <small className="font-face-rr">info@pergolasroom.ae</small>
               </div>
-              <div className="third col-lg-3 pb-2">
-                Visit Us<br />
-                <small>Dubai, United Arab Emirates</small>
+              <div className="third col-lg-3 pb-2 font-face-rb ">
+                Visit Us
                 <br />
-                <small>Sharjah, United Arab Emirates</small>
+                <small className="font-face-rr ">
+                  Dubai, United Arab Emirates
+                </small>
+                <br />
+                <small className="font-face-rr ">
+                  Sharjah, United Arab Emirates
+                </small>
               </div>
               <div id="nav-List" className="col-lg-5">
-                <ul className="pb-2 items">Home</ul>
-                <ul className="pb-2 items">About</ul>
-                <ul className="pb-2 items">Pergolas Rooms</ul>
-                <ul className="pb-2 items">Pergolas</ul>
-                <ul className="pb-2 items">BBQ Areas</ul>
-                <ul className="pb-2 items">Villa Extension</ul>
-                <ul className="pb-2 items">Contact</ul>
+                <ul className="items font-face-rb">Home</ul>
+                <ul className="items font-face-rb">About</ul>
+                <ul className="items font-face-rb">Pergolas Rooms</ul>
+                <ul className="items font-face-rb">Pergolas</ul>
+                <ul className="items font-face-rb">BBQ Areas</ul>
+                <ul className="items font-face-rb">Villa Extension</ul>
+                <ul className="items font-face-rb">Contact</ul>
               </div>
             </div>
             <hr className="Horizontal-line mt-5" />
 
-            <span>Follow Us</span>
+            <span className="font-face-rr">Follow Us</span>
             <div className="floating-icons py-2">
               <img className="pb-2 ms-2" src={fb} alt="fb" />
               <img className="pb-2 ms-2" src={insta} alt="insta" />

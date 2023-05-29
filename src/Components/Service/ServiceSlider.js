@@ -55,10 +55,14 @@ const ServiceSlider = () => {
           style={{ backgroundColor: currentSlide.bgcolor }}
         >
           <div className="service-content">
-            <h5>{currentSlide.heading}</h5>
-            <p className="content-subheading">{currentSlide.subheading}</p>
-            <p className="content-description">{currentSlide.description}</p>
-            <a className="service-readmore-link">
+            <h5 className="font-face-rb">{currentSlide.heading}</h5>
+            <p className="content-subheading font-face-rr">
+              {currentSlide.subheading}
+            </p>
+            <p className="content-description font-face-rr">
+              {currentSlide.description}
+            </p>
+            <a className="service-readmore-link font-face-rr">
               <BsFillPlusCircleFill />
               READ MORE
             </a>

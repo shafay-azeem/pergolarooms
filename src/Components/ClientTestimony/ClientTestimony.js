@@ -45,7 +45,8 @@ const ClientTestimony = () => {
         <div className="container py-2">
           <div className="row py-5 d-flex flex-column align-items-center justify-content-between">
             <div className="Testimoni-first col-lg-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in magnam ipsa quas enim consequuntur, omnis eum non accusamus eos.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in
+              magnam ipsa quas enim consequuntur, omnis eum non accusamus eos.
             </div>
             <div className="py-4 bg-white shadow col-lg-8 col-md-12 text-center">
               <img className="img-fluid" src={icon} alt="img" />
@@ -54,17 +55,22 @@ const ClientTestimony = () => {
                   {testimonyData.map((x, index) => {
                     return (
                       <div key={index} className="">
-                        <p>{x.testimonyReview}</p>
-                        <p><b>{x.testimonyName}</b></p>
+                        <p className="font-face-rr">{x.testimonyReview}</p>
+                        <p>
+                          <b className="font-face-rb">{x.testimonyName}</b>
+                        </p>
                       </div>
-                    )
+                    );
                   })}
                 </Slider>
               </div>
-
             </div>
             <div className="d-none col-lg-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, accusantium. Libero temporibus consectetur dolorum. Fugiat at modi labore ipsam quo laudantium! Ipsum hic nostrum blanditiis sint magnam necessitatibus laboriosam quae soluta exercitationem commodi?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
+              accusantium. Libero temporibus consectetur dolorum. Fugiat at modi
+              labore ipsam quo laudantium! Ipsum hic nostrum blanditiis sint
+              magnam necessitatibus laboriosam quae soluta exercitationem
+              commodi?
             </div>
           </div>
         </div>
