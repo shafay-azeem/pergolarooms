@@ -22,7 +22,6 @@ const NavigationBar = () => {
       <Navbar bg="white">
         <Container fluid className="py-2">
           <Navbar.Brand href="#home" className="font-face-rb">
-            {/* <img src={logoblack} className="img-fluid" /> */}
             PERGOLASROOM
           </Navbar.Brand>
           <div className="icons">
