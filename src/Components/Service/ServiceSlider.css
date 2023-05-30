@@ -66,11 +66,23 @@
   background-color: #fff;
 }
 
-.Service .slider-dots {
+/* .Service .slider-dots {
   display: flex !important;
   flex-direction: column !important;
   align-items: center !important;
   justify-content: center !important;
   align-self: center !important;
   align-content: center !important;
+} */
+
+@media screen and (max-width: 600px) {
+  .Service .slider-dots {
+    top: 70% !important;
+  }
+}
+
+@media screen and (min-width: 610px) and (max-width: 765px) {
+  .Service .slider-dots {
+    top: 80% !important;
+  }
 }
