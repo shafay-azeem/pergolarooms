@@ -1,4 +1,5 @@
 import "./App.css";
+import AnimCursor from "./Components/AnimCursor";
 import ClientTestimony from "./Components/ClientTestimony/ClientTestimony";
 import ContactForm from "./Components/Contact/ContactForm";
 
@@ -7,13 +8,13 @@ import FeaturedImage from "./Components/Featured/FeaturedImage";
 import Footer from "./Components/Footer/Footer";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import PortfolioSlider from "./Components/Portfolio/PortfolioSlider";
 import ServiceSlider from "./Components/Service/ServiceSlider";
 import WorkFlow from "./Components/WorkFlow/WorkFlow";
 
 function App() {
   return (
     <div className="App">
+      <AnimCursor />
       <NavigationBar />
       <FeaturedImage />
       <WorkFlow />
