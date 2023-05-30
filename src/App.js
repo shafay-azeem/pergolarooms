@@ -8,13 +8,15 @@ import FeaturedImage from "./Components/Featured/FeaturedImage";
 import Footer from "./Components/Footer/Footer";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import BbqArea from "./Components/Service/BbqArea";
+import ServiceGallery from "./Components/Service/ServiceGallery";
 import ServiceSlider from "./Components/Service/ServiceSlider";
 import WorkFlow from "./Components/WorkFlow/WorkFlow";
 
 function App() {
   return (
     <div className="App">
-      <AnimCursor />
+      {/* <AnimCursor />
       <NavigationBar />
       <FeaturedImage />
       <WorkFlow />
@@ -23,7 +25,9 @@ function App() {
       <EthicalEssence />
       <ClientTestimony />
       <ContactForm />
-      <Footer />
+      <Footer /> */}
+      <BbqArea />
+      {/* <ServiceGallery /> */}
     </div>
   );
 }
