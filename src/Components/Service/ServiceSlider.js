@@ -41,7 +41,7 @@ const ServiceSlider = () => {
   const currentSlide = slides[activeSlide];
 
   return (
-    <div className="container-fluid">
+    <div className="Service container-fluid">
       <div className="row">
         <div className="col-md-6 px-0">
           <img
