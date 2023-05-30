@@ -5,40 +5,46 @@ import "../Service/ServiceGallery.css";
 const ServiceGallery = () => {
   const imageData = [
     {
-      src: require("../../assets/ServiceImages/home3-image1.jpg"),
+      src: require("../../assets/ServiceImages/i1.avif"),
     },
     {
-      src: require("../../assets/ServiceImages/home3-image3-890x664.jpg"),
+      src: require("../../assets/ServiceImages/i2.avif"),
     },
     {
-      src: require("../../assets/ServiceImages/home3-image4-890x664.jpg"),
+      src: require("../../assets/ServiceImages/i3.avif"),
     },
 
     {
-      src: require("../../assets/ServiceImages/home3-image5-890x664.jpg"),
+      src: require("../../assets/ServiceImages/i4.avif"),
     },
     {
-      src: require("../../assets/ServiceImages/portfolio-grid-image1-890x664.jpg"),
+      src: require("../../assets/ServiceImages/i2.avif"),
     },
     {
-      src: require("../../assets/ServiceImages/home2-image11.jpg"),
+      src: require("../../assets/ServiceImages/i1.avif"),
     },
     {
-      src: require("../../assets/ServiceImages/home2-image7-890x664.jpg"),
+      src: require("../../assets/ServiceImages/i2.avif"),
     },
     {
-      src: require("../../assets/ServiceImages/home3-image7-890x664.jpg"),
-    },
-    {
-      src: require("../../assets/ServiceImages/home3-image9.jpg"),
+      src: require("../../assets/ServiceImages/i3.avif"),
     },
   ];
 
   return (
-    <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
-      <Masonry gutter="10px">
+    <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}>
+      <Masonry gutter="0px" style={{ marginTop: "20px", marginBottom: "40px" }}>
         {imageData.map((image, i) => (
-          <img key={i} src={image.src} />
+          <div className="box">
+            <div class="box-content">
+              <span className="text-white">Image Name</span>
+            </div>
+            <img
+              key={i}
+              src={image.src}
+              style={{ width: "100%", display: "block", cursor: "pointer" }}
+            />
+          </div>
         ))}
       </Masonry>
     </ResponsiveMasonry>
