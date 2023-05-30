@@ -22,7 +22,7 @@ const NavigationBar = () => {
       <Navbar bg="white">
         <Container fluid className="py-2">
           <Navbar.Brand href="#home" className="font-face-rb">
-            PERGOLASROOM
+            <img src={logoblack} className="img-fluid" />
           </Navbar.Brand>
           <div className="icons">
             <img src={searchIcon} alt="search" />
@@ -39,8 +39,7 @@ const NavigationBar = () => {
       <Offcanvas show={show} placement="top">
         <Offcanvas.Header>
           <Offcanvas.Title>
-            {/* <img src={logowhite} className="img-fluid" /> */}
-            PERGOLASROOM
+            <img src={logowhite} className="img-fluid" />
           </Offcanvas.Title>
           <div className="icons">
             <span className="font-face-rr">Close</span>
