@@ -27,7 +27,6 @@ function App() {
       <ContactForm />
       <Footer /> */}
       <BbqArea />
-      {/* <ServiceGallery /> */}
     </div>
   );
 }

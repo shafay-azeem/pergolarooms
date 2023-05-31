@@ -59,6 +59,7 @@ const ServiceGallery = () => {
             height: "100vh",
             background: "black",
             position: "fixed",
+            zIndex: "9999",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
@@ -88,12 +89,18 @@ const ServiceGallery = () => {
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}>
         <Masonry gutter="0px">
           {imageData.map((image, i) => (
-            <img
-              key={i}
-              src={image.src}
-              style={{ width: "100%", display: "block", cursor: "pointer" }}
-              onClick={() => viewImage(image.src, i)}
-            />
+            <div class="box" >
+              <img
+                key={i}
+                src={image.src}
+                style={{ width: "100%", display: "block", cursor: "pointer" }}
+              // onClick={() => viewImage(image.src, i)}
+              />
+              <div class="box-content">
+                <h3 class="name">Demo Text</h3>
+                <span class="post">Demo Text</span>
+              </div>
+            </div>
           ))}
         </Masonry>
       </ResponsiveMasonry>
