@@ -26,8 +26,8 @@ function App() {
       <ClientTestimony />
       <ContactForm />
       <Footer /> */}
-      <BbqArea />
-      {/* <ServiceGallery /> */}
+      {/* <BbqArea /> */}
+      <ServiceGallery />
     </div>
   );
 }
