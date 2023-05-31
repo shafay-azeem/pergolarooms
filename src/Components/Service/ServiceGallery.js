@@ -2,35 +2,8 @@ import React, { useState } from "react";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import "../Service/ServiceGallery.css";
 
-const ServiceGallery = () => {
-  const imageData = [
-    {
-      src: require("../../assets/ServiceImages/i1.avif"),
-    },
-    {
-      src: require("../../assets/ServiceImages/i2.avif"),
-    },
-    {
-      src: require("../../assets/ServiceImages/i3.avif"),
-    },
-
-    {
-      src: require("../../assets/ServiceImages/i4.avif"),
-    },
-    {
-      src: require("../../assets/ServiceImages/i2.avif"),
-    },
-    {
-      src: require("../../assets/ServiceImages/i1.avif"),
-    },
-    {
-      src: require("../../assets/ServiceImages/i2.avif"),
-    },
-    {
-      src: require("../../assets/ServiceImages/i3.avif"),
-    },
-  ];
-
+const ServiceGallery = (props) => {
+  let imageData = props?.imageData;
   const [data, setData] = useState({ img: "", i: 0 });
 
   const viewImage = (img, i) => {
@@ -89,12 +62,12 @@ const ServiceGallery = () => {
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}>
         <Masonry gutter="0px">
           {imageData.map((image, i) => (
-            <div class="box" >
+            <div class="box">
               <img
                 key={i}
                 src={image.src}
                 style={{ width: "100%", display: "block", cursor: "pointer" }}
-              // onClick={() => viewImage(image.src, i)}
+                // onClick={() => viewImage(image.src, i)}
               />
               <div class="box-content">
                 <h3 class="name">Demo Text</h3>

@@ -16,8 +16,7 @@ import WorkFlow from "./Components/WorkFlow/WorkFlow";
 function App() {
   return (
     <div className="App">
-      {/* <AnimCursor />
-      <NavigationBar />
+      {/* <NavigationBar />
       <FeaturedImage />
       <WorkFlow />
       <Portfolio />
