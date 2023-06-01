@@ -43,6 +43,15 @@ const NavigationBar = () => {
     setShow(false);
   };
 
+  function handleClick() {
+    const element = document.getElementById("contact-us");
+    if (element) {
+      const offsetTop = element.offsetTop;
+      window.scrollTo({ top: offsetTop, behavior: "smooth" });
+    }
+    setShow(false);
+  }
+
   return (
     <div>
       <Navbar bg="white">
@@ -116,15 +125,11 @@ const NavigationBar = () => {
                 <ul className="items font-face-rb" onClick={goToVillaExtension}>
                   Villa Extension
                 </ul>
-                <ul className="items font-face-rb">
-                  <a
-                    href="#contact-us"
-                    onClick={handleClose}
-                    className="anchortag-style"
-                  >
+                <nav>
+                  <ul className="items font-face-rb" onClick={handleClick}>
                     Contact
-                  </a>
-                </ul>
+                  </ul>
+                </nav>
               </div>
             </div>
             <hr className="Horizontal-line mt-5" />
