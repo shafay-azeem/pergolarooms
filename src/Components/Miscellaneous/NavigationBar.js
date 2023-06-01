@@ -51,7 +51,7 @@ const NavigationBar = () => {
             <img src={logoblack} className="img-fluid" />
           </Navbar.Brand>
           <div className="icons">
-            <img src={searchIcon} alt="search" />
+            {/* <img src={searchIcon} alt="search" /> */}
             <img
               onClick={handleShow}
               src={menuIcon}

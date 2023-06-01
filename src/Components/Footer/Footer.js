@@ -11,7 +11,10 @@ const Footer = () => {
         <div className="container mt-3 py-3 px-lg-5">
           <div className="row px-lg-5 d-flex justify-content-center align-items-center text-center">
             <div className="col-md-6">
-              <img src={FooterLogo} className="img-fluid" alt="footerMain" />
+              <a href="/">
+                <img src={FooterLogo} className="img-fluid" alt="footerMain" />
+              </a>
+
               <p className="py-4 font-face-rr">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
                 autem, non magni nesciunt fuga ea recusandae minus sequi ex
@@ -32,7 +35,6 @@ const Footer = () => {
                     </a>
                   </li>
                   <li className="font-face-rr">
-                    {" "}
                     <a href="/pergolas-room" className="anchortagfooter-style">
                       Pergola Room
                     </a>

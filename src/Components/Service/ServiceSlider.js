@@ -35,7 +35,7 @@ const ServiceSlider = () => {
     },
 
     {
-      imgSrc: require("../../assets/ServiceImages/Image3.jpg"),
+      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
       heading: "EXTERIOR",
       subheading: "VILLA EXTENSION",
       description:
