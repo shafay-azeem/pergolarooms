@@ -134,3 +134,12 @@ span {
     display: none;
   }
 }
+
+.anchortag-style {
+  text-decoration: none;
+  color: #6b6b6b;
+}
+.anchortag-style:hover {
+  text-decoration: none;
+  color: white;
+}

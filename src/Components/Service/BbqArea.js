@@ -2,6 +2,7 @@ import React from "react";
 import NavigationBar from "../Miscellaneous/NavigationBar";
 import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
+import ContactForm from "../Contact/ContactForm";
 
 const BbqArea = () => {
   const imageData = [
@@ -33,7 +34,6 @@ const BbqArea = () => {
   ];
   return (
     <>
-      <NavigationBar />
       <div className="BBQ-Area">
         <h2 className="text-white text-center py-5 font-face-re">BBQ AREA</h2>
       </div>
@@ -60,7 +60,11 @@ const BbqArea = () => {
           <div className="col-lg-1"></div>
         </div>
       </div>
+
       <ServiceGallery imageData={imageData} />
+      <div id="contact-us">
+        <ContactForm />
+      </div>
     </>
   );
 };

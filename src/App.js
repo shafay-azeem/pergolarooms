@@ -1,31 +1,20 @@
 import "./App.css";
-import AnimCursor from "./Components/AnimCursor";
-import ClientTestimony from "./Components/ClientTestimony/ClientTestimony";
-import ContactForm from "./Components/Contact/ContactForm";
-
-import EthicalEssence from "./Components/EthicalEssence/EthicalEssence";
-import FeaturedImage from "./Components/Featured/FeaturedImage";
-import Footer from "./Components/Footer/Footer";
+import { Routes, Route } from "react-router-dom";
+import HomePage from "./HomePage";
+import BbqArea from "../src/Components/Service/BbqArea";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
-import Portfolio from "./Components/Portfolio/Portfolio";
-import BbqArea from "./Components/Service/BbqArea";
-import ServiceGallery from "./Components/Service/ServiceGallery";
-import ServiceSlider from "./Components/Service/ServiceSlider";
-import WorkFlow from "./Components/WorkFlow/WorkFlow";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
-    <div className="App">
-      {/* <NavigationBar />
-      <FeaturedImage />
-      <WorkFlow />
-      <Portfolio />
-      <ServiceSlider />
-      <EthicalEssence />
-      <ClientTestimony />
-      <ContactForm />
-      <Footer /> */}
-      <BbqArea />
+    <div>
+      <NavigationBar />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/bbq-area" element={<BbqArea />} />
+      </Routes>
+
+      <Footer />
     </div>
   );
 }

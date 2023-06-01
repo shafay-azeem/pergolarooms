@@ -34,14 +34,14 @@ const WorkFlow = () => {
   ]);
   return (
     <>
-      <section class="workflow-section">
-        <div class="container py-5 px-lg-5">
-          <div class="row py-5 px-lg-5">
+      <section className="workflow-section">
+        <div className="container py-5 px-lg-5">
+          <div className="row py-5 px-lg-5">
             {workFlowItems.map((x, index) => {
               return (
-                <div key={index} class="col-sm-3 ">
+                <div key={index} className="col-sm-3 ">
                   <div className="workflow-box">
-                    <img src={x.image} class="img-fluid " alt="img" />
+                    <img src={x.image} className="img-fluid " alt="img" />
                     <h5 className="font-face-rb">{x.heading}</h5>
                     <p className="font-face-rr">{x.description}</p>
                   </div>

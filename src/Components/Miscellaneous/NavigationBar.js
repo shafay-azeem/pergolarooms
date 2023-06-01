@@ -10,18 +10,29 @@ import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
 import logoblack from "../../assets/NavgigationBarImages/PergolaroomLogoBlack.png";
 import logowhite from "../../assets/NavgigationBarImages/PergolaroomLogoWhite.png";
+import { useNavigate } from "react-router-dom";
 
 const NavigationBar = () => {
+  const navigate = useNavigate();
   const [show, setShow] = useState(false);
-
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
+
+  const goToBbqArea = () => {
+    navigate("/bbq-area");
+    setShow(false);
+  };
+
+  const goToHome = () => {
+    navigate("/");
+    setShow(false);
+  };
 
   return (
     <div>
       <Navbar bg="white">
         <Container fluid className="py-2">
-          <Navbar.Brand href="#home" className="font-face-rb">
+          <Navbar.Brand href="/" className="font-face-rb">
             <img src={logoblack} className="img-fluid" />
           </Navbar.Brand>
           <div className="icons">
@@ -39,7 +50,7 @@ const NavigationBar = () => {
       <Offcanvas show={show} placement="top">
         <Offcanvas.Header>
           <Offcanvas.Title>
-            <img src={logowhite} className="img-fluid" />
+            <img src={logowhite} className="img-fluid" onClick={goToHome} />
           </Offcanvas.Title>
           <div className="icons">
             <span className="font-face-rr">Close</span>
@@ -74,13 +85,25 @@ const NavigationBar = () => {
                 </small>
               </div>
               <div id="nav-List" className="col-lg-5">
-                <ul className="items font-face-rb">Home</ul>
+                <ul className="items font-face-rb" onClick={goToHome}>
+                  Home
+                </ul>
                 <ul className="items font-face-rb">About</ul>
                 <ul className="items font-face-rb">Pergolas Rooms</ul>
                 <ul className="items font-face-rb">Pergolas</ul>
-                <ul className="items font-face-rb">BBQ Areas</ul>
+                <ul className="items font-face-rb" onClick={goToBbqArea}>
+                  BBQ Areas
+                </ul>
                 <ul className="items font-face-rb">Villa Extension</ul>
-                <ul className="items font-face-rb">Contact</ul>
+                <ul className="items font-face-rb">
+                  <a
+                    href="#contact-us"
+                    onClick={handleClose}
+                    className="anchortag-style"
+                  >
+                    Contact
+                  </a>
+                </ul>
               </div>
             </div>
             <hr className="Horizontal-line mt-5" />
