@@ -1,10 +1,9 @@
 import React from "react";
-
 import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
 import ContactForm from "../Contact/ContactForm";
 
-const BbqArea = () => {
+const VillaExtension = () => {
   const imageData = [
     {
       src: require("../../assets/ServiceImages/i1.avif"),
@@ -35,14 +34,16 @@ const BbqArea = () => {
   return (
     <>
       <div className="BBQ-Area">
-        <h2 className="text-white text-center py-5 font-face-re">BBQ AREA</h2>
+        <h2 className="text-white text-center py-5 font-face-re">
+          VILLA EXTENSION
+        </h2>
       </div>
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
             <p className="my-0 py-0 font-face-rb">EXTERIOR</p>
-            <p className="font-face-rr">BBQ AREAS</p>
+            <p className="font-face-rr">VILLA EXTENSION</p>
             <p className="font-face-rr">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Inventore, sapiente? Porro corrupti omnis cum, praesentium iste
@@ -69,4 +70,4 @@ const BbqArea = () => {
   );
 };
 
-export default BbqArea;
+export default VillaExtension;

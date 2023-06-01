@@ -26,10 +26,30 @@ const Footer = () => {
               <div className="col-lg-2 col-md-12 col-sm-12">
                 <h6 className="font-face-rb">Quick Links</h6>
                 <ul className="mb-4">
-                  <li className="font-face-rr">Pergolas</li>
-                  <li className="font-face-rr">Pergola Room</li>
-                  <li className="font-face-rr">BBQ Area</li>
-                  <li className="font-face-rr">Villas Extension</li>
+                  <li className="font-face-rr">
+                    <a href="/pergolas" className="anchortagfooter-style">
+                      Pergolas
+                    </a>
+                  </li>
+                  <li className="font-face-rr">
+                    {" "}
+                    <a href="/pergolas-room" className="anchortagfooter-style">
+                      Pergola Room
+                    </a>
+                  </li>
+                  <li className="font-face-rr">
+                    <a href="/bbq-area" className="anchortagfooter-style">
+                      BBQ Area
+                    </a>
+                  </li>
+                  <li className="font-face-rr">
+                    <a
+                      href="/villa-extensions"
+                      className="anchortagfooter-style"
+                    >
+                      Villas Extension
+                    </a>
+                  </li>
                 </ul>
               </div>
 
@@ -86,7 +106,15 @@ const Footer = () => {
             <b className="font-face-rb">pergolasroom.ae</b> Designed and
             Developed By <span></span>
             <span class="text-white">
-              <b className="font-face-rb">MEDIA ONE GROUP</b>
+              <b className="font-face-rb">
+                <a
+                  href="https://media-one-group.com"
+                  target="blank"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  MEDIA ONE GROUP
+                </a>
+              </b>
             </span>
           </div>
         </div>

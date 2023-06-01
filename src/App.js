@@ -4,6 +4,9 @@ import HomePage from "./HomePage";
 import BbqArea from "../src/Components/Service/BbqArea";
 import NavigationBar from "./Components/Miscellaneous/NavigationBar";
 import Footer from "./Components/Footer/Footer";
+import PergolasRoom from "./Components/Service/PergolasRoom";
+import Pergolas from "./Components/Service/Pergolas";
+import VillaExtension from "./Components/Service/VillaExtension";
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/bbq-area" element={<BbqArea />} />
+        <Route path="/pergolas-room" element={<PergolasRoom />} />
+        <Route path="/pergolas" element={<Pergolas />} />
+        <Route path="/villa-extensions" element={<VillaExtension />} />
       </Routes>
 
       <Footer />

@@ -27,3 +27,11 @@ section span {
 .Footer p {
   font-size: 14px;
 }
+.anchortagfooter-style {
+  text-decoration: none;
+  color: black;
+}
+.anchortagfooter-style:hover {
+  text-decoration: none;
+  color: black;
+}

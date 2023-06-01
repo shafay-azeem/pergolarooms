@@ -23,6 +23,21 @@ const NavigationBar = () => {
     setShow(false);
   };
 
+  const goToPergolasRoom = () => {
+    navigate("/pergolas-room");
+    setShow(false);
+  };
+
+  const goToPergolas = () => {
+    navigate("/pergolas");
+    setShow(false);
+  };
+
+  const goToVillaExtension = () => {
+    navigate("/villa-extensions");
+    setShow(false);
+  };
+
   const goToHome = () => {
     navigate("/");
     setShow(false);
@@ -89,12 +104,18 @@ const NavigationBar = () => {
                   Home
                 </ul>
                 <ul className="items font-face-rb">About</ul>
-                <ul className="items font-face-rb">Pergolas Rooms</ul>
-                <ul className="items font-face-rb">Pergolas</ul>
+                <ul className="items font-face-rb" onClick={goToPergolasRoom}>
+                  Pergolas Rooms
+                </ul>
+                <ul className="items font-face-rb" onClick={goToPergolas}>
+                  Pergolas
+                </ul>
                 <ul className="items font-face-rb" onClick={goToBbqArea}>
                   BBQ Areas
                 </ul>
-                <ul className="items font-face-rb">Villa Extension</ul>
+                <ul className="items font-face-rb" onClick={goToVillaExtension}>
+                  Villa Extension
+                </ul>
                 <ul className="items font-face-rb">
                   <a
                     href="#contact-us"
