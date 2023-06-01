@@ -40,7 +40,7 @@ const ServiceSlider = () => {
       subheading: "VILLA EXTENSION",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      bgcolor: "#5B2C6F",
+      bgcolor: "#591e0a",
       route: "/villa-extensions",
     },
   ];
