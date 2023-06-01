@@ -13,22 +13,35 @@ const ServiceSlider = () => {
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       bgcolor: "#6c3433",
+      route: "/pergolas-room",
     },
     {
       imgSrc: require("../../assets/ServiceImages/Image2.jpg"),
-      heading: "INTERIOR",
-      subheading: "LIVING ROOMS",
+      heading: "EXTERIOR",
+      subheading: "PERGOLA",
       description:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500sLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       bgcolor: "#77736f",
+      route: "/pergolas",
     },
     {
       imgSrc: require("../../assets/ServiceImages/Image3.jpg"),
-      heading: "GARDEN",
-      subheading: "LANDSCAPING",
+      heading: "EXTERIOR",
+      subheading: "BBQ AREAS",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       bgcolor: "#1A5276",
+      route: "/bbq-area",
+    },
+
+    {
+      imgSrc: require("../../assets/ServiceImages/Image3.jpg"),
+      heading: "EXTERIOR",
+      subheading: "VILLA EXTENSION",
+      description:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industryLorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      bgcolor: "#5B2C6F",
+      route: "/villa-extensions",
     },
   ];
 
@@ -62,7 +75,10 @@ const ServiceSlider = () => {
             <p className="content-description font-face-rr">
               {currentSlide.description}
             </p>
-            <a className="service-readmore-link font-face-rr">
+            <a
+              className="service-readmore-link font-face-rr"
+              href={currentSlide.route}
+            >
               <BsFillPlusCircleFill />
               READ MORE
             </a>
