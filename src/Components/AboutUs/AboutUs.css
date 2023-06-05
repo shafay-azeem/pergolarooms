@@ -1,0 +1,10 @@
+.aboutUs {
+  background-image: url("../../assets/AboutUsImages/2f390f59-5c54-4a5c-b045-ab7d7bc5a3d6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

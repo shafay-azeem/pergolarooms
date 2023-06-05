@@ -43,6 +43,11 @@ const NavigationBar = () => {
     setShow(false);
   };
 
+  const goToAboutUs = () => {
+    navigate("/about-us");
+    setShow(false);
+  };
+
   function handleClick() {
     const element = document.getElementById("contact-us");
     if (element) {
@@ -112,7 +117,9 @@ const NavigationBar = () => {
                 <ul className="items font-face-rb" onClick={goToHome}>
                   Home
                 </ul>
-                <ul className="items font-face-rb">About</ul>
+                <ul className="items font-face-rb" onClick={goToAboutUs}>
+                  About
+                </ul>
                 <ul className="items font-face-rb" onClick={goToPergolasRoom}>
                   Pergolas Rooms
                 </ul>
