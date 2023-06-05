@@ -1,9 +1,28 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
 import ContactForm from "../Contact/ContactForm";
+import { useState } from "react";
 
 const Pergolas = () => {
+  const [screenDimensions, setScreenDimensions] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    function handleResize() {
+      setScreenDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const imageData = [
     {
       src: require("../../assets/ServiceImages/i1.avif"),

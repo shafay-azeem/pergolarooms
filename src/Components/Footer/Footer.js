@@ -3,17 +3,34 @@ import "../Footer/Footer.css";
 import FooterLogo from "../../assets/FooterImages/logo-pergolaroom2-1-pomt600cei3i2iruaqw2gxulp44vv31nnupmf2d7fs.png";
 import FooterInstaLogo from "../../assets/FooterImages/instagram (1).png";
 import FooterFbLogo from "../../assets/FooterImages/facebook.png";
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
+  const navigate = useNavigate();
+
+  const goToPergolas = () => {
+    navigate("/pergolas");
+  };
+
+  const goToBbqArea = () => {
+    navigate("/bbq-area");
+  };
+
+  const goToVillaExtension = () => {
+    navigate("/villa-extensions");
+  };
+
+  const goToPergolasRoom = () => {
+    navigate("/pergolas-room");
+  };
+
   return (
     <>
       <footer className="Footer mt-5">
         <div className="container mt-3 py-3 px-lg-5">
           <div className="row px-lg-5 d-flex justify-content-center align-items-center text-center">
             <div className="col-md-6">
-              <a href="/">
-                <img src={FooterLogo} className="img-fluid" alt="footerMain" />
-              </a>
+              <img src={FooterLogo} className="img-fluid" alt="footerMain" />
 
               <p className="py-4 font-face-rr">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
@@ -29,28 +46,17 @@ const Footer = () => {
               <div className="col-lg-2 col-md-12 col-sm-12">
                 <h6 className="font-face-rb">Quick Links</h6>
                 <ul className="mb-4">
-                  <li className="font-face-rr">
-                    <a href="/pergolas" className="anchortagfooter-style">
-                      Pergolas
-                    </a>
+                  <li className="font-face-rr" onClick={goToPergolas}>
+                    Pergolas
                   </li>
-                  <li className="font-face-rr">
-                    <a href="/pergolas-room" className="anchortagfooter-style">
-                      Pergola Room
-                    </a>
+                  <li className="font-face-rr" onClick={goToPergolasRoom}>
+                    Pergola Room
                   </li>
-                  <li className="font-face-rr">
-                    <a href="/bbq-area" className="anchortagfooter-style">
-                      BBQ Area
-                    </a>
+                  <li className="font-face-rr" onClick={goToBbqArea}>
+                    BBQ Area
                   </li>
-                  <li className="font-face-rr">
-                    <a
-                      href="/villa-extensions"
-                      className="anchortagfooter-style"
-                    >
-                      Villas Extension
-                    </a>
+                  <li className="font-face-rr" onClick={goToVillaExtension}>
+                    Villas Extension
                   </li>
                 </ul>
               </div>
