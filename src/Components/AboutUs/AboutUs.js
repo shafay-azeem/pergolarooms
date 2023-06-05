@@ -11,26 +11,27 @@ const AboutUs = () => {
     height: window.innerHeight,
   });
 
-  // useEffect(() => {
-  //   window.scrollTo(0, 0);
-  //   function handleResize() {
-  //     setScreenDimensions({
-  //       width: window.innerWidth,
-  //       height: window.innerHeight,
-  //     });
-  //   }
-  //   window.addEventListener("resize", handleResize);
-  //   return () => {
-  //     window.removeEventListener("resize", handleResize);
-  //   };
-  // }, []);
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    function handleResize() {
+      setScreenDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const data = [
     {
       heading: "OUR PRINCIPLES",
       subHeading: "WE COMMIT TO BIG IDEAS",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      subDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
+      subDescription:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
       image: require("../../assets/AboutUsImages/4A.jpg"),
     },
     {
@@ -38,7 +39,8 @@ const AboutUs = () => {
       subHeading: "WE COMMIT TO BIG IDEAS",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      subDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
+      subDescription:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
       image: require("../../assets/AboutUsImages/3A.jpg"),
     },
     {
@@ -46,7 +48,8 @@ const AboutUs = () => {
       subHeading: "WE COMMIT TO BIG IDEAS",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      subDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
+      subDescription:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
       image: require("../../assets/AboutUsImages/2A.jpg"),
     },
     {
@@ -54,7 +57,8 @@ const AboutUs = () => {
       subHeading: "WE COMMIT TO BIG IDEAS",
       description:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      subDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
+      subDescription:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam cumque minima quod maxime tempora iure nemo quis quaerat ex delectus nostrum et vero nesciunt omnis cupiditate labore eum, ab ducimus quo esse deleniti molestias dicta! Dicta amet quaerat quia aut minus iusto ullam.",
       image: require("../../assets/AboutUsImages/1A.jpg"),
     },
   ];
@@ -70,7 +74,7 @@ const AboutUs = () => {
           <div className="col-lg-6">
             <h2 className="font-face-rr pt-lg-5">PERGOLAS DESIGNS</h2>
             <hr></hr>
-            <p className="font-face-rr">
+            <p className="font-face-rr" style={{ fontSize: "14px" }}>
               Pergolas enhance the look of your outdoor space while protecting
               the quality of many items in your garden or patio; for example,
               they shield your outdoor furniture from the sun, dust, and rain. A
@@ -79,7 +83,7 @@ const AboutUs = () => {
               are appropriate for both residential and commercial use and
               provide excellent weather protection.
             </p>
-            <p className="font-face-rr">
+            <p className="font-face-rr" style={{ fontSize: "14px" }}>
               Pergolas enhance the look of your outdoor space while protecting
               the quality of many items in your garden or patio; for example,
               they shield your outdoor furniture from the sun, dust, and rain. A
@@ -88,7 +92,9 @@ const AboutUs = () => {
               are appropriate for both residential and commercial use and
               provide excellent weather protection.
             </p>
-            <p className="font-face-rr">BBQ AREA | GLASS ROOM | PERGOLAS | VILLA EXTENSION /PATIO</p>
+            <p className="font-face-rr" style={{ fontSize: "14px" }}>
+              BBQ AREA | GLASS ROOM | PERGOLAS | VILLA EXTENSION /PATIO
+            </p>
           </div>
 
           <div className="col-lg-6">
@@ -100,7 +106,7 @@ const AboutUs = () => {
       <div className="container text-center">
         <h4 className="font-face-rb">WHAT WE DO</h4>
         <hr class="hr-style"></hr>
-        <p className="font-face-rr py-2">
+        <p className="font-face-rr py-2" style={{ fontSize: "14px" }}>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -112,24 +118,34 @@ const AboutUs = () => {
         {data.map((item, i) => (
           <div className="container-fluid">
             <div className="row d-flex align-items-center">
-              <div className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-2"} bg-cover`} style={{
-                backgroundImage: `url(${item.image})`,
-
-              }}>
-              </div>
+              <div
+                className={`col-lg-6${
+                  i % 2 === 0 ? "" : " order-lg-2"
+                } bg-cover`}
+                style={{
+                  backgroundImage: `url(${item.image})`,
+                }}
+              ></div>
 
               <div className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-1"} `}>
                 <div className="inner p-md-3 p-2">
                   <h5 className="font-face-rb">{item.heading}</h5>
-                  <h3 style={{ fontWeight: '400' }} class="font-face-rr pb-3">{item.subHeading}</h3>
-                  <p class="description-ethicalessence text-muted font-face-rr">
+                  <h3 style={{ fontWeight: "400" }} class="font-face-rr pb-3">
+                    {item.subHeading}
+                  </h3>
+                  <p
+                    class="description-ethicalessence text-muted font-face-rr"
+                    style={{ fontSize: "14px" }}
+                  >
                     {item.description}
                   </p>
-                  <p class="description-ethicalessence text-muted font-face-rr">
+                  <p
+                    class="description-ethicalessence text-muted font-face-rr"
+                    style={{ fontSize: "14px" }}
+                  >
                     {item.subDescription}
                   </p>
                 </div>
-
               </div>
             </div>
           </div>

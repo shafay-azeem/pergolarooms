@@ -3,6 +3,7 @@ import "../Service/ServiceSlider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const ServiceSlider = () => {
   const slides = [
@@ -53,6 +54,12 @@ const ServiceSlider = () => {
 
   const currentSlide = slides[activeSlide];
 
+  const navigate = useNavigate();
+
+  const goToPage = (route) => {
+    navigate(route);
+  };
+
   return (
     <div className="Service container-fluid">
       <div className="row">
@@ -77,7 +84,8 @@ const ServiceSlider = () => {
             </p>
             <a
               className="service-readmore-link font-face-rr"
-              href={currentSlide.route}
+              // href={currentSlide.route}
+              onClick={() => goToPage(currentSlide.route)}
             >
               <BsFillPlusCircleFill />
               READ MORE
