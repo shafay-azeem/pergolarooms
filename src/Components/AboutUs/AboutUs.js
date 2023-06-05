@@ -2,8 +2,28 @@ import React from "react";
 import "../AboutUs/AboutUs.css";
 import PergolasDesignsImg from "../../assets/AboutUsImages/peRGOLA-aBOUT.jpg";
 import ContactForm from "../Contact/ContactForm";
+import { useEffect } from "react";
+import { useState } from "react";
 
 const AboutUs = () => {
+  const [screenDimensions, setScreenDimensions] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    function handleResize() {
+      setScreenDimensions({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
   const data = [
     {
       heading: "OUR PRINCIPLES",
@@ -41,10 +61,11 @@ const AboutUs = () => {
         <h2 className="text-white text-center py-5 font-face-re">ABOUT US</h2>
       </div>
 
-      <div className="about-pergolas-designs bg-white container py-5">
+      <div className="about-pergolas-designs container py-5">
         <div className="row">
           <div className="col-lg-6">
             <h2 className="font-face-rr">PERGOLAS DESIGNS</h2>
+            <hr></hr>
             <p className="font-face-rr">
               Pergolas enhance the look of your outdoor space while protecting
               the quality of many items in your garden or patio; for example,
@@ -64,6 +85,7 @@ const AboutUs = () => {
 
       <div className="container text-center">
         <h4 className="font-face-rb">WHAT WE DO</h4>
+        <hr class="hr-style"></hr>
         <p className="font-face-rr">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -72,19 +94,21 @@ const AboutUs = () => {
         </p>
       </div>
 
-      <div className="about-pergolas-designs bg-white  py-5">
+      <div className="about-pergolas-designs py-5">
         {data.map((item, i) => (
-          <div className="row">
-            <div className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-2"}`}>
-              <img className="img-fluid" src={item.image} alt="" />
-            </div>
+          <div className="container-fluid">
+            <div className="row d-flex align-items-center">
+              <div className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-2"}`}>
+                <img className="img-fluid" src={item.image} alt="" />
+              </div>
 
-            <div className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-1"}`}>
-              <h6 className="font-face-rb">{item.heading}</h6>
-              <h4 class="font-face-rr">{item.subHeading}</h4>
-              <p class="description-ethicalessence text-muted font-face-rr">
-                {item.description}
-              </p>
+              <div className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-1"} `}>
+                <h6 className="font-face-rb">{item.heading}</h6>
+                <h4 class="font-face-rr">{item.subHeading}</h4>
+                <p class="description-ethicalessence text-muted font-face-rr">
+                  {item.description}
+                </p>
+              </div>
             </div>
           </div>
         ))}

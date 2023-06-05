@@ -2,8 +2,14 @@ import React from "react";
 import "../Portfolio/Portfolio.css";
 import PortfolioSlider from "./PortfolioSlider";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const Portfolio = () => {
+  const navigate = useNavigate();
+
+  const goToAboutUs = () => {
+    navigate("/about-us");
+  };
   return (
     <div className="portfolio container-fluid">
       <div className="container">
@@ -26,7 +32,7 @@ const Portfolio = () => {
               amet deleniti voluptates accusamus rerum, quam maiores odit quiz.
             </p>
             <p className="text-white font-face-rr">BBQ AREAS GLASS ROOMS</p>
-            <a className="portfolio-link font-face-rr">
+            <a className="portfolio-link font-face-rr" onClick={goToAboutUs}>
               <BsFillPlusCircleFill />
               READ MORE
             </a>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../EthicalEssence/EthicalEssence.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const EthicalEssence = () => {
   const [selected, setSelected] = useState(0);
@@ -9,6 +10,12 @@ const EthicalEssence = () => {
       return setSelected(null);
     }
     setSelected(i);
+  };
+
+  const navigate = useNavigate();
+
+  const goToAboutUs = () => {
+    navigate("/about-us");
   };
   const data = [
     {
@@ -65,7 +72,10 @@ const EthicalEssence = () => {
                     <p class="description-ethicalessence text-muted font-face-rr">
                       {item.description}
                     </p>
-                    <a className="readmore-link font-face-rr">
+                    <a
+                      className="readmore-link font-face-rr"
+                      onClick={goToAboutUs}
+                    >
                       <BsFillPlusCircleFill />
                       {item.btntext}
                     </a>
