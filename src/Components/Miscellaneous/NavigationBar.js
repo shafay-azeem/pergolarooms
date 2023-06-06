@@ -62,7 +62,11 @@ const NavigationBar = () => {
       <Navbar bg="white">
         <Container fluid className="py-2">
           <Navbar.Brand href="/" className="font-face-rb">
-            <img src={logoblack} className="img-fluid" />
+            <img
+              src={logoblack}
+              className="img-fluid"
+              style={{ maxWidth: "200px" }}
+            />
           </Navbar.Brand>
           <div className="icons">
             {/* <img src={searchIcon} alt="search" /> */}
@@ -79,7 +83,12 @@ const NavigationBar = () => {
       <Offcanvas show={show} placement="top">
         <Offcanvas.Header>
           <Offcanvas.Title>
-            <img src={logowhite} className="img-fluid" onClick={goToHome} />
+            <img
+              src={logowhite}
+              className="img-fluid"
+              style={{ maxWidth: "200px" }}
+              onClick={goToHome}
+            />
           </Offcanvas.Title>
           <div className="icons">
             <span className="font-face-rr">Close</span>
@@ -142,7 +151,7 @@ const NavigationBar = () => {
             <hr className="Horizontal-line mt-5" />
 
             <span className="font-face-rr">Follow Us</span>
-            <div className="floating-icons py-2">
+            <div className="floating-icons py-2 d-flex flex-row">
               <img className="pb-2 ms-2" src={fb} alt="fb" />
               <img className="pb-2 ms-2" src={insta} alt="insta" />
             </div>

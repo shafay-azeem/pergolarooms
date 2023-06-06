@@ -25,7 +25,7 @@ const FeaturedImage = () => {
     <div className="Featured">
       <div className="container-fluid">
         <div className="row">
-          <div className="py-5 Featured-Left-Image col-lg-1 col-md-1 shadow">
+          <div className="py-5 Featured-Left-Image col-lg-1 col-md-1">
             <img className="img-fluid" src={fbIcon} alt="fb" />
             <p className="pt-2 font-face-rr">Facebook</p>
             <img className="img-fluid" src={instaIcon} alt="insta" />
@@ -33,18 +33,18 @@ const FeaturedImage = () => {
           </div>
           <div
             className="py-5 Featured-Right-Image col-lg-11 col-md-11"
-            style={{
-              backgroundImage: `url(${images[currentIndex]})`,
-              backgroundSize: "cover",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-              height: "650px",
-            }}
+            // style={{
+            //   backgroundImage: `url(${images[currentIndex]})`,
+            //   backgroundSize: "cover",
+            //   backgroundRepeat: "no-repeat",
+            //   backgroundPosition: "center",
+            //   height: "650px",
+            // }}
+            style={{ position: "relative" }}
           >
+            <img src={images[currentIndex]} />
             <div className="Feature-Architecture">
-              <button className="font-face-fl">
-                Architecture With Meaning
-              </button>
+              <button className="">Architecture With Meaning</button>
             </div>
           </div>
         </div>
