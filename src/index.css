@@ -43,3 +43,10 @@ code {
   font-weight: normal;
   font-style: italic; /* Specify the desired font style, e.g., "italic" */
 }
+
+@font-face {
+  font-family: "Felixti";
+  src: local("Felixti"), url("./Font/Felixti/Felixti.TTF") format("truetype");
+  font-weight: normal;
+  /* Specify the desired font style, e.g., "italic" */
+}

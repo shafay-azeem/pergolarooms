@@ -42,7 +42,9 @@ const FeaturedImage = () => {
             }}
           >
             <div className="Feature-Architecture">
-              <button className="">Architecture With Meaning</button>
+              <button className="font-face-fl">
+                Architecture With Meaning
+              </button>
             </div>
           </div>
         </div>
