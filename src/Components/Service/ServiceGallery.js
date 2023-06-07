@@ -7,6 +7,7 @@ const ServiceGallery = (props) => {
   const [data, setData] = useState({ img: "", i: 0 });
 
   const viewImage = (img, i) => {
+    // console.log(img, i, "mm");
     setData({ img, i });
   };
 
@@ -30,6 +31,11 @@ const ServiceGallery = (props) => {
           style={{
             width: "100%",
             height: "100vh",
+            top: 0,
+            left: 0,
+            right: 0,
+            marginLeft: "auto",
+            marginRight: "auto",
             background: "black",
             position: "fixed",
             zIndex: "9999",
