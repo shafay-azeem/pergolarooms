@@ -62,20 +62,13 @@ const VillaExtension = () => {
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">EXTERIOR</p>
-            <p className="font-face-rr">VILLA EXTENSION</p>
+            <p className="my-0 py-0 font-face-rb">Car Parking Shades</p>
+            <p className="font-face-rr">Protect Your Vehicles in Style with Custom Car Parking Shades</p>
             <p className="font-face-rr">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Inventore, sapiente? Porro corrupti omnis cum, praesentium iste
-              commodi itaque, quo asperiores incidunt, nobis nulla magni.
-              Deserunt vero cupiditate suscipit autem culpa!
+              Shield your vehicles from the elements while adding a touch of elegance to your outdoor space with our bespoke car parking shades. Our expertly designed and crafted shades offer superior protection against sun, rain, and hail,
             </p>
             <p className="font-face-rr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque vel necessitatibus reiciendis fuga quasi iste neque
-              delectus, exercitationem facilis quidem, sequi molestiae illum!
-              Nam tempora sed odit, quasi, porro natus ipsam iure error
-              explicabo assumenda ipsa voluptas, delectus harum sit?
+              ensuring the longevity and pristine condition of your cherished vehicles. With customizable options to suit your specific needs and preferences, our car parking shades seamlessly blend with the aesthetics of your property. Experience peace of mind knowing that your vehicles are sheltered in a stylish and reliable structure. Invest in the durability and functionality of our car parking shades and enjoy the convenience and protection they provide. Safeguard your vehicles today!
             </p>
           </div>
           <div className="col-lg-1"></div>

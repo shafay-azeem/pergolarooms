@@ -20,33 +20,33 @@ const EthicalEssence = () => {
   const data = [
     {
       heading: "OUR PRINCIPLES",
-      subHeading: "WE COMMIT TO BIG IDEAS",
+      subHeading: "Delivering Excellence in Custom Pergolas and Outdoor Living Solutions.",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "At PERGOLAROOMS, our principles are the foundation of our business. With over a decade of expertise, we are dedicated to providing exceptional custom pergolas and outdoor living solutions. Our team upholds the following principles",
       image: require("../../assets/EthicalEssenceImages/iMAGE-1.jpg"),
       btntext: "READ MORE",
     },
     {
       heading: "WORK ETHICS",
-      subHeading: "WE COMMIT TO BIG IDEAS",
+      subHeading: "Exceeding Expectations with Integrity and Dedication",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "At PERGOLAROOMS, our work ethics form the core of our company culture. With a decade of experience in the industry, we are committed to upholding the highest standards of integrity and dedication. Our team embraces the following work ethics:",
       image: require("../../assets/EthicalEssenceImages/iMAGE-1.jpg"),
       btntext: "READ MORE",
     },
     {
       heading: "WHAT WE DO",
-      subHeading: "WE COMMIT TO BIG IDEAS",
+      subHeading: "Creating Stunning Custom Pergolas and Outdoor Living Spaces",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "At PERGOLAROOMS, we specialize in designing and building exquisite custom pergolas and outdoor living spaces that elevate your outdoor experience. With a decade of expertise, we offer a comprehensive range of services tailored to your specific needs:",
       image: require("../../assets/EthicalEssenceImages/iMAGE-1.jpg"),
       btntext: "READ MORE",
     },
     {
       heading: "OUR LEGACY",
-      subHeading: "WE COMMIT TO BIG IDEAS",
+      subHeading: "A Decade of Excellence in Custom Pergolas and Outdoor Living",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "For over a decade, PERGOLAROOMS has been at the forefront of delivering exceptional custom pergolas and outdoor living solutions. Our legacy is built on a foundation of expertise, innovation, and customer satisfaction. With a passion for craftsmanship.",
       image: require("../../assets/EthicalEssenceImages/iMAGE-1.jpg"),
       btntext: "READ MORE",
     },

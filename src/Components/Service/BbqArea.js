@@ -61,21 +61,15 @@ const BbqArea = () => {
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">EXTERIOR</p>
-            <p className="font-face-rr">BBQ AREAS</p>
+            <p className="my-0 py-0 font-face-rb">Seating Area Pergola</p>
+            <p className="font-face-rr">Design Your Ideal Outdoor Retreat with a Stunning Sitting Area Pergola</p>
             <p className="font-face-rr">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Inventore, sapiente? Porro corrupti omnis cum, praesentium iste
-              commodi itaque, quo asperiores incidunt, nobis nulla magni.
-              Deserunt vero cupiditate suscipit autem culpa!
+              Discover the perfect combination of style and functionality with our customized sitting area pergolas. Crafted to elevate your outdoor space, our pergolas provide a shaded and inviting sitting area for relaxation, entertainment, and enjoying the beauty of nature
             </p>
             <p className="font-face-rr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque vel necessitatibus reiciendis fuga quasi iste neque
-              delectus, exercitationem facilis quidem, sequi molestiae illum!
-              Nam tempora sed odit, quasi, porro natus ipsam iure error
-              explicabo assumenda ipsa voluptas, delectus harum sit?
+              With attention to detail and quality craftsmanship, our pergolas are tailored to your specific needs, reflecting your unique style and enhancing your home's aesthetic appeal. Create a cozy retreat where you can unwind, entertain guests, or simply bask in the serenity of your surroundings. Experience the ultimate outdoor comfort with our exquisite sitting area pergolas. Transform your outdoor living space today and make every moment unforgettable.
             </p>
+
           </div>
           <div className="col-lg-1"></div>
         </div>

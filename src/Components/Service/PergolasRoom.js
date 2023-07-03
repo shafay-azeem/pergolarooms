@@ -60,20 +60,13 @@ const PergolasRoom = () => {
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">EXTERIOR</p>
-            <p className="font-face-rr">PERGOLAS ROOM</p>
+            <p className="my-0 py-0 font-face-rb">Glass Rooms</p>
+            <p className="font-face-rr">Transform Your Outdoor Space with Stunning Glass Rooms</p>
             <p className="font-face-rr">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Inventore, sapiente? Porro corrupti omnis cum, praesentium iste
-              commodi itaque, quo asperiores incidunt, nobis nulla magni.
-              Deserunt vero cupiditate suscipit autem culpa!
+              Experience the beauty of nature while staying comfortable and protected with our exquisite glass rooms. Designed to seamlessly blend the outdoors with your living space, our customized glass rooms provide a panoramic view of your surroundings.
             </p>
             <p className="font-face-rr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque vel necessitatibus reiciendis fuga quasi iste neque
-              delectus, exercitationem facilis quidem, sequi molestiae illum!
-              Nam tempora sed odit, quasi, porro natus ipsam iure error
-              explicabo assumenda ipsa voluptas, delectus harum sit?
+              Enjoy natural light, stunning vistas, and a sense of openness like never before. Whether you want to create a cozy reading nook, a tranquil home office, or a versatile entertaining area, our glass rooms offer endless possibilities. Elevate your outdoor living experience with our premium glass rooms, expertly crafted to enhance your home's aesthetic appeal and provide year-round enjoyment. Discover the perfect harmony of nature and modern design today.
             </p>
           </div>
           <div className="col-lg-1"></div>

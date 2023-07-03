@@ -10,10 +10,7 @@ const ContactForm = () => {
             <h4 class="section-title font-face-rb">CONTACT US</h4>
             <h2 class="section-subtitle py-1 font-face-rr">REACH US OUT</h2>
             <p class="section-description font-face-rr">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Contact PERGOLAROOMS Today for Exceptional Outdoor Living Solutions. Transform your space with our custom pergolas, patio covers, and outdoor living areas. Experience our craftsmanship and dedication. Connect with us now for a consultation and start creating your dream outdoor oasis
             </p>
 
             <div class="find-widget py-2 font-face-rr">

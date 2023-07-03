@@ -59,20 +59,13 @@ const Pergolas = () => {
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">EXTERIOR</p>
-            <p className="font-face-rr">PERGOLAS</p>
+            <p className="my-0 py-0 font-face-rb">BBQ Pergola</p>
+            <p className="font-face-rr">Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola</p>
             <p className="font-face-rr">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Inventore, sapiente? Porro corrupti omnis cum, praesentium iste
-              commodi itaque, quo asperiores incidunt, nobis nulla magni.
-              Deserunt vero cupiditate suscipit autem culpa!
+              Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts
             </p>
             <p className="font-face-rr">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque vel necessitatibus reiciendis fuga quasi iste neque
-              delectus, exercitationem facilis quidem, sequi molestiae illum!
-              Nam tempora sed odit, quasi, porro natus ipsam iure error
-              explicabo assumenda ipsa voluptas, delectus harum sit?
+              Enjoy the benefits of shade and protection while indulging in the flavors of outdoor cooking. Enhance your outdoor space today with our BBQ area pergolas for an unmatched grilling experience.
             </p>
           </div>
           <div className="col-lg-1"></div>

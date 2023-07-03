@@ -33,10 +33,7 @@ const Footer = () => {
               <img src={FooterLogo} className="img-fluid" alt="footerMain" />
 
               <p className="py-4 font-face-rr">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
-                autem, non magni nesciunt fuga ea recusandae minus sequi ex
-                impedit velit dolores, quaerat omnis excepturi sunt molestias
-                nobis fugiat sed.
+                PERGOLAROOMS, Your Trusted Experts in Custom Pergolas and Outdoor Living. With a decade of experience, we bring innovation, craftsmanship, and exceptional design to transform your outdoor space into a haven of beauty and functionality. Discover the PERGOLAROOMS difference today.
               </p>
             </div>
           </div>
