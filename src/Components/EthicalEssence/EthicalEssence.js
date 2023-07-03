@@ -20,7 +20,7 @@ const EthicalEssence = () => {
   const data = [
     {
       heading: "OUR PRINCIPLES",
-      subHeading: "Delivering Excellence in Custom Pergolas and Outdoor Living Solutions.",
+      subHeading: "Excellence in Outdoor Living",
       description:
         "At PERGOLAROOMS, our principles are the foundation of our business. With over a decade of expertise, we are dedicated to providing exceptional custom pergolas and outdoor living solutions. Our team upholds the following principles",
       image: require("../../assets/EthicalEssenceImages/our-principles.jpg"),
@@ -28,7 +28,7 @@ const EthicalEssence = () => {
     },
     {
       heading: "WORK ETHICS",
-      subHeading: "Exceeding Expectations with Integrity and Dedication",
+      subHeading: "Exceeding with Integrity, Dedication",
       description:
         "At PERGOLAROOMS, our work ethics form the core of our company culture. With a decade of experience in the industry, we are committed to upholding the highest standards of integrity and dedication. Our team embraces the following work ethics:",
       image: require("../../assets/EthicalEssenceImages/work-ethics.jpg"),
@@ -36,7 +36,7 @@ const EthicalEssence = () => {
     },
     {
       heading: "WHAT WE DO",
-      subHeading: "Creating Stunning Custom Pergolas and Outdoor Living Spaces",
+      subHeading: "Stunning Custom Spaces",
       description:
         "At PERGOLAROOMS, we specialize in designing and building exquisite custom pergolas and outdoor living spaces that elevate your outdoor experience. With a decade of expertise, we offer a comprehensive range of services tailored to your specific needs:",
       image: require("../../assets/EthicalEssenceImages/what-we-do.jpg"),
@@ -44,7 +44,7 @@ const EthicalEssence = () => {
     },
     {
       heading: "OUR LEGACY",
-      subHeading: "A Decade of Excellence in Custom Pergolas and Outdoor Living",
+      subHeading: "Decade of Excellence",
       description:
         "For over a decade, PERGOLAROOMS has been at the forefront of delivering exceptional custom pergolas and outdoor living solutions. Our legacy is built on a foundation of expertise, innovation, and customer satisfaction. With a passion for craftsmanship.",
       image: require("../../assets/EthicalEssenceImages/our-legacy.jpg"),

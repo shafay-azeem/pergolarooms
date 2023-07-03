@@ -33,7 +33,11 @@ const Footer = () => {
               <img src={FooterLogo} className="img-fluid" alt="footerMain" />
 
               <p className="py-4 font-face-rr">
-                PERGOLAROOMS, Your Trusted Experts in Custom Pergolas and Outdoor Living. With a decade of experience, we bring innovation, craftsmanship, and exceptional design to transform your outdoor space into a haven of beauty and functionality. Discover the PERGOLAROOMS difference today.
+                PERGOLAROOMS, Your Trusted Experts in Custom Pergolas and
+                Outdoor Living. With a decade of experience, we bring
+                innovation, craftsmanship, and exceptional design to transform
+                your outdoor space into a haven of beauty and functionality.
+                Discover the PERGOLAROOMS difference today.
               </p>
             </div>
           </div>
@@ -92,12 +96,19 @@ const Footer = () => {
                   className="list-unstyled mb-2"
                 >
                   <li className="d-sm-flex">
-                    <img className="FbLogo" src={FooterFbLogo} alt="fb" />
-                    <img
-                      className="ms-2 InstaLogo"
-                      src={FooterInstaLogo}
-                      alt="insta"
-                    />
+                    <a>
+                      <img className="FbLogo" src={FooterFbLogo} alt="fb" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/pergolarooms.ae/"
+                      target="_blank"
+                    >
+                      <img
+                        className="ms-2 InstaLogo"
+                        src={FooterInstaLogo}
+                        alt="insta"
+                      />
+                    </a>
                   </li>
                 </ul>
               </div>

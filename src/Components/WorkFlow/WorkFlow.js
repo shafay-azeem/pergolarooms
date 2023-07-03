@@ -8,28 +8,28 @@ const WorkFlow = () => {
       image: require("../../assets/WorkFlowImages/icons-1.png"),
       heading: "Planning Stage",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae iusto eos, ab qui ipsa",
+        "Pergola construction involves design, size, location planning, material selection, permits acquisition.",
     },
     {
       id: 2,
       image: require("../../assets/WorkFlowImages/icons-2.png"),
       heading: "Exterior Design",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae iusto eos, ab qui ipsa",
+        "Pergola design includes style, color, climbing plants, functional elements like lighting, curtains, fans.",
     },
     {
       id: 3,
       image: require("../../assets/WorkFlowImages/icons-3.png"),
       heading: "Building Stage",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae iusto eos, ab qui ipsa",
+        "To build a pergola, prepare the site, install posts, beams, add elements, maintain it, and hire a licensed electrician.",
     },
     {
       id: 4,
       image: require("../../assets/WorkFlowImages/icons-4.png"),
       heading: "Pro Support",
       description:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae iusto eos, ab qui ipsa",
+        "Ensure stable support: concrete footings, anchor brackets, regular stability checks, prompt issue resolution.",
     },
   ]);
   return (

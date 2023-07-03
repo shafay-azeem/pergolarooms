@@ -33,8 +33,8 @@ const NavigationBar = () => {
     setShow(false);
   };
 
-  const goToVillaExtension = () => {
-    navigate("/villa-extensions");
+  const goToGlassRooms = () => {
+    navigate("/glass-rooms");
     setShow(false);
   };
 
@@ -129,17 +129,17 @@ const NavigationBar = () => {
                 <ul className="items font-face-rb" onClick={goToAboutUs}>
                   About
                 </ul>
-                <ul className="items font-face-rb" onClick={goToPergolasRoom}>
+                {/* <ul className="items font-face-rb" onClick={goToPergolasRoom}>
                   Pergolas Rooms
-                </ul>
+                </ul> */}
                 <ul className="items font-face-rb" onClick={goToPergolas}>
                   Pergolas
                 </ul>
-                <ul className="items font-face-rb" onClick={goToBbqArea}>
+                {/* <ul className="items font-face-rb" onClick={goToBbqArea}>
                   BBQ Areas
-                </ul>
-                <ul className="items font-face-rb" onClick={goToVillaExtension}>
-                  Villa Extension
+                </ul> */}
+                <ul className="items font-face-rb" onClick={goToGlassRooms}>
+                  Glass Rooms
                 </ul>
 
                 <nav>

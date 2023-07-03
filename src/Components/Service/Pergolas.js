@@ -59,20 +59,22 @@ const Pergolas = () => {
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">BBQ Pergola</p>
+            <p className="my-0 py-0 font-face-rb">Pergolas</p>
+            <p className="font-face-rr">Transform with custom pergolas</p>
             <p className="font-face-rr">
-              Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola
+              Elevate your outdoor space with our exquisite custom pergolas. At
+              PERGOLAROOMS, we bring over a decade of expertise in crafting
+              bespoke pergola designs that enhance your lifestyle. Our skilled
+              team of craftsmen creates stunning pergolas using premium
+              materials, tailored to your unique style and preferences.
             </p>
             <p className="font-face-rr">
-              Create the ultimate culinary haven in your backyard with our
-              custom-designed BBQ area pergolas. Crafted with precision and
-              style, our pergolas provide the perfect shelter for grilling
-              enthusiasts
-            </p>
-            <p className="font-face-rr">
-              Enjoy the benefits of shade and protection while indulging in the
-              flavors of outdoor cooking. Enhance your outdoor space today with
-              our BBQ area pergolas for an unmatched grilling experience.
+              Whether you envision a classic wooden pergola or a contemporary
+              aluminum structure, we have the expertise to make your dream a
+              reality. Trust PERGOLAROOMS for exceptional craftsmanship and
+              unparalleled outdoor transformations. Contact us today to discuss
+              your project and turn your outdoor space into a captivating oasis
+              of beauty and relaxation.
             </p>
           </div>
           <div className="col-lg-1"></div>
