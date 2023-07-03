@@ -7,27 +7,35 @@ const PortfolioSlider = () => {
   const [PortfolioImages, setPortfolioImages] = useState([
     {
       id: 1,
-      image: require("../../assets/PortfolioImages/400-x-400.jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 2,
-      image: require("../../assets/PortfolioImages/400-x-550.jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (5).jpg"),
     },
     {
       id: 3,
-      image: require("../../assets/PortfolioImages/400-x-400.jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (2).jpg"),
     },
     {
       id: 4,
-      image: require("../../assets/PortfolioImages/400-x-550.jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (6).jpg"),
     },
     {
       id: 5,
-      image: require("../../assets/PortfolioImages/400-x-400.jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (3).jpg"),
     },
     {
       id: 6,
-      image: require("../../assets/PortfolioImages/400-x-550.jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (7).jpg"),
+    },
+    {
+      id: 7,
+      image: require("../../assets/PortfolioImages/portfolio (4).jpg"),
+    },
+    {
+      id: 8,
+      image: require("../../assets/PortfolioImages/portfolio (8).jpg"),
     },
   ]);
 
@@ -65,8 +73,12 @@ const PortfolioSlider = () => {
           <Slider {...settings}>
             {PortfolioImages.map((x, index) => {
               return (
-                <div key={index} className={`col-lg-4 col-md-4 col-sm-4 ${index % 2 === 0 ? "py-5" : ""
-                  } `}>
+                <div
+                  key={index}
+                  className={`col-lg-4 col-md-4 col-sm-4 ${
+                    index % 2 === 0 ? "py-5" : ""
+                  } `}
+                >
                   <div className="Portfolio-inner justify-content-center align-items-center d-flex px-3">
                     <img className="d-block img-fluid" src={x.image} alt="1" />
                   </div>

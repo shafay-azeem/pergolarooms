@@ -21,7 +21,8 @@ const ServiceSlider = () => {
       id: 2,
       imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
       heading: "BBQ Pergola",
-      subheading: "Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola",
+      subheading:
+        "Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola",
       description:
         "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
       bgcolor: "#77736f",
@@ -31,7 +32,8 @@ const ServiceSlider = () => {
       id: 3,
       imgSrc: require("../../assets/ServiceImages/seatingAreaImg.jpg"),
       heading: "Seating Area Pergola",
-      subheading: "Design Your Ideal Outdoor Retreat with a Stunning Sitting Area Pergola",
+      subheading:
+        "Design Your Ideal Outdoor Retreat with a Stunning Sitting Area Pergola",
       description:
         "Discover the perfect combination of style and functionality with our customized sitting area pergolas. Crafted to elevate your outdoor space, our pergolas provide a shaded and inviting sitting area for relaxation, entertainment.",
       bgcolor: "#1A5276",
@@ -42,7 +44,8 @@ const ServiceSlider = () => {
       id: 4,
       imgSrc: require("../../assets/ServiceImages/carparkingShadesImg.jpg"),
       heading: "Car Parking Shades",
-      subheading: "Protect Your Vehicles in Style with Custom Car Parking Shades",
+      subheading:
+        "Protect Your Vehicles in Style with Custom Car Parking Shades",
       description:
         "Shield your vehicles from the elements while adding a touch of elegance to your outdoor space with our bespoke car parking shades. Our expertly designed and crafted shades offer superior protection against sun, rain, and hail.",
       bgcolor: "#591e0a",
@@ -54,30 +57,33 @@ const ServiceSlider = () => {
       id: 5,
       imgSrc: require("../../assets/ServiceImages/flooringImg.jpg"),
       heading: "Flooring (Tiling/ WPS Decking/ PVC Decking",
-      subheading: "Elevate Your Space with Premium Flooring Solutions: Tiling, WPS Decking, and PVC Decking",
+      subheading:
+        "Elevate Your Space with Premium Flooring Solutions: Tiling, WPS Decking, and PVC Decking",
       description:
         "Enhance the beauty and functionality of your space with our exceptional flooring options. Choose from our range of high-quality tiling, WPS decking, and PVC decking solutions to create a stunning and durable surface.",
-      bgcolor: "#591e0a",
+      bgcolor: "#3a267a",
       // route: "/villa-extensions",
     },
     {
       id: 6,
       imgSrc: require("../../assets/ServiceImages/AluminiumdoorsImg.jpg"),
       heading: "Aluminium Doors and Windows",
-      subheading: "Upgrade Your Space with Sleek and Durable Aluminum Doors & Windows",
+      subheading:
+        "Upgrade Your Space with Sleek and Durable Aluminum Doors & Windows",
       description:
         "Experience the perfect combination of style, functionality, and longevity with our premium aluminum doors and windows. Crafted with precision and attention to detail, our customized solutions offer unmatched durability and aesthetic appeal.",
-      bgcolor: "#591e0a",
+      bgcolor: "#570b34",
       // route: "/villa-extensions",
     },
     {
       id: 7,
       imgSrc: require("../../assets/ServiceImages/aluminiumbifoldImg.jpg"),
       heading: "Aluminium Bifold Doors",
-      subheading: "Create a Seamless Transition with Stunning Aluminum Bifold Doors",
+      subheading:
+        "Create a Seamless Transition with Stunning Aluminum Bifold Doors",
       description:
         "Unlock the beauty of indoor-outdoor living with our exquisite aluminum bifold doors. Crafted to perfection, our customized solutions offer a seamless transition between your indoor and outdoor spaces, while adding a touch of sophistication to your home.",
-      bgcolor: "#591e0a",
+      bgcolor: "#4f5412",
       // route: "/villa-extensions",
     },
     {
@@ -87,7 +93,7 @@ const ServiceSlider = () => {
       subheading: "Enhance Safety and Style with Stunning Glass Rails",
       description:
         "Experience the perfect balance of safety and elegance with our top-of-the-line glass rails. Customized to suit your unique space, our glass rails offer unobstructed views while providing a secure barrier for staircases, balconies, and terraces.",
-      bgcolor: "#591e0a",
+      bgcolor: "#174550",
       // route: "/villa-extensions",
     },
 
@@ -98,7 +104,7 @@ const ServiceSlider = () => {
       subheading: "Secure Your Outdoor Space with Premium Gates and Fences",
       description:
         "Protect your property with our top-quality outdoor gates and fences. Crafted with durability and style in mind, our customized solutions offer reliable security while enhancing the aesthetic appeal of your space.",
-      bgcolor: "#591e0a",
+      bgcolor: "#11345a",
       // route: "/villa-extensions",
     },
   ];
@@ -127,8 +133,8 @@ const ServiceSlider = () => {
           //   backgroundSize: 'cover',
           //   minHeight: '500px'
           // }}
-          className="col-md-6 px-0">
-
+          className="col-md-6 px-0"
+        >
           <img
             src={currentSlide.imgSrc}
             className="img-fluid"

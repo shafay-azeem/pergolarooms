@@ -1,6 +1,6 @@
 import React from "react";
 import "../AboutUs/AboutUs.css";
-import PergolasDesignsImg from "../../assets/AboutUsImages/peRGOLA-aBOUT.jpg";
+import PergolasDesignsImg from "../../assets/AboutUsImages/Untitled-10.jpg";
 import ContactForm from "../Contact/ContactForm";
 import { useEffect } from "react";
 import { useState } from "react";
@@ -27,21 +27,23 @@ const AboutUs = () => {
   const data = [
     {
       heading: "OUR PRINCIPLES",
-      subHeading: "OUR PRINCIPLES: Delivering Excellence in Custom Pergolas and Outdoor Living Solutions",
+      subHeading:
+        "OUR PRINCIPLES: Delivering Excellence in Custom Pergolas and Outdoor Living Solutions",
       description:
         "Quality Craftsmanship We combine skilled craftsmanship with premium materials to create pergolas that are built to last. Personalization: We offer a wide range of customization options to ensure your pergola reflects your unique style and complements your home.",
       subDescription:
         "Customer Satisfaction We prioritize your satisfaction and provide excellent customer service from start to finish. Innovation and Design: We stay ahead of the curve with innovative designs and the latest trends in outdoor living. Experience the PERGOLAROOMS difference. Transform your outdoor space today!",
-      image: require("../../assets/AboutUsImages/4A.jpg"),
+      image: require("../../assets/AboutUsImages/our-principles.jpg"),
     },
     {
       heading: "WORK ETHICS",
-      subHeading: "WORK ETHICS: Exceeding Expectations with Integrity and Dedication",
+      subHeading:
+        "WORK ETHICS: Exceeding Expectations with Integrity and Dedication",
       description:
         "Quality Craftsmanship We take pride in delivering exceptional quality in every pergola we create, ensuring attention to detail and meticulous craftsmanship. Timely Delivery We value your time and strive to complete projects within the agreed-upon timeline, without compromising on quality.",
       subDescription:
         "Transparent Communication We believe in open and honest communication, providing regular updates and addressing your queries promptly.Professionalism Our team conducts themselves with professionalism, demonstrating respect, reliability, and accountability in all interactions. Experience the PERGOLAROOMS work ethics. Trust us to exceed your expectations with integrity and dedication.",
-      image: require("../../assets/AboutUsImages/3A.jpg"),
+      image: require("../../assets/AboutUsImages/work-ethics.jpg"),
     },
     {
       heading: "WHAT WE DO",
@@ -50,16 +52,17 @@ const AboutUs = () => {
         "Custom Pergolas We bring your vision to life with custom-designed pergolas, crafted with precision and attention to detail. Outdoor Living Spaces We create enchanting outdoor living areas, including seating areas, dining spaces, and entertainment zones.",
       subDescription:
         "Patio Covers We provide stylish and functional patio covers that shield you from the elements while enhancing the beauty of your outdoor space. Outdoor Kitchen Areas: We design and construct outdoor kitchen areas where you can indulge in culinary delights while enjoying the fresh air. Experience the expertise of PERGOLAROOMS. Let us transform your outdoor space into a captivating oasis of comfort and beauty.",
-      image: require("../../assets/AboutUsImages/2A.jpg"),
+      image: require("../../assets/AboutUsImages/what-we-do.jpg"),
     },
     {
       heading: "OUR LEGACY",
-      subHeading: "A Decade of Excellence in Custom Pergolas and Outdoor Living",
+      subHeading:
+        "A Decade of Excellence in Custom Pergolas and Outdoor Living",
       description:
         "For over a decade, PERGOLAROOMS has been at the forefront of delivering exceptional custom pergolas and outdoor living solutions. Our legacy is built on a foundation of expertise, innovation, and customer satisfaction. With a passion for craftsmanship and a commitment to quality, we have earned a reputation for excellence in the industry.",
       subDescription:
         "Our team of experienced professionals continuously strives to exceed expectations, creating captivating outdoor spaces that stand the test of time. We take pride in our legacy of transforming ordinary outdoor areas into extraordinary havens of beauty and relaxation. Experience the PERGOLAROOMS legacy and let us make your outdoor dreams a reality.",
-      image: require("../../assets/AboutUsImages/1A.jpg"),
+      image: require("../../assets/AboutUsImages/our-legacy.jpg"),
     },
   ];
 
@@ -119,8 +122,9 @@ const AboutUs = () => {
           <div className="container-fluid">
             <div className="row d-flex align-items-center">
               <div
-                className={`col-lg-6${i % 2 === 0 ? "" : " order-lg-2"
-                  } bg-cover`}
+                className={`col-lg-6${
+                  i % 2 === 0 ? "" : " order-lg-2"
+                } bg-cover`}
                 style={{
                   backgroundImage: `url(${item.image})`,
                 }}
