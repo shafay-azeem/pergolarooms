@@ -9,7 +9,7 @@ const ServiceSlider = () => {
   const slides = [
     {
       id: 1,
-      imgSrc: require("../../assets/ServiceImages/Image.jpg"),
+      imgSrc: require("../../assets/ServiceImages/glassRoomImg.jpg"),
       heading: "Glass Rooms",
       subheading: "Transform Your Outdoor Space with Stunning Glass Rooms",
       description:
@@ -19,7 +19,7 @@ const ServiceSlider = () => {
     },
     {
       id: 2,
-      imgSrc: require("../../assets/ServiceImages/Image2.jpg"),
+      imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
       heading: "BBQ Pergola",
       subheading: "Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola",
       description:
@@ -29,7 +29,7 @@ const ServiceSlider = () => {
     },
     {
       id: 3,
-      imgSrc: require("../../assets/ServiceImages/Image3.jpg"),
+      imgSrc: require("../../assets/ServiceImages/seatingAreaImg.jpg"),
       heading: "Seating Area Pergola",
       subheading: "Design Your Ideal Outdoor Retreat with a Stunning Sitting Area Pergola",
       description:
@@ -40,7 +40,7 @@ const ServiceSlider = () => {
 
     {
       id: 4,
-      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
+      imgSrc: require("../../assets/ServiceImages/carparkingShadesImg.jpg"),
       heading: "Car Parking Shades",
       subheading: "Protect Your Vehicles in Style with Custom Car Parking Shades",
       description:
@@ -52,7 +52,7 @@ const ServiceSlider = () => {
     // ----------ADDED MORE--------
     {
       id: 5,
-      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
+      imgSrc: require("../../assets/ServiceImages/flooringImg.jpg"),
       heading: "Flooring (Tiling/ WPS Decking/ PVC Decking",
       subheading: "Elevate Your Space with Premium Flooring Solutions: Tiling, WPS Decking, and PVC Decking",
       description:
@@ -62,7 +62,7 @@ const ServiceSlider = () => {
     },
     {
       id: 6,
-      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
+      imgSrc: require("../../assets/ServiceImages/AluminiumdoorsImg.jpg"),
       heading: "Aluminium Doors and Windows",
       subheading: "Upgrade Your Space with Sleek and Durable Aluminum Doors & Windows",
       description:
@@ -72,7 +72,7 @@ const ServiceSlider = () => {
     },
     {
       id: 7,
-      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
+      imgSrc: require("../../assets/ServiceImages/aluminiumbifoldImg.jpg"),
       heading: "Aluminium Bifold Doors",
       subheading: "Create a Seamless Transition with Stunning Aluminum Bifold Doors",
       description:
@@ -82,7 +82,7 @@ const ServiceSlider = () => {
     },
     {
       id: 8,
-      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
+      imgSrc: require("../../assets/ServiceImages/outdoorGatesImg.jpg"),
       heading: "Glass Rails",
       subheading: "Enhance Safety and Style with Stunning Glass Rails",
       description:
@@ -93,7 +93,7 @@ const ServiceSlider = () => {
 
     {
       id: 9,
-      imgSrc: require("../../assets/ServiceImages/Image4.jpg"),
+      imgSrc: require("../../assets/ServiceImages/outdoorGatesImg.jpg"),
       heading: "Outdoor Gates And Fences",
       subheading: "Secure Your Outdoor Space with Premium Gates and Fences",
       description:

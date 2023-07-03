@@ -4,12 +4,13 @@ import fbIcon from "../../assets/FeaturedImages/face-icon.png";
 import instaIcon from "../../assets/FeaturedImages/insta-icon.png";
 import { useState } from "react";
 import { useEffect } from "react";
-import Image1 from "../../assets/FeaturedImages/h1-port-slider-img-1.jpg";
-import Image2 from "../../assets/FeaturedImages/34_1-1.jpg";
-import Image3 from "../../assets/FeaturedImages/34_1-2.jpg";
+import Image1 from "../../assets/FeaturedImages/header1.jpg";
+import Image2 from "../../assets/FeaturedImages/header2.jpg";
+import Image3 from "../../assets/FeaturedImages/header3.jpg";
+import Image4 from "../../assets/FeaturedImages/header4.jpg";
 
 const FeaturedImage = () => {
-  const images = [Image1, Image2, Image3];
+  const images = [Image1, Image2, Image3, Image4];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

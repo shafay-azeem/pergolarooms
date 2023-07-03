@@ -141,6 +141,7 @@ const NavigationBar = () => {
                 <ul className="items font-face-rb" onClick={goToVillaExtension}>
                   Villa Extension
                 </ul>
+
                 <nav>
                   <ul className="items font-face-rb" onClick={handleClick}>
                     Contact
