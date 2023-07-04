@@ -36,7 +36,7 @@
   transition: all 8s linear;
 } */
 
-@keyframes zoomInOut {
+/* @keyframes zoomInOut {
   from {
     transform: scale(0.8);
 
@@ -47,7 +47,7 @@
 
     width: 100%;
   }
-}
+} */
 .Feature-Architecture {
   position: absolute;
   bottom: 0;

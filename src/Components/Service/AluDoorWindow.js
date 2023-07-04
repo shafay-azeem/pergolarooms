@@ -24,34 +24,34 @@ const AluDoorWindow = () => {
   }, []);
   const imageData = [
     {
-      src: require("../../assets/CncCutPanelImages/8.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/1.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/1.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/5.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/7.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/3.jpg"),
     },
 
     {
-      src: require("../../assets/CncCutPanelImages/2.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/6.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/3.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/7.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/6.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/4.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/4.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/8.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/5.jpg"),
+      src: require("../../assets/AliminiumDoorsAndWindowsImages/2.jpg"),
     },
   ];
   return (
     <>
-      <div className="cncCutPanel">
+      <div className="aluWindowsDoors">
         <h2 className="text-white text-center py-5 font-face-re">
           ALUMINIUM DOORS AND WINDOWS
         </h2>
@@ -63,22 +63,21 @@ const AluDoorWindow = () => {
             <p className="my-0 py-0 font-face-rb">
               ALUMINIUM DOORS AND WINDOWS
             </p>
-            <p className="font-face-rr">Enhance with CNC Cut Panels</p>
+            <p className="font-face-rr">Elevate Space with Aluminum Elegance</p>
             <p className="font-face-rr">
-              Introducing our precision-engineered CNC cut panels, the perfect
-              addition to your custom pergola design. At PERGOLAROOMS, we
-              utilize advanced CNC technology to create intricate and stunning
-              patterns on panels, adding a touch of elegance to your outdoor
-              space.
+              The perfect combination of style, functionality, and longevity
+              with our premium aluminum doors and windows. Crafted with
+              precision and attention to detail, our customized solutions offer
+              unmatched durability and aesthetic appeal.
             </p>
             <p className="font-face-rr">
-              Our skilled craftsmen ensure precise cuts and flawless execution,
-              resulting in visually captivating panels that enhance the overall
-              aesthetics of your pergola. Elevate your pergola design with our
-              CNC cut panels, combining functionality and artistry to create a
-              truly unique outdoor experience. Contact us today to explore the
-              endless possibilities of our CNC cut panels for your pergola
-              project.
+              The sleek design of aluminum doors and windows adds a modern touch
+              to any space while providing excellent thermal insulation and
+              security. Choose from a wide range of customizable options to suit
+              your unique style and architectural requirements. Enhance your
+              home or office with our top-of-the-line aluminum doors and
+              windows, delivering exceptional performance and elegance that will
+              stand the test of time. Transform your space today.
             </p>
           </div>
           <div className="col-lg-1"></div>

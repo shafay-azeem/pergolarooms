@@ -52,3 +52,13 @@
   justify-content: center;
   align-items: center;
 }
+.aluWindowsDoors {
+  background-image: url("../../assets/AliminiumDoorsAndWindowsImages/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
