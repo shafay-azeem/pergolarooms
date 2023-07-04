@@ -9,6 +9,7 @@ import Pergolas from "./Components/Service/Pergolas";
 import GlassRooms from "./Components/Service/GlassRooms";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import CarParkShade from "./Components/Service/CarParkShade";
+import AluDoorWindow from "./Components/Service/AluDoorWindow";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/pergolas" element={<Pergolas />} />
         <Route path="/glass-rooms" element={<GlassRooms />} />
         <Route path="/car-parking-shades" element={<CarParkShade />} />
+        <Route path="/aluminium-doors" element={<AluDoorWindow />} />
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
 

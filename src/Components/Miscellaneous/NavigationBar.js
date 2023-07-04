@@ -43,6 +43,11 @@ const NavigationBar = () => {
     setShow(false);
   };
 
+  const goToAluminiumDoors = () => {
+    navigate("/aluminium-doors");
+    setShow(false);
+  };
+
   const goToHome = () => {
     navigate("/");
     setShow(false);
@@ -146,6 +151,10 @@ const NavigationBar = () => {
 
                 <ul className="items font-face-rb" onClick={goToCNCPanelCutter}>
                   CNC Cut Panel
+                </ul>
+
+                <ul className="items font-face-rb" onClick={goToAluminiumDoors}>
+                  Aluminium Doors and Windows
                 </ul>
 
                 <ul

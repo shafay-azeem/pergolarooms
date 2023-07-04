@@ -58,7 +58,7 @@ const ServiceSlider = () => {
       description:
         "Experience the perfect combination of style, functionality, and longevity with our premium aluminum doors and windows. Crafted with precision and attention to detail, our customized solutions offer unmatched durability and aesthetic appeal.",
       bgcolor: "#570b34",
-      // route: "/villa-extensions",
+      route: "/aluminium-doors",
     },
 
     {
