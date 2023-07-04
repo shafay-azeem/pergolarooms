@@ -8,6 +8,7 @@ import CNCPanelCutter from "./Components/Service/CNCPanelCutter";
 import Pergolas from "./Components/Service/Pergolas";
 import GlassRooms from "./Components/Service/GlassRooms";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import CarParkShade from "./Components/Service/CarParkShade";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/cnc-panel-cutter" element={<CNCPanelCutter />} />
         <Route path="/pergolas" element={<Pergolas />} />
         <Route path="/glass-rooms" element={<GlassRooms />} />
+        <Route path="/car-parking-shades" element={<CarParkShade />} />
         <Route path="/about-us" element={<AboutUs />} />
       </Routes>
 

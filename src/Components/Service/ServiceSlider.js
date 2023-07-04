@@ -42,12 +42,12 @@ const ServiceSlider = () => {
     {
       id: 4,
       imgSrc: require("../../assets/ServiceImages/carparkingShadesImg.jpg"),
-      heading: "Car Parking Shades",
+      heading: "Car Parking Pergolas",
       subheading: "Enhance Vehicle Protection Elegantly",
       description:
         "Shield your vehicles from the elements while adding a touch of elegance to your outdoor space with our bespoke car parking shades. Our expertly designed and crafted shades offer superior protection against sun, rain, and hail.",
       bgcolor: "#591e0a",
-      // route: "/villa-extensions",
+      route: "/car-parking-shades",
     },
 
     {

@@ -38,6 +38,11 @@ const NavigationBar = () => {
     setShow(false);
   };
 
+  const goToCarParkingPergolas = () => {
+    navigate("/car-parking-shades");
+    setShow(false);
+  };
+
   const goToHome = () => {
     navigate("/");
     setShow(false);
@@ -141,6 +146,13 @@ const NavigationBar = () => {
 
                 <ul className="items font-face-rb" onClick={goToCNCPanelCutter}>
                   CNC Cut Panel
+                </ul>
+
+                <ul
+                  className="items font-face-rb"
+                  onClick={goToCarParkingPergolas}
+                >
+                  Car Parking Pergolas
                 </ul>
 
                 <nav>
