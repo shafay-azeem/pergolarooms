@@ -53,7 +53,7 @@ const ServiceSlider = () => {
     {
       id: 5,
       imgSrc: require("../../assets/ServiceImages/AluminiumdoorsImg.jpg"),
-      heading: "Aluminium Doors and Windows",
+      heading: "Doors & Fences",
       subheading: "Elevate Space with Aluminum Elegance",
       description:
         "Experience the perfect combination of style, functionality, and longevity with our premium aluminum doors and windows. Crafted with precision and attention to detail, our customized solutions offer unmatched durability and aesthetic appeal.",

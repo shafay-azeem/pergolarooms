@@ -17,7 +17,7 @@ const FeaturedImage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 9000);
+    }, 7000);
 
     return () => clearInterval(interval);
   }, [images.length]);

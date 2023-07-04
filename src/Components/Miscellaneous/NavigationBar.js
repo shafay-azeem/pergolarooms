@@ -8,8 +8,8 @@ import searchIcon from "../../assets/NavgigationBarImages/search.png";
 import closeIcon from "../../assets/NavgigationBarImages/cr1.png";
 import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
-import logoblack from "../../assets/NavgigationBarImages/PergolaroomLogoBlack.png";
-import logowhite from "../../assets/NavgigationBarImages/PergolaroomLogoWhite.png";
+import logoblack from "../../assets/NavgigationBarImages/pergola.png";
+import logowhite from "../../assets/NavgigationBarImages/whit.png";
 import { useNavigate } from "react-router-dom";
 
 const NavigationBar = () => {
@@ -154,7 +154,7 @@ const NavigationBar = () => {
                 </ul>
 
                 <ul className="items font-face-rb" onClick={goToAluminiumDoors}>
-                  Aluminium Doors and Windows
+                  Doors & Fences
                 </ul>
 
                 <ul

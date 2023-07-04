@@ -53,16 +53,14 @@ const AluDoorWindow = () => {
     <>
       <div className="aluWindowsDoors">
         <h2 className="text-white text-center py-5 font-face-re">
-          ALUMINIUM DOORS AND WINDOWS
+          DOORS & FENCES
         </h2>
       </div>
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">
-              ALUMINIUM DOORS AND WINDOWS
-            </p>
+            <p className="my-0 py-0 font-face-rb">DOORS & FENCES</p>
             <p className="font-face-rr">Elevate Space with Aluminum Elegance</p>
             <p className="font-face-rr">
               The perfect combination of style, functionality, and longevity
