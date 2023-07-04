@@ -24,34 +24,34 @@ const CarParkShade = () => {
   }, []);
   const imageData = [
     {
-      src: require("../../assets/CncCutPanelImages/8.jpg"),
+      src: require("../../assets/CarParkingShades/1.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/1.jpg"),
+      src: require("../../assets/CarParkingShades/5.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/7.jpg"),
+      src: require("../../assets/CarParkingShades/2.jpg"),
     },
 
     {
-      src: require("../../assets/CncCutPanelImages/2.jpg"),
+      src: require("../../assets/CarParkingShades/6.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/3.jpg"),
+      src: require("../../assets/CarParkingShades/7.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/6.jpg"),
+      src: require("../../assets/CarParkingShades/3.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/4.jpg"),
+      src: require("../../assets/CarParkingShades/8.jpg"),
     },
     {
-      src: require("../../assets/CncCutPanelImages/5.jpg"),
+      src: require("../../assets/CarParkingShades/4.jpg"),
     },
   ];
   return (
     <>
-      <div className="cncCutPanel">
+      <div className="carParkingShades">
         <h2 className="text-white text-center py-5 font-face-re">
           CAR PARKING PERGOLAS
         </h2>
