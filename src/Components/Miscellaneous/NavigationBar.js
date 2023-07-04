@@ -154,7 +154,12 @@ const NavigationBar = () => {
             <span className="font-face-rr">Follow Us</span>
             <div className="floating-icons py-2 d-flex flex-row">
               <img className="pb-2 ms-2" src={fb} alt="fb" />
-              <img className="pb-2 ms-2" src={insta} alt="insta" />
+              <a
+                href="https://www.instagram.com/pergolarooms.ae/"
+                target="_blank"
+              >
+                <img className="pb-2 ms-2" src={insta} alt="insta" />
+              </a>
             </div>
           </div>
         </Offcanvas.Body>

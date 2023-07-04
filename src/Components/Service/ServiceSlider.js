@@ -30,6 +30,16 @@ const ServiceSlider = () => {
     },
     {
       id: 3,
+      imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
+      heading: "BBQ Pergola",
+      subheading: "Enhance Grilling Oasis Bliss",
+      description:
+        "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
+      bgcolor: "#77736f",
+      // route: "/pergolas",
+    },
+    {
+      id: 4,
       imgSrc: require("../../assets/ServiceImages/seatingAreaImg.jpg"),
       heading: "Seating Area Pergola",
       subheading: "Create Tranquil Outdoor Haven",
@@ -40,7 +50,7 @@ const ServiceSlider = () => {
     },
 
     {
-      id: 4,
+      id: 5,
       imgSrc: require("../../assets/ServiceImages/carparkingShadesImg.jpg"),
       heading: "Car Parking Shades",
       subheading: "Enhance Vehicle Protection Elegantly",
@@ -52,7 +62,7 @@ const ServiceSlider = () => {
 
     // ----------ADDED MORE--------
     {
-      id: 5,
+      id: 6,
       imgSrc: require("../../assets/ServiceImages/flooringImg.jpg"),
       heading: "Flooring (Tiling/ WPS Decking/ PVC Decking",
       subheading: "Upgrade Space with Premium Flooring",
@@ -62,7 +72,7 @@ const ServiceSlider = () => {
       // route: "/villa-extensions",
     },
     {
-      id: 6,
+      id: 7,
       imgSrc: require("../../assets/ServiceImages/AluminiumdoorsImg.jpg"),
       heading: "Aluminium Doors and Windows",
       subheading: "Elevate Space with Aluminum Elegance",
@@ -72,7 +82,7 @@ const ServiceSlider = () => {
       // route: "/villa-extensions",
     },
     {
-      id: 7,
+      id: 8,
       imgSrc: require("../../assets/ServiceImages/aluminiumbifoldImg.jpg"),
       heading: "Aluminium Bifold Doors",
       subheading: "Effortless Elegance, Indoor-Outdoor Harmony",
@@ -82,7 +92,7 @@ const ServiceSlider = () => {
       // route: "/villa-extensions",
     },
     {
-      id: 8,
+      id: 9,
       imgSrc: require("../../assets/ServiceImages/outdoorGatesImg.jpg"),
       heading: "Glass Rails",
       subheading: "Elevate Safety, Glass Sophistication",
@@ -93,7 +103,7 @@ const ServiceSlider = () => {
     },
 
     {
-      id: 9,
+      id: 10,
       imgSrc: require("../../assets/ServiceImages/outdoorGatesImg.jpg"),
       heading: "Outdoor Gates And Fences",
       subheading: "Enhance Security, Premium Style",
@@ -101,16 +111,6 @@ const ServiceSlider = () => {
         "Protect your property with our top-quality outdoor gates and fences. Crafted with durability and style in mind, our customized solutions offer reliable security while enhancing the aesthetic appeal of your space.",
       bgcolor: "#11345a",
       // route: "/villa-extensions",
-    },
-    {
-      id: 10,
-      imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
-      heading: "BBQ Pergola",
-      subheading: "Enhance Grilling Oasis Bliss",
-      description:
-        "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
-      bgcolor: "#77736f",
-      // route: "/pergolas",
     },
   ];
 

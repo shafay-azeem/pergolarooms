@@ -29,7 +29,12 @@ const FeaturedImage = () => {
           <div className="py-5 Featured-Left-Image col-lg-1 col-md-1">
             <img className="img-fluid" src={fbIcon} alt="fb" />
             <p className="pt-2 font-face-rr">Facebook</p>
-            <img className="img-fluid" src={instaIcon} alt="insta" />
+            <a
+              href="https://www.instagram.com/pergolarooms.ae/"
+              target="_blank"
+            >
+              <img className="img-fluid" src={instaIcon} alt="insta" />
+            </a>
             <p className="pt-2 font-face-rr">Instagram</p>
           </div>
           <div
