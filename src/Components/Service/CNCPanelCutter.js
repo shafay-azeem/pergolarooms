@@ -3,7 +3,7 @@ import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
 import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
-const PergolasRoom = () => {
+const CNCPanelCutter = () => {
   const [screenDimensions, setScreenDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -53,20 +53,30 @@ const PergolasRoom = () => {
     <>
       <div className="BBQ-Area">
         <h2 className="text-white text-center py-5 font-face-re">
-          PERGOLAS ROOM
+          CNC CUT PANELS
         </h2>
       </div>
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">Glass Rooms</p>
-            <p className="font-face-rr">Transform Your Outdoor Space with Stunning Glass Rooms</p>
+            <p className="my-0 py-0 font-face-rb">CNC CUT PANELS</p>
+            <p className="font-face-rr">Enhance with CNC Cut Panels</p>
             <p className="font-face-rr">
-              Experience the beauty of nature while staying comfortable and protected with our exquisite glass rooms. Designed to seamlessly blend the outdoors with your living space, our customized glass rooms provide a panoramic view of your surroundings.
+              Introducing our precision-engineered CNC cut panels, the perfect
+              addition to your custom pergola design. At PERGOLAROOMS, we
+              utilize advanced CNC technology to create intricate and stunning
+              patterns on panels, adding a touch of elegance to your outdoor
+              space.
             </p>
             <p className="font-face-rr">
-              Enjoy natural light, stunning vistas, and a sense of openness like never before. Whether you want to create a cozy reading nook, a tranquil home office, or a versatile entertaining area, our glass rooms offer endless possibilities. Elevate your outdoor living experience with our premium glass rooms, expertly crafted to enhance your home's aesthetic appeal and provide year-round enjoyment. Discover the perfect harmony of nature and modern design today.
+              Our skilled craftsmen ensure precise cuts and flawless execution,
+              resulting in visually captivating panels that enhance the overall
+              aesthetics of your pergola. Elevate your pergola design with our
+              CNC cut panels, combining functionality and artistry to create a
+              truly unique outdoor experience. Contact us today to explore the
+              endless possibilities of our CNC cut panels for your pergola
+              project.
             </p>
           </div>
           <div className="col-lg-1"></div>
@@ -81,4 +91,4 @@ const PergolasRoom = () => {
   );
 };
 
-export default PergolasRoom;
+export default CNCPanelCutter;

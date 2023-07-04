@@ -20,37 +20,27 @@ const ServiceSlider = () => {
 
     {
       id: 2,
-      imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
+      imgSrc: require("../../assets/ServiceImages/Untitled-2.jpg"),
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
         "Elevate your outdoor space with our exquisite custom pergolas. At PERGOLAROOMS, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
-      bgcolor: "#77736f",
+      bgcolor: "#37280e",
       route: "/pergolas",
     },
     {
       id: 3,
       imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
-      heading: "BBQ Pergola",
+      heading: "Bar & BBQ Counter",
       subheading: "Enhance Grilling Oasis Bliss",
       description:
         "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
       bgcolor: "#77736f",
-      // route: "/pergolas",
-    },
-    {
-      id: 4,
-      imgSrc: require("../../assets/ServiceImages/seatingAreaImg.jpg"),
-      heading: "Seating Area Pergola",
-      subheading: "Create Tranquil Outdoor Haven",
-      description:
-        "Discover the perfect combination of style and functionality with our customized sitting area pergolas. Crafted to elevate your outdoor space, our pergolas provide a shaded and inviting sitting area for relaxation, entertainment.",
-      bgcolor: "#1A5276",
-      // route: "/bbq-area",
+      route: "/bbq-area",
     },
 
     {
-      id: 5,
+      id: 4,
       imgSrc: require("../../assets/ServiceImages/carparkingShadesImg.jpg"),
       heading: "Car Parking Shades",
       subheading: "Enhance Vehicle Protection Elegantly",
@@ -60,19 +50,8 @@ const ServiceSlider = () => {
       // route: "/villa-extensions",
     },
 
-    // ----------ADDED MORE--------
     {
-      id: 6,
-      imgSrc: require("../../assets/ServiceImages/flooringImg.jpg"),
-      heading: "Flooring (Tiling/ WPS Decking/ PVC Decking",
-      subheading: "Upgrade Space with Premium Flooring",
-      description:
-        "Enhance the beauty and functionality of your space with our exceptional flooring options. Choose from our range of high-quality tiling, WPS decking, and PVC decking solutions to create a stunning and durable surface.",
-      bgcolor: "#3a267a",
-      // route: "/villa-extensions",
-    },
-    {
-      id: 7,
+      id: 5,
       imgSrc: require("../../assets/ServiceImages/AluminiumdoorsImg.jpg"),
       heading: "Aluminium Doors and Windows",
       subheading: "Elevate Space with Aluminum Elegance",
@@ -81,36 +60,16 @@ const ServiceSlider = () => {
       bgcolor: "#570b34",
       // route: "/villa-extensions",
     },
-    {
-      id: 8,
-      imgSrc: require("../../assets/ServiceImages/aluminiumbifoldImg.jpg"),
-      heading: "Aluminium Bifold Doors",
-      subheading: "Effortless Elegance, Indoor-Outdoor Harmony",
-      description:
-        "Unlock the beauty of indoor-outdoor living with our exquisite aluminum bifold doors. Crafted to perfection, our customized solutions offer a seamless transition between your indoor and outdoor spaces, while adding a touch of sophistication to your home.",
-      bgcolor: "#4f5412",
-      // route: "/villa-extensions",
-    },
-    {
-      id: 9,
-      imgSrc: require("../../assets/ServiceImages/outdoorGatesImg.jpg"),
-      heading: "Glass Rails",
-      subheading: "Elevate Safety, Glass Sophistication",
-      description:
-        "Experience the perfect balance of safety and elegance with our top-of-the-line glass rails. Customized to suit your unique space, our glass rails offer unobstructed views while providing a secure barrier for staircases, balconies, and terraces.",
-      bgcolor: "#174550",
-      // route: "/villa-extensions",
-    },
 
     {
-      id: 10,
-      imgSrc: require("../../assets/ServiceImages/outdoorGatesImg.jpg"),
-      heading: "Outdoor Gates And Fences",
-      subheading: "Enhance Security, Premium Style",
+      id: 6,
+      imgSrc: require("../../assets/ServiceImages/CncCutPanels.png"),
+      heading: "CNC Cut Panels",
+      subheading: "Enhance with CNC Cut Panels",
       description:
-        "Protect your property with our top-quality outdoor gates and fences. Crafted with durability and style in mind, our customized solutions offer reliable security while enhancing the aesthetic appeal of your space.",
-      bgcolor: "#11345a",
-      // route: "/villa-extensions",
+        "Introducing our precision-engineered CNC cut panels, the perfect addition to your custom pergola design. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
+      bgcolor: "#babc72",
+      route: "/cnc-panel-cutter",
     },
   ];
 

@@ -23,8 +23,8 @@ const NavigationBar = () => {
     setShow(false);
   };
 
-  const goToPergolasRoom = () => {
-    navigate("/pergolas-room");
+  const goToCNCPanelCutter = () => {
+    navigate("/cnc-panel-cutter");
     setShow(false);
   };
 
@@ -129,17 +129,18 @@ const NavigationBar = () => {
                 <ul className="items font-face-rb" onClick={goToAboutUs}>
                   About
                 </ul>
-                {/* <ul className="items font-face-rb" onClick={goToPergolasRoom}>
-                  Pergolas Rooms
-                </ul> */}
+                <ul className="items font-face-rb" onClick={goToGlassRooms}>
+                  Glass Rooms
+                </ul>
                 <ul className="items font-face-rb" onClick={goToPergolas}>
                   Pergolas
                 </ul>
-                {/* <ul className="items font-face-rb" onClick={goToBbqArea}>
+                <ul className="items font-face-rb" onClick={goToBbqArea}>
                   BBQ Areas
-                </ul> */}
-                <ul className="items font-face-rb" onClick={goToGlassRooms}>
-                  Glass Rooms
+                </ul>
+
+                <ul className="items font-face-rb" onClick={goToCNCPanelCutter}>
+                  CNC Cut Panel
                 </ul>
 
                 <nav>

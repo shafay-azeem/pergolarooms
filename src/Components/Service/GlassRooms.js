@@ -62,7 +62,7 @@ const GlassRooms = () => {
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">Glass Rooms</p>
+            <p className="my-0 py-0 font-face-rb">GLASS ROOMS</p>
             <p className="font-face-rr">
               Transform Your Outdoor Space with Stunning Glass Rooms
             </p>

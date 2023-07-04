@@ -27,49 +27,57 @@ const BbqArea = () => {
   }, []);
   const imageData = [
     {
-      src: require("../../assets/ServiceImages/i1.avif"),
+      src: require("../../assets/BBQAreaImages/1.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i2.avif"),
+      src: require("../../assets/BBQAreaImages/5.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i3.avif"),
+      src: require("../../assets/BBQAreaImages/2.jpg"),
     },
 
     {
-      src: require("../../assets/ServiceImages/i4.avif"),
+      src: require("../../assets/BBQAreaImages/6.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i2.avif"),
+      src: require("../../assets/BBQAreaImages/7.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i1.avif"),
+      src: require("../../assets/BBQAreaImages/3.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i2.avif"),
+      src: require("../../assets/BBQAreaImages/8.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i3.avif"),
+      src: require("../../assets/BBQAreaImages/4.jpg"),
     },
   ];
   return (
     <>
       <div className="BBQ-Area">
-        <h2 className="text-white text-center py-5 font-face-re">BBQ AREA</h2>
+        <h2 className="text-white text-center py-5 font-face-re">
+          BAR & BBQ COUNTER
+        </h2>
       </div>
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
-            <p className="my-0 py-0 font-face-rb">Seating Area Pergola</p>
-            <p className="font-face-rr">Design Your Ideal Outdoor Retreat with a Stunning Sitting Area Pergola</p>
+            <p className="my-0 py-0 font-face-rb">BAR & BBQ COUNTER</p>
             <p className="font-face-rr">
-              Discover the perfect combination of style and functionality with our customized sitting area pergolas. Crafted to elevate your outdoor space, our pergolas provide a shaded and inviting sitting area for relaxation, entertainment, and enjoying the beauty of nature
+              Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola
             </p>
             <p className="font-face-rr">
-              With attention to detail and quality craftsmanship, our pergolas are tailored to your specific needs, reflecting your unique style and enhancing your home's aesthetic appeal. Create a cozy retreat where you can unwind, entertain guests, or simply bask in the serenity of your surroundings. Experience the ultimate outdoor comfort with our exquisite sitting area pergolas. Transform your outdoor living space today and make every moment unforgettable.
+              Create the ultimate culinary haven in your backyard with our
+              custom-designed BBQ area pergolas. Crafted with precision and
+              style, our pergolas provide the perfect shelter for grilling
+              enthusiasts
             </p>
-
+            <p className="font-face-rr">
+              Enjoy the benefits of shade and protection while indulging in the
+              flavors of outdoor cooking. Enhance your outdoor space today with
+              our BBQ area pergolas for an unmatched grilling experience.
+            </p>
           </div>
           <div className="col-lg-1"></div>
         </div>
