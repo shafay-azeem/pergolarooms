@@ -24,34 +24,34 @@ const CNCPanelCutter = () => {
   }, []);
   const imageData = [
     {
-      src: require("../../assets/ServiceImages/i1.avif"),
+      src: require("../../assets/CncCutPanelImages/8.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i2.avif"),
+      src: require("../../assets/CncCutPanelImages/1.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i3.avif"),
+      src: require("../../assets/CncCutPanelImages/7.jpg"),
     },
 
     {
-      src: require("../../assets/ServiceImages/i4.avif"),
+      src: require("../../assets/CncCutPanelImages/2.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i2.avif"),
+      src: require("../../assets/CncCutPanelImages/3.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i1.avif"),
+      src: require("../../assets/CncCutPanelImages/6.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i2.avif"),
+      src: require("../../assets/CncCutPanelImages/4.jpg"),
     },
     {
-      src: require("../../assets/ServiceImages/i3.avif"),
+      src: require("../../assets/CncCutPanelImages/5.jpg"),
     },
   ];
   return (
     <>
-      <div className="BBQ-Area">
+      <div className="cncCutPanel">
         <h2 className="text-white text-center py-5 font-face-re">
           CNC CUT PANELS
         </h2>
