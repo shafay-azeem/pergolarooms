@@ -8,7 +8,7 @@ import searchIcon from "../../assets/NavgigationBarImages/search.png";
 import closeIcon from "../../assets/NavgigationBarImages/cr1.png";
 import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
-import logoblack from "../../assets/NavgigationBarImages/pergola.png";
+import logoblack from "../../assets/NavgigationBarImages/whit.png";
 import logowhite from "../../assets/NavgigationBarImages/whit.png";
 import { useNavigate } from "react-router-dom";
 
@@ -69,7 +69,14 @@ const NavigationBar = () => {
 
   return (
     <div>
-      <Navbar className="myClass" style={{ backgroundColor: 'transparent' , marginBottom:'-80px',zIndex:"100"}}>
+      <Navbar
+        className="myClass"
+        style={{
+          backgroundColor: "transparent",
+          marginBottom: "-80px",
+          zIndex: "100",
+        }}
+      >
         <Container fluid className="py-2">
           <Navbar.Brand href="/" className="font-face-rb">
             <img

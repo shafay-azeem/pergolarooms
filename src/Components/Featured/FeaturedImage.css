@@ -66,8 +66,8 @@
 }
 
 .Feature-Architecture button {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 30px;
   text-transform: uppercase;
   padding: 20px 30px;
@@ -101,7 +101,6 @@
     justify-content: flex-start;
     cursor: pointer;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -117,7 +116,6 @@
   .feature-icons {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 768px) and (min-height: 1024px) {

@@ -11,29 +11,29 @@ import Image4 from "../../assets/FeaturedImages/header4.jpg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import fb from "../../assets/NavgigationBarImages/fb1.png";
-import insta from "../../assets/NavgigationBarImages/in1.png";
+import fb from "../../assets/FeaturedImages/001-facebook.png";
+import insta from "../../assets/FeaturedImages/002-instagram.png";
 
 const FeaturedImage = () => {
   // const images = [Image1, Image2, Image3, Image4];
   const [images, setImages] = useState([
     {
       id: 1,
-      image: require('../../assets/FeaturedImages/header1.jpg')
+      image: require("../../assets/FeaturedImages/1.jpg"),
     },
     {
       id: 2,
-      image: require('../../assets/FeaturedImages/header2.jpg')
+      image: require("../../assets/FeaturedImages/2.jpg"),
     },
     {
       id: 3,
-      image: require('../../assets/FeaturedImages/header3.jpg')
+      image: require("../../assets/FeaturedImages/3.jpg"),
     },
     {
       id: 4,
-      image: require('../../assets/FeaturedImages/header4.jpg')
+      image: require("../../assets/FeaturedImages/4.jpg"),
     },
-  ])
+  ]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -45,19 +45,18 @@ const FeaturedImage = () => {
   //   return () => clearInterval(interval);
   // }, [images.length]);
 
-
-
   const settings = {
     dots: false,
     infinite: true,
     slidesToShow: 1,
     fade: true,
     slidesToScroll: 1,
-    cssEase: 'linear',
-    centerPadding: '0px',
+    cssEase: "linear",
+    centerPadding: "0px",
     autoplay: true,
     speed: 700,
     autoplaySpeed: 5000,
+    pauseOnHover: false,
     responsive: [
       {
         breakpoint: 768,
@@ -76,7 +75,6 @@ const FeaturedImage = () => {
     ],
   };
 
-
   return (
     <div className="Featured">
       <div className="container-fluid">
@@ -92,52 +90,66 @@ const FeaturedImage = () => {
             // }}
             style={{ position: "relative" }}
           >
-
             <Slider {...settings}>
               {images.map((x, index) => {
                 return (
-                  <div
-                    key={index}
-                  >
-                    <div style={{
-                      backgroundImage: `url(${x.image})`,
-                      height: '700px',
-                      backgroundSize: 'cover',
-                      backgroundRepeat: 'no-repeat',
-                      backgroundPosition: 'center'
-                    }}>
+                  <div key={index}>
+                    <div
+                      style={{
+                        backgroundImage: `url(${x.image})`,
+                        height: "700px",
+                        backgroundSize: "cover",
+                        backgroundRepeat: "no-repeat",
+                        backgroundPosition: "center",
+                      }}
+                    >
                       {/* <img className="d-block img-fluid" src={x.image} alt="1" /> */}
 
                       <div className="Feature-Architecture">
                         <button className="">Architecture With Meaning</button>
                       </div>
                     </div>
-
                   </div>
-
                 );
               })}
             </Slider>
             <div className="feature-icons">
-              <div style={{
-                transform: 'rotate(270deg)'
-              }} className="d-flex py-5">
+              <div
+                style={{
+                  transform: "rotate(270deg)",
+                }}
+                className="d-flex py-5"
+              >
                 <a
                   href="https://www.instagram.com/pergolarooms.ae/"
                   target="_blank"
                 >
-                  <img src={insta} alt="insta" />
+                  <img
+                    src={insta}
+                    alt="insta"
+                    style={{
+                      transform: "rotate(450deg)",
+                    }}
+                  />
                 </a>
                 <p className="ms-2 pt-1 font-face-rr">Instagram</p>
               </div>
 
-              <div className="d-flex py-5" style={{
-                transform: 'rotate(270deg)'
-              }}>
-                <img src={fb} alt="fb" />
+              <div
+                className="d-flex py-5"
+                style={{
+                  transform: "rotate(270deg)",
+                }}
+              >
+                <img
+                  src={fb}
+                  alt="fb"
+                  style={{
+                    transform: "rotate(450deg)",
+                  }}
+                />
                 <p className="ms-2 pt-1 font-face-rr">Facebook</p>
               </div>
-
             </div>
           </div>
         </div>
