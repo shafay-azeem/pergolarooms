@@ -51,6 +51,7 @@
   color: #6b6b6b;
 }
 
+
 /* -------------MEDIA QUERIES FOR RESPONSIVENESS-------------- */
 @media screen and (min-width: 1024px) {
   #Floating-Menu {
@@ -142,4 +143,9 @@ span {
 .anchortag-style:hover {
   text-decoration: none;
   color: white;
+}
+
+
+.myClass{
+  background-color: transparent !important;
 }

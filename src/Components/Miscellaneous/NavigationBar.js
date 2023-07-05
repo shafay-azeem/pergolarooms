@@ -69,7 +69,7 @@ const NavigationBar = () => {
 
   return (
     <div>
-      <Navbar bg="white">
+      <Navbar className="myClass" style={{ backgroundColor: 'transparent' , marginBottom:'-80px',zIndex:"100"}}>
         <Container fluid className="py-2">
           <Navbar.Brand href="/" className="font-face-rb">
             <img

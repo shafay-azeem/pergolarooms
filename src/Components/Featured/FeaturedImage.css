@@ -5,6 +5,7 @@
 .Featured-Left-Image img {
   transform: rotate(90deg);
 }
+
 /* 
 .Featured-Right-Image {
     background-image: url('../../assets/FeaturedImages/h1-port-slider-img-1.jpg');
@@ -30,6 +31,15 @@
   margin-right: auto;
   margin-left: auto;
   transition: all 8s linear;
+}
+
+.Hero-slider .slick-slide {
+  height: 700px;
+}
+
+.Hero-slider {
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 /* .Featured-Right-Image img {
@@ -64,6 +74,19 @@
   border: none;
 }
 
+.feature-icons {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: white;
+}
+
+.feature-icons img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
 /* -----------MEDIA QUERIES------------- */
 
 @media screen and (min-width: 768px) {
@@ -78,6 +101,7 @@
     justify-content: flex-start;
     cursor: pointer;
   }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -89,6 +113,11 @@
     overflow: hidden;
     min-height: 300px;
   }
+
+  .feature-icons {
+    display: none;
+  }
+
 }
 
 @media screen and (max-width: 768px) and (min-height: 1024px) {
