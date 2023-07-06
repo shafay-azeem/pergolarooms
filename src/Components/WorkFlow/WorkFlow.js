@@ -1,56 +1,76 @@
 import React, { useState } from "react";
 import "../WorkFlow/WorkFlow.css";
+import image1 from "../../assets/WorkFlowImages/excellent-black.png";
+import image1white from "../../assets/WorkFlowImages/excellent-white.png";
+
+import image2 from "../../assets/WorkFlowImages/high-quality-black.png";
+import image2white from "../../assets/WorkFlowImages/high-quality-white.png";
+
+import image3 from "../../assets/WorkFlowImages/3-black.png";
+import image3white from "../../assets/WorkFlowImages/3-white.png";
 
 const WorkFlow = () => {
-  const [workFlowItems, setWorkFlowItems] = useState([
-    {
-      id: 1,
-      image: require("../../assets/WorkFlowImages/icons-1.png"),
-      heading: "Planning Stage",
-      description:
-        "Pergola construction involves design, size, location planning, material selection, permits acquisition.",
-    },
-    {
-      id: 2,
-      image: require("../../assets/WorkFlowImages/icons-2.png"),
-      heading: "Exterior Design",
-      description:
-        "Pergola design includes style, color, climbing plants, functional elements like lighting, curtains, fans.",
-    },
-    {
-      id: 3,
-      image: require("../../assets/WorkFlowImages/icons-3.png"),
-      heading: "Building Stage",
-      description:
-        "To build a pergola, prepare the site, install posts, beams, add elements, maintain it, and hire a licensed electrician.",
-    },
-    {
-      id: 4,
-      image: require("../../assets/WorkFlowImages/icons-4.png"),
-      heading: "Pro Support",
-      description:
-        "Ensure stable support: concrete footings, anchor brackets, regular stability checks, prompt issue resolution.",
-    },
-  ]);
   return (
     <>
-      <section className="workflow-section">
-        <div className="container py-5 px-lg-5">
-          <div className="row py-5 px-lg-5">
-            {workFlowItems.map((x, index) => {
-              return (
-                <div key={index} className="col-sm-3 ">
-                  <div className="workflow-box">
-                    <img src={x.image} className="img-fluid " alt="img" />
-                    <h5 className="font-face-rb">{x.heading}</h5>
-                    <p className="font-face-rr">{x.description}</p>
+      <div class="container profile-page py-5">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="card-one profile-header mb-3">
+              <div class="py-4">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="profile-image float-md-right">
+                      <img src={image1} alt="" class="original-image" />
+                      <img src={image1white} alt="" class="hover-image" />
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-12">
+                    <h4 class="m-t-0 m-b-0 mt-2">High Weather Protection</h4>
                   </div>
                 </div>
-              );
-            })}
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="card-two profile-header mb-3">
+              <div class="py-4">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="profile-image float-md-right">
+                      <img src={image2} alt="" class="original-image" />
+                      <img src={image2white} alt="" class="hover-image" />
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-12">
+                    <h4 class="m-t-0 m-b-0 mt-2">High Quality Materials</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+            <div class="card-three profile-header mb-3">
+              <div class="py-4">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-12">
+                    <div class="profile-image float-md-right">
+                      <img src={image3} alt="" class="original-image" />
+                      <img src={image3white} alt="" class="hover-image" />
+                    </div>
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-12">
+                    <h4 class="m-t-0 m-b-0 mt-2">
+                      Safety & Trusted Reliability
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
     </>
   );
 };

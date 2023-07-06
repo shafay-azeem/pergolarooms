@@ -68,16 +68,16 @@ const NavigationBar = () => {
   }
 
   return (
-    <div>
+    <>
+
       <Navbar
         className="myClass"
         style={{
           backgroundColor: "transparent",
-          marginBottom: "-80px",
           zIndex: "100",
         }}
       >
-        <Container fluid className="py-2">
+        <Container  className="py-2">
           <Navbar.Brand href="/" className="font-face-rb">
             <img
               src={logoblack}
@@ -193,7 +193,7 @@ const NavigationBar = () => {
           </div>
         </Offcanvas.Body>
       </Offcanvas>
-    </div>
+    </>
   );
 };
 

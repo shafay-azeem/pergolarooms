@@ -1,12 +1,137 @@
-.workflow-section {
-}
-
-.workflow-box p {
+.card-one {
+  background-color: #f7f7f7 !important;
+  transition: 0.5s;
+  border: none !important;
+  border-radius: 0px !important;
+  width: 100%;
   font-size: 14px;
-  line-height: 20px;
-  /* width: 90%; */
+  color: #424242;
+  padding: 30px;
+  font-weight: 400;
+}
+.card-one:hover {
+  background: url("/src/assets/WorkFlowImages/1.jpg") center/cover no-repeat;
+  transition: 0.5s;
+  border: none !important;
+  width: 100%;
+  color: white;
+  border-radius: 0px !important;
+  font-size: 14px;
+  color: white;
+  padding: 30px;
+  font-weight: 400;
 }
 
-.workflow-box img {
-  width: 100px;
+.profile-image.float-md-right {
+  position: relative;
+}
+
+.profile-image.float-md-right .hover-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card-one:hover .profile-image.float-md-right .hover-image {
+  display: block;
+  opacity: 1;
+}
+
+.card-one:hover .profile-image.float-md-right .original-image {
+  opacity: 0;
+}
+
+.card-two {
+  background-color: #f7f7f7 !important;
+  transition: 0.5s;
+  border: none !important;
+  border-radius: 0px !important;
+  width: 100%;
+  font-size: 14px;
+  color: #424242;
+  padding: 30px;
+  font-weight: 400;
+}
+.card-two:hover {
+  background: url("/src/assets/WorkFlowImages/2.jpg") center/cover no-repeat;
+  transition: 0.5s;
+  border: none !important;
+  width: 100%;
+  color: white;
+  border-radius: 0px !important;
+  font-size: 14px;
+  color: white;
+  padding: 30px;
+  font-weight: 400;
+}
+
+.profile-image.float-md-right {
+  position: relative;
+}
+
+.profile-image.float-md-right .hover-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card-two:hover .profile-image.float-md-right .hover-image {
+  display: block;
+  opacity: 1;
+}
+
+.card-two:hover .profile-image.float-md-right .original-image {
+  opacity: 0;
+}
+
+.card-three {
+  background-color: #f7f7f7 !important;
+  transition: 0.5s;
+  border: none !important;
+  border-radius: 0px !important;
+  width: 100%;
+  font-size: 14px;
+  color: #424242;
+  padding: 30px;
+  font-weight: 400;
+}
+.card-three:hover {
+  background: url("/src/assets/WorkFlowImages/3.jpg") center/cover no-repeat;
+  transition: 0.5s;
+  border: none !important;
+  width: 100%;
+  color: white;
+  border-radius: 0px !important;
+  font-size: 14px;
+  color: white;
+  padding: 30px;
+  font-weight: 400;
+}
+
+.profile-image.float-md-right {
+  position: relative;
+}
+
+.profile-image.float-md-right .hover-image {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card-three:hover .profile-image.float-md-right .hover-image {
+  display: block;
+  opacity: 1;
+}
+
+.card-three:hover .profile-image.float-md-right .original-image {
+  opacity: 0;
 }
