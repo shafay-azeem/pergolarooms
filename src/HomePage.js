@@ -18,24 +18,31 @@ const HomePage = () => {
       </div>
 
       <div id="">
-        <Portfolio />
+        <WorkFlow />
+      </div>
+
+      <div id="">
+        {/* <Portfolio /> */}
       </div>
 
       <div id="">
         <ServiceSlider />
       </div>
-      <div id="">
-        <ProjectCounter />
-      </div>
+
       <div id="">
         <EthicalEssence />
       </div>
+
       <div id="">
-        <WorkFlow />
+        <ProjectCounter />
       </div>
+
+
       <div id="">
         <ClientTestimony />
       </div>
+
+
       <div id="contact-us">
         <ContactForm />
       </div>

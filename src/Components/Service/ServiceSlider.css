@@ -85,9 +85,10 @@
   }
 }
 
-.slickBanner {
+.main-Banner {
   height: 600px;
   background-size: cover;
+  overflow-x: hidden !important;
 }
 
 .text-overlay {
@@ -99,4 +100,8 @@
   color: #fff;
   padding: 20px;
   /* Add more styles as needed */
+}
+
+.description{
+  width: 90%;
 }

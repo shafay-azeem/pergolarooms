@@ -24,7 +24,7 @@ const TopNav = () => {
                             <div class="ltn__top-bar-menu">
                                 <ul>
                                     <li>
-                                        <div class="ltn__social-media">
+                                        <div class="ltn__social-media d-none">
                                             <ul>
                                                 <li>
                                                     <img style={{ height: '30px', width: '30px' }} src={arrow} alt="" />

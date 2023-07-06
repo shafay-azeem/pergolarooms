@@ -58,23 +58,16 @@ const EthicalEssence = () => {
   return (
     <div
       style={{
-        // minHeight: "480px",
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
       }}
     >
-      <div className="container py-5 px-5">
-        <div className="row d-md-flex align-items-center ">
-          <div class="col-md-6" style={{ paddingRight: "140px" }}>
-            <span
-              style={{
-                marginBottom: "10px",
-                fontSize: "12px",
-                display: "inline-block",
-                color: "white",
-              }}
+      <div className="container py-5 px-lg-5">
+        <div className="row d-md-flex align-items-center mb-5">
+          <div class="col-md-6">
+            <span className="py-3 mb-2 text-white"
             >
-              How It Happens
+              OUR PRINCIPLES
             </span>
             <h4 class="subheading font-face-rr">
               Excellence in Outdoor Living
@@ -91,127 +84,101 @@ const EthicalEssence = () => {
             </a>
           </div>
           <div
-            class="col-md-6 p-2"
-            style={{
-              minHeight: "520px",
-              backgroundImage: `url(${img1})`,
-              backgroundSize: "cover",
-            }}
-          ></div>
-        </div>
-      </div>
-
-      <div className="container py-5 px-5">
-        <div className="row d-md-flex align-items-center">
-          <div
-            class="col-md-6 p-2"
-            style={{
-              minHeight: "520px",
-              backgroundImage: `url(${img2})`,
-              backgroundSize: "cover",
-            }}
-          ></div>
-          <div class="col-md-6" style={{ paddingLeft: "140px" }}>
-            <span
-              style={{
-                marginBottom: "10px",
-                fontSize: "12px",
-                display: "inline-block",
-                color: "white",
-              }}
-            >
-              How It Happens
-            </span>
-            <h4 class="subheading font-face-rr">
-              Excellence in Outdoor Living
-            </h4>
-            <p class="description-ethicalessence font-face-rr">
-              At PERGOLAROOMS, our principles are the foundation of our
-              business. With over a decade of expertise, we are dedicated to
-              providing exceptional custom pergolas and outdoor living
-              solutions. Our team upholds the following principles
-            </p>
-            <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
-              <BsFillPlusCircleFill />
-              READ MORE
-            </a>
+            class="col-md-6 py-3"
+          >
+            <img src={img1} alt="1" className="img-fluid" />
           </div>
         </div>
-      </div>
 
-      <div className="container py-5 px-5">
-        <div className="row d-md-flex align-items-center">
-          <div class="col-md-6" style={{ paddingRight: "140px" }}>
-            <span
-              style={{
-                marginBottom: "10px",
-                fontSize: "12px",
-                display: "inline-block",
-                color: "white",
-              }}
+
+
+
+
+
+        <div className="row d-md-flex align-items-center mb-5 ">
+          <div
+            class="col-md-6 py-3"
+          >
+            <img src={img2} alt="1" className="img-fluid" />
+          </div>
+
+          <div class="col-md-6">
+            <span className="py-3 mb-2 text-white"
             >
-              How It Happens
+              WORK ETHICS
             </span>
             <h4 class="subheading font-face-rr">
-              Excellence in Outdoor Living
+              Exceeding with Integrity, Dedication
             </h4>
             <p class="description-ethicalessence font-face-rr">
-              At PERGOLAROOMS, our principles are the foundation of our
-              business. With over a decade of expertise, we are dedicated to
-              providing exceptional custom pergolas and outdoor living
-              solutions. Our team upholds the following principles
+              At PERGOLAROOMS, our work ethics form the core of our company culture. With a decade of experience in the industry, we are committed to upholding the highest standards of integrity and dedication. Our team embraces the following work ethics
             </p>
             <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
               <BsFillPlusCircleFill />
               READ MORE
             </a>
           </div>
-          <div
-            class="col-md-6 p-2"
-            style={{
-              minHeight: "520px",
-              backgroundImage: `url(${img3})`,
-              backgroundSize: "cover",
-            }}
-          ></div>
+
         </div>
-      </div>
 
-      <div className="container py-5 px-5">
-        <div className="row d-md-flex align-items-center">
-          <div
-            class="col-md-6 p-2"
-            style={{
-              minHeight: "520px",
-              backgroundImage: `url(${img4})`,
-              backgroundSize: "cover",
-            }}
-          ></div>
-          <div class="col-md-6 " style={{ paddingLeft: "140px" }}>
-            <span
-              style={{
-                marginBottom: "10px",
-                fontSize: "12px",
-                display: "inline-block",
-                color: "white",
-              }}
+        <div className="row d-md-flex align-items-center mb-5">
+
+
+          <div class="col-md-6">
+            <span className="py-3 mb-2 text-white"
             >
-              How It Happens
+              WHAT WE DO
             </span>
             <h4 class="subheading font-face-rr">
-              Excellence in Outdoor Living
+              Stunning Custom Spaces
             </h4>
             <p class="description-ethicalessence font-face-rr">
-              At PERGOLAROOMS, our principles are the foundation of our
-              business. With over a decade of expertise, we are dedicated to
-              providing exceptional custom pergolas and outdoor living
-              solutions. Our team upholds the following principles
+              At PERGOLAROOMS, we specialize in designing and building exquisite custom pergolas and outdoor living spaces that elevate your outdoor experience. With a decade of expertise, we offer a comprehensive range of services tailored to your specific needs
             </p>
             <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
               <BsFillPlusCircleFill />
               READ MORE
             </a>
           </div>
+
+
+          <div
+            class="col-md-6 py-3"
+          >
+            <img src={img3} alt="1" className="img-fluid" />
+          </div>
+
+        </div>
+
+
+        <div className="row d-md-flex align-items-center mb-5">
+
+
+
+          <div
+            class="col-md-6 py-3"
+          >
+            <img src={img4} alt="1" className="img-fluid" />
+          </div>
+
+
+          <div class="col-md-6">
+            <span className="py-3 mb-2 text-white"
+            >
+              Our Legacy
+            </span>
+            <h4 class="subheading font-face-rr">
+              Decade of Excellence
+            </h4>
+            <p class="description-ethicalessence font-face-rr">
+              For over a decade, PERGOLAROOMS has been at the forefront of delivering exceptional custom pergolas and outdoor living solutions. Our legacy is built on a foundation of expertise, innovation, and customer satisfaction. With a passion for craftsmanship.
+            </p>
+            <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
+              <BsFillPlusCircleFill />
+              READ MORE
+            </a>
+          </div>
+
         </div>
       </div>
     </div>

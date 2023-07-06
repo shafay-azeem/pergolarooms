@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import fb from "../../assets/FeaturedImages/001-facebook.png";
 import insta from "../../assets/FeaturedImages/002-instagram.png";
+import { Button } from "react-bootstrap";
 
 const FeaturedImage = () => {
   // const images = [Image1, Image2, Image3, Image4];
@@ -20,9 +21,9 @@ const FeaturedImage = () => {
     {
       id: 1,
       image: require("../../assets/FeaturedImages/1.jpg"),
-      text: "Architecture With Meaning",
+      text: "Enriches Lifestyle with pergolas",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
+        "Pergolarooms.ae excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.",
     },
     {
       id: 2,
@@ -123,21 +124,14 @@ const FeaturedImage = () => {
                       <div className="row">
                         <div className="col-lg-3"></div>
                         <div className="col-lg-6 text-center">
-                          <h1 className="text-white">{x.text}</h1>
+                          <h1 className="text-white">Enriches Lifestyle with pergolas</h1>
                           <div className="inner px-5 py-3">
-                            <p className="text-white">{x.description}</p>
+                            <p className="text-white">Pergolarooms.ae excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.</p>
                           </div>
                           <button
-                            style={{
-                              width: "50%",
-                              backgroundColor: "black",
-                              color: "white",
-                              padding: "8px 15px",
-                              borderColor: "none",
-                              borderColor: "transparent",
-                            }}
+                            className="quote-btn"
                           >
-                            ABC
+                           Get a Quote
                           </button>
                         </div>
 

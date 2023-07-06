@@ -118,7 +118,7 @@ const ServiceSlider = () => {
 
   return (
     <>
-      <div className="container-fluid p-0">
+      <div style={{ overflow: "hidden" }} className="container-fluid p-0">
         <Slider {...settings}>
           {slides.map((x, index) => {
             return (
@@ -127,19 +127,28 @@ const ServiceSlider = () => {
                   key={index}
                   style={{
                     backgroundImage: `url(${x.imgSrc})`,
+                    backgroundSize: 'cover',
+                    backgroundRepeat: 'no-repeat',
+                    height: '700px'
                   }}
-                  className="slickBanner"
+                  className="main-Banner"
                 >
-                  <div className="text-overlay">
-                    <h2>{x.heading}</h2>
-                    <p>{x.subheading}</p>
-                    <p>{x.description}</p>
-
-                    <a className="service-readmore-link font-face-rr">
-                      <BsFillPlusCircleFill />
-                      READ MORE
-                    </a>
+                  <div className="row">
+                    <div className="col-lg-6">
+                      <div className="abc py-5 px-lg-3 text-white mt-0 mb-0">
+                        <h2>{x.heading}</h2>
+                        <p>{x.subheading}</p>
+                        <p className="description">{x.description}</p>
+                        <a className="service-readmore-link font-face-rr">
+                          <BsFillPlusCircleFill />
+                          READ MORE
+                        </a>
+                      </div>
+                    </div>
+                    <div className="col-lg-6">
+                    </div>
                   </div>
+
                 </div>
               </div>
             );

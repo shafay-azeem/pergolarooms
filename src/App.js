@@ -11,7 +11,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import CarParkShade from "./Components/Service/CarParkShade";
 import AluDoorWindow from "./Components/Service/AluDoorWindow";
 import TopNav from "./Components/TopNav/TopNav";
-import { useEffect ,useRef} from "react";
+import { useEffect, useRef } from "react";
 
 function App() {
   const myElementRef = useRef(null);
@@ -19,10 +19,10 @@ function App() {
 
     if (myElementRef.current) {
       const height = myElementRef.current.offsetHeight;
-       document.getElementById("main-header").style.marginBottom="-"+height+"px";
+      document.getElementById("main-header").style.marginBottom = "-" + height + "px";
       console.log("Height:", height);
     }
-  
+
   }, [])
   return (
     <div>
