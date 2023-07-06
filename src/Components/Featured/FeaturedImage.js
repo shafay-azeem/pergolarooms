@@ -20,26 +20,30 @@ const FeaturedImage = () => {
     {
       id: 1,
       image: require("../../assets/FeaturedImages/1.jpg"),
-      text: "Pergolas Rooms",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta."
+      text: "Architecture With Meaning",
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
     },
     {
       id: 2,
       image: require("../../assets/FeaturedImages/2.jpg"),
       text: "Pergolas Rooms 2",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta."
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
     },
     {
       id: 3,
       image: require("../../assets/FeaturedImages/3.jpg"),
       text: "Pergolas Rooms 3",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta."
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
     },
     {
       id: 4,
       image: require("../../assets/FeaturedImages/4.jpg"),
       text: "Pergolas Rooms 4",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta."
+      description:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
     },
   ]);
 
@@ -110,10 +114,10 @@ const FeaturedImage = () => {
                         backgroundSize: "cover",
                         backgroundRepeat: "no-repeat",
                         backgroundPosition: "center",
-                        display: 'flex',
-                        flexDirection: 'column',
-                        alignItems: 'center',
-                        justifyContent: 'center'
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "center",
+                        justifyContent: "center",
                       }}
                     >
                       <div className="row">
@@ -123,24 +127,28 @@ const FeaturedImage = () => {
                           <div className="inner px-5 py-3">
                             <p className="text-white">{x.description}</p>
                           </div>
-                          <button style={{
-                            width: '50%',
-                            backgroundColor: 'black',
-                            color: 'white',
-                            padding: '8px 15px',
-                            borderColor: 'none',
-                            borderColor: 'transparent'
-                          }}>ABC</button>
+                          <button
+                            style={{
+                              width: "50%",
+                              backgroundColor: "black",
+                              color: "white",
+                              padding: "8px 15px",
+                              borderColor: "none",
+                              borderColor: "transparent",
+                            }}
+                          >
+                            ABC
+                          </button>
                         </div>
 
                         <div className="col-lg-3"></div>
                       </div>
 
                       {/* <img className="d-block img-fluid" src={x.image} alt="1" /> */}
-
+                      {/* 
                       <div className="Feature-Architecture">
                         <button className="">Architecture With Meaning</button>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 );

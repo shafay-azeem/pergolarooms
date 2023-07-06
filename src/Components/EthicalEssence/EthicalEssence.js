@@ -2,7 +2,11 @@ import React, { useState } from "react";
 import "../EthicalEssence/EthicalEssence.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
-
+import img1 from "../../assets/EthicalEssenceImages/Our-principle.png";
+import img2 from "../../assets/EthicalEssenceImages/work-ethics.png";
+import img3 from "../../assets/EthicalEssenceImages/what-we-do.png";
+import img4 from "../../assets/EthicalEssenceImages/our-legacy.png";
+import bg from "../../assets/EthicalEssenceImages/BACKGROUND.png";
 const EthicalEssence = () => {
   const [selected, setSelected] = useState(0);
   const toggle = (i) => {
@@ -52,42 +56,163 @@ const EthicalEssence = () => {
     },
   ];
   return (
-    <div className="container-fluid mb-5">
-      <div className="accordian">
-        {data.map((item, i) => (
-          <div className="item" key={i}>
-            <div className="title" onClick={() => toggle(i)}>
-              <div className="title-inner container px-5">
-                <h5 className="py-5 font-face-rr">{item.heading}</h5>
-                <span>{selected == i ? "-" : "+"}</span>
-              </div>
-            </div>
-            <div className={selected == i ? "content show" : "content"}>
-              <div className="container py-5 px-5">
-                <div className="row d-md-flex align-items-center">
-                  <div class="col-md-6">
-                    <h4 class="subheading py-4 font-face-rr">
-                      {item.subHeading}
-                    </h4>
-                    <p class="description-ethicalessence text-muted font-face-rr">
-                      {item.description}
-                    </p>
-                    <a
-                      className="readmore-link font-face-rr"
-                      onClick={goToAboutUs}
-                    >
-                      <BsFillPlusCircleFill />
-                      {item.btntext}
-                    </a>
-                  </div>
-                  <div class="col-md-6 p-2">
-                    <img src={item.image} class="img-fluid" alt="" />
-                  </div>
-                </div>
-              </div>
-            </div>
+    <div
+      style={{
+        // minHeight: "480px",
+        backgroundImage: `url(${bg})`,
+        backgroundSize: "cover",
+      }}
+    >
+      <div className="container py-5 px-5">
+        <div className="row d-md-flex align-items-center ">
+          <div class="col-md-6" style={{ paddingRight: "140px" }}>
+            <span
+              style={{
+                marginBottom: "10px",
+                fontSize: "12px",
+                display: "inline-block",
+                color: "white",
+              }}
+            >
+              How It Happens
+            </span>
+            <h4 class="subheading font-face-rr">
+              Excellence in Outdoor Living
+            </h4>
+            <p class="description-ethicalessence font-face-rr">
+              At PERGOLAROOMS, our principles are the foundation of our
+              business. With over a decade of expertise, we are dedicated to
+              providing exceptional custom pergolas and outdoor living
+              solutions. Our team upholds the following principles
+            </p>
+            <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
+              <BsFillPlusCircleFill />
+              READ MORE
+            </a>
           </div>
-        ))}
+          <div
+            class="col-md-6 p-2"
+            style={{
+              minHeight: "520px",
+              backgroundImage: `url(${img1})`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+        </div>
+      </div>
+
+      <div className="container py-5 px-5">
+        <div className="row d-md-flex align-items-center">
+          <div
+            class="col-md-6 p-2"
+            style={{
+              minHeight: "520px",
+              backgroundImage: `url(${img2})`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <div class="col-md-6" style={{ paddingLeft: "140px" }}>
+            <span
+              style={{
+                marginBottom: "10px",
+                fontSize: "12px",
+                display: "inline-block",
+                color: "white",
+              }}
+            >
+              How It Happens
+            </span>
+            <h4 class="subheading font-face-rr">
+              Excellence in Outdoor Living
+            </h4>
+            <p class="description-ethicalessence font-face-rr">
+              At PERGOLAROOMS, our principles are the foundation of our
+              business. With over a decade of expertise, we are dedicated to
+              providing exceptional custom pergolas and outdoor living
+              solutions. Our team upholds the following principles
+            </p>
+            <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
+              <BsFillPlusCircleFill />
+              READ MORE
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="container py-5 px-5">
+        <div className="row d-md-flex align-items-center">
+          <div class="col-md-6" style={{ paddingRight: "140px" }}>
+            <span
+              style={{
+                marginBottom: "10px",
+                fontSize: "12px",
+                display: "inline-block",
+                color: "white",
+              }}
+            >
+              How It Happens
+            </span>
+            <h4 class="subheading font-face-rr">
+              Excellence in Outdoor Living
+            </h4>
+            <p class="description-ethicalessence font-face-rr">
+              At PERGOLAROOMS, our principles are the foundation of our
+              business. With over a decade of expertise, we are dedicated to
+              providing exceptional custom pergolas and outdoor living
+              solutions. Our team upholds the following principles
+            </p>
+            <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
+              <BsFillPlusCircleFill />
+              READ MORE
+            </a>
+          </div>
+          <div
+            class="col-md-6 p-2"
+            style={{
+              minHeight: "520px",
+              backgroundImage: `url(${img3})`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+        </div>
+      </div>
+
+      <div className="container py-5 px-5">
+        <div className="row d-md-flex align-items-center">
+          <div
+            class="col-md-6 p-2"
+            style={{
+              minHeight: "520px",
+              backgroundImage: `url(${img4})`,
+              backgroundSize: "cover",
+            }}
+          ></div>
+          <div class="col-md-6 " style={{ paddingLeft: "140px" }}>
+            <span
+              style={{
+                marginBottom: "10px",
+                fontSize: "12px",
+                display: "inline-block",
+                color: "white",
+              }}
+            >
+              How It Happens
+            </span>
+            <h4 class="subheading font-face-rr">
+              Excellence in Outdoor Living
+            </h4>
+            <p class="description-ethicalessence font-face-rr">
+              At PERGOLAROOMS, our principles are the foundation of our
+              business. With over a decade of expertise, we are dedicated to
+              providing exceptional custom pergolas and outdoor living
+              solutions. Our team upholds the following principles
+            </p>
+            <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
+              <BsFillPlusCircleFill />
+              READ MORE
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );

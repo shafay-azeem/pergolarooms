@@ -4,12 +4,13 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
+import Slider from "react-slick";
 
 const ServiceSlider = () => {
   const slides = [
     {
       id: 1,
-      imgSrc: require("../../assets/ServiceImages/glassRoomImg.jpg"),
+      imgSrc: require("../../assets/ServiceImages/glass-rooms.jpg"),
       heading: "Glass Rooms",
       subheading: "Elevate Outdoor Living Experience",
       description:
@@ -20,7 +21,7 @@ const ServiceSlider = () => {
 
     {
       id: 2,
-      imgSrc: require("../../assets/ServiceImages/Untitled-2.jpg"),
+      imgSrc: require("../../assets/ServiceImages/pergolas.jpg"),
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
@@ -30,7 +31,7 @@ const ServiceSlider = () => {
     },
     {
       id: 3,
-      imgSrc: require("../../assets/ServiceImages/bbqImg.jpg"),
+      imgSrc: require("../../assets/ServiceImages/bar-&-bbq.jpg"),
       heading: "Bar & BBQ Counter",
       subheading: "Enhance Grilling Oasis Bliss",
       description:
@@ -41,7 +42,7 @@ const ServiceSlider = () => {
 
     {
       id: 4,
-      imgSrc: require("../../assets/ServiceImages/carparkingShadesImg.jpg"),
+      imgSrc: require("../../assets/ServiceImages/car-parking-pergolas.jpg"),
       heading: "Car Parking Pergolas",
       subheading: "Enhance Vehicle Protection Elegantly",
       description:
@@ -52,7 +53,7 @@ const ServiceSlider = () => {
 
     {
       id: 5,
-      imgSrc: require("../../assets/ServiceImages/AluminiumdoorsImg.jpg"),
+      imgSrc: require("../../assets/ServiceImages/doors-and-fences.jpg"),
       heading: "Doors & Fences",
       subheading: "Elevate Space with Aluminum Elegance",
       description:
@@ -63,7 +64,7 @@ const ServiceSlider = () => {
 
     {
       id: 6,
-      imgSrc: require("../../assets/ServiceImages/CncCutPanels.png"),
+      imgSrc: require("../../assets/ServiceImages/car-parking-pergolas.jpg"),
       heading: "CNC Cut Panels",
       subheading: "Enhance with CNC Cut Panels",
       description:
@@ -73,71 +74,121 @@ const ServiceSlider = () => {
     },
   ];
 
-  const [activeSlide, setActiveSlide] = useState(0);
+  // const [activeSlide, setActiveSlide] = useState(0);
 
-  const handleDotClick = (index) => {
-    setActiveSlide(index);
-  };
+  // const handleDotClick = (index) => {
+  //   setActiveSlide(index);
+  // };
 
-  const currentSlide = slides[activeSlide];
+  // const currentSlide = slides[activeSlide];
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  const goToPage = (route) => {
-    navigate(route);
+  // const goToPage = (route) => {
+  //   navigate(route);
+  // };
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    fade: true,
+    slidesToScroll: 1,
+    cssEase: "linear",
+    centerPadding: "0px",
+    pauseOnHover: false,
+    arrows: true,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: true,
+          slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: true,
+          slidesToShow: 1,
+        },
+      },
+    ],
   };
 
   return (
-    <div className="Service container-fluid">
-      <div className="row">
-        <div
-          // style={{
-          //   backgroundImage: `url(${currentSlide.imgSrc})`,
-          //   backgroundPosition: 'center',
-          //   backgroundSize: 'cover',
-          //   minHeight: '500px'
-          // }}
-          className="col-md-6 px-0"
-        >
-          <img
-            src={currentSlide.imgSrc}
-            className="img-fluid"
-            alt="Service Image"
-          />
-        </div>
-        <div
-          className="col-md-6 px-0"
-          style={{ backgroundColor: currentSlide.bgcolor }}
-        >
-          <div className="service-content">
-            <h5 className="font-face-rb">{currentSlide.heading}</h5>
-            <p className="content-subheading font-face-rr">
-              {currentSlide.subheading}
-            </p>
-            <p className="content-description font-face-rr">
-              {currentSlide.description}
-            </p>
-            <a
-              className="service-readmore-link font-face-rr"
-              // href={currentSlide.route}
-              onClick={() => goToPage(currentSlide.route)}
-            >
-              <BsFillPlusCircleFill />
-              READ MORE
-            </a>
-          </div>
-        </div>
+    <>
+      <div className="container-fluid p-0">
+        <Slider {...settings}>
+          {slides.map((x, index) => {
+            return (
+              <div>
+                <div
+                  key={index}
+                  style={{
+                    backgroundImage: `url(${x.imgSrc})`,
+                  }}
+                  className="slickBanner"
+                >
+                  <div className="text-overlay">
+                    <h2>{x.heading}</h2>
+                    <p>{x.subheading}</p>
+                    <p>{x.description}</p>
+
+                    <a className="service-readmore-link font-face-rr">
+                      <BsFillPlusCircleFill />
+                      READ MORE
+                    </a>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </Slider>
       </div>
-      <div className="slider-dots">
-        {slides.map((slide, index) => (
-          <span
-            key={index}
-            className={`dot ${activeSlide === index ? "active" : ""}`}
-            onClick={() => handleDotClick(index)}
-          ></span>
-        ))}
-      </div>
-    </div>
+    </>
+
+    // <div className="Service container-fluid">
+    //   <div className="row">
+    //     <div className="col-md-6 px-0">
+    //       <img
+    //         src={currentSlide.imgSrc}
+    //         className="img-fluid"
+    //         alt="Service Image"
+    //       />
+    //     </div>
+    //     <div
+    //       className="col-md-6 px-0"
+    //       style={{ backgroundColor: currentSlide.bgcolor }}
+    //     >
+    //       <div className="service-content">
+    //         <h5 className="font-face-rb">{currentSlide.heading}</h5>
+    //         <p className="content-subheading font-face-rr">
+    //           {currentSlide.subheading}
+    //         </p>
+    //         <p className="content-description font-face-rr">
+    //           {currentSlide.description}
+    //         </p>
+    //         <a
+    //           className="service-readmore-link font-face-rr"
+    //           onClick={() => goToPage(currentSlide.route)}
+    //         >
+    //           <BsFillPlusCircleFill />
+    //           READ MORE
+    //         </a>
+    //       </div>
+    //     </div>
+    //   </div>
+    //   <div className="slider-dots">
+    //     {slides.map((slide, index) => (
+    //       <span
+    //         key={index}
+    //         className={`dot ${activeSlide === index ? "active" : ""}`}
+    //         onClick={() => handleDotClick(index)}
+    //       ></span>
+    //     ))}
+    //   </div>
+    // </div>
   );
 };
 

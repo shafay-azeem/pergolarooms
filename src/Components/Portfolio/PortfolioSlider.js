@@ -11,38 +11,38 @@ const PortfolioSlider = () => {
     },
     {
       id: 2,
-      image: require("../../assets/PortfolioImages/portfolio (5).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 3,
-      image: require("../../assets/PortfolioImages/portfolio (2).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 4,
-      image: require("../../assets/PortfolioImages/portfolio (6).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 5,
-      image: require("../../assets/PortfolioImages/portfolio (3).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 6,
-      image: require("../../assets/PortfolioImages/portfolio (7).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 7,
-      image: require("../../assets/PortfolioImages/portfolio (4).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
     {
       id: 8,
-      image: require("../../assets/PortfolioImages/portfolio (8).jpg"),
+      image: require("../../assets/PortfolioImages/portfolio (1).jpg"),
     },
   ]);
 
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
     cssEase: "linear",
     centerMode: true,
@@ -70,22 +70,17 @@ const PortfolioSlider = () => {
     <>
       <div className="Portfolio-Slider py-5">
         <div className="row">
-          <Slider {...settings}>
-            {PortfolioImages.map((x, index) => {
-              return (
-                <div
-                  key={index}
-                  className={`col-lg-4 col-md-4 col-sm-4 ${
-                    index % 2 === 0 ? "py-5" : ""
-                  } `}
-                >
-                  <div className="Portfolio-inner justify-content-center align-items-center d-flex px-3">
-                    <img className="d-block img-fluid" src={x.image} alt="1" />
-                  </div>
+          {/* <Slider {...settings}> */}
+          {PortfolioImages.map((x, index) => {
+            return (
+              <div key={index} className="col-lg-3 mb-4">
+                <div className="Portfolio-inner justify-content-center align-items-center d-flex px-3">
+                  <img className="d-block img-fluid" src={x.image} alt="1" />
                 </div>
-              );
-            })}
-          </Slider>
+              </div>
+            );
+          })}
+          {/* </Slider> */}
         </div>
       </div>
     </>

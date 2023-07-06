@@ -8,6 +8,7 @@ import EthicalEssence from "../src/Components/EthicalEssence/EthicalEssence";
 import ClientTestimony from "../src/Components/ClientTestimony/ClientTestimony";
 import ContactForm from "../src/Components/Contact/ContactForm";
 import Footer from "../src/Components/Footer/Footer";
+import ProjectCounter from "./Components/ProjectCounter/ProjectCounter";
 
 const HomePage = () => {
   return (
@@ -15,17 +16,22 @@ const HomePage = () => {
       <div id="">
         <FeaturedImage />
       </div>
-      <div id="">
-        <WorkFlow />
-      </div>
+
       <div id="">
         <Portfolio />
       </div>
+
       <div id="">
         <ServiceSlider />
       </div>
       <div id="">
+        <ProjectCounter />
+      </div>
+      <div id="">
         <EthicalEssence />
+      </div>
+      <div id="">
+        <WorkFlow />
       </div>
       <div id="">
         <ClientTestimony />

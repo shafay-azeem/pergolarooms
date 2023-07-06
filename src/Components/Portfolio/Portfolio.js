@@ -12,7 +12,7 @@ const Portfolio = () => {
   };
   return (
     <div className="portfolio container-fluid">
-      <div className="container">
+      {/* <div className="container">
         <div className="row py-5 d-md-flex">
           <div className="col-md-6">
             <h4 className="portfolio-heading text-start font-face-rb">
@@ -23,7 +23,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="col-md-6">
-            {/* <h3 className="text-white font-face-rr">Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola:</h3> */}
+
             <p className="portfolio-description font-face-rr">
               Create the ultimate culinary haven in your backyard with our
               custom-designed BBQ area pergolas. Crafted with precision and
@@ -40,7 +40,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <PortfolioSlider />
     </div>
