@@ -28,28 +28,36 @@ const BbqArea = () => {
   const imageData = [
     {
       src: require("../../assets/BBQAreaImages/1.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
     {
       src: require("../../assets/BBQAreaImages/5.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
     {
       src: require("../../assets/BBQAreaImages/2.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
 
     {
       src: require("../../assets/BBQAreaImages/6.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
     {
       src: require("../../assets/BBQAreaImages/7.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
     {
       src: require("../../assets/BBQAreaImages/3.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
     {
       src: require("../../assets/BBQAreaImages/8.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
     {
       src: require("../../assets/BBQAreaImages/4.jpg"),
+      text: "BAR & BBQ COUNTER",
     },
   ];
   return (

@@ -1,12 +1,29 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Service/ServiceSlider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ServiceSlider = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
+
+  let buttonText;
+  useEffect(() => {
+    document.addEventListener("click", function (event) {
+      const clickedElement = event.target;
+      const parentLi = clickedElement.closest(".slick-dots li");
+      if (parentLi) {
+        buttonText = parentLi.querySelector("button").textContent;
+        console.log(buttonText);
+      }
+    });
+  });
   const slides = [
     {
       id: 1,
@@ -75,9 +92,29 @@ const ServiceSlider = () => {
 
   const navigate = useNavigate();
 
-  const goToPage = (route) => {
-    console.log(route);
-    navigate(route);
+  const goToPage = () => {
+    // console.log()
+    if (typeof buttonText === "undefined") {
+      navigate("/glass-rooms");
+    }
+    if (buttonText == 1) {
+      navigate("/glass-rooms");
+    }
+    if (buttonText == 2) {
+      navigate("/pergolas");
+    }
+    if (buttonText == 3) {
+      navigate("/bbq-area");
+    }
+    if (buttonText == 4) {
+      navigate("/car-parking-shades");
+    }
+    if (buttonText == 5) {
+      navigate("/aluminium-doors");
+    }
+    if (buttonText == 6) {
+      navigate("/cnc-panel-cutter");
+    }
   };
 
   const settings = {
@@ -135,12 +172,24 @@ const ServiceSlider = () => {
                       <div className="py-5"></div>
 
                       <div className="px-lg-3 text-white">
-                        <h2>{x.heading}</h2>
-                        <p>{x.subheading}</p>
-                        <p className="description">{x.description}</p>
+                        <h2 data-aos="fade-right" data-aos-duration="500">
+                          {x.heading}
+                        </h2>
+                        <p data-aos="fade-right" data-aos-duration="500">
+                          {x.subheading}
+                        </p>
+                        <p
+                          className="description"
+                          data-aos="fade-right"
+                          data-aos-duration="500"
+                        >
+                          {x.description}
+                        </p>
                         <a
                           className="service-readmore-link font-face-rr"
                           onClick={() => goToPage(x.route)}
+                          data-aos="fade-right"
+                          data-aos-duration="500"
                         >
                           <BsFillPlusCircleFill />
                           READ MORE

@@ -76,8 +76,8 @@ const ServiceGallery = (props) => {
                 // onClick={() => viewImage(image.src, i)}
               />
               <div class="box-content">
-                <h3 class="name">Demo Text</h3>
-                <span class="post">Demo Text</span>
+                <h3 class="name">{image.text}</h3>
+                <span class="post">{image.text}</span>
               </div>
             </div>
           ))}

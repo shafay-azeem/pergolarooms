@@ -25,28 +25,36 @@ const CarParkShade = () => {
   const imageData = [
     {
       src: require("../../assets/CarParkingShades/1.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
     {
       src: require("../../assets/CarParkingShades/5.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
     {
       src: require("../../assets/CarParkingShades/2.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
 
     {
       src: require("../../assets/CarParkingShades/6.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
     {
       src: require("../../assets/CarParkingShades/7.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
     {
       src: require("../../assets/CarParkingShades/3.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
     {
       src: require("../../assets/CarParkingShades/8.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
     {
       src: require("../../assets/CarParkingShades/4.jpg"),
+      text: "CAR PARKING PERGOLAS",
     },
   ];
   return (

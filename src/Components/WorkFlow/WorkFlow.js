@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../WorkFlow/WorkFlow.css";
 import image1 from "../../assets/WorkFlowImages/excellent-black.png";
 import image1white from "../../assets/WorkFlowImages/excellent-white.png";
@@ -8,13 +8,22 @@ import image2white from "../../assets/WorkFlowImages/high-quality-white.png";
 
 import image3 from "../../assets/WorkFlowImages/3-black.png";
 import image3white from "../../assets/WorkFlowImages/3-white.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const WorkFlow = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <>
       <div class="container profile-page py-5">
         <div class="row">
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
             <div class="card-one profile-header mb-3">
               <div class="py-4">
                 <div class="row">
@@ -32,7 +41,11 @@ const WorkFlow = () => {
             </div>
           </div>
 
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
             <div class="card-two profile-header mb-3">
               <div class="py-4">
                 <div class="row">
@@ -50,7 +63,11 @@ const WorkFlow = () => {
             </div>
           </div>
 
-          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+          <div
+            class="col-xl-4 col-lg-4 col-md-12 col-sm-12"
+            data-aos="flip-left"
+            data-aos-duration="1000"
+          >
             <div class="card-three profile-header mb-3">
               <div class="py-4">
                 <div class="row">

@@ -25,28 +25,36 @@ const CNCPanelCutter = () => {
   const imageData = [
     {
       src: require("../../assets/CncCutPanelImages/8.jpg"),
+      text: "CNC CUT PANELS",
     },
     {
       src: require("../../assets/CncCutPanelImages/1.jpg"),
+      text: "CNC CUT PANELS",
     },
     {
       src: require("../../assets/CncCutPanelImages/7.jpg"),
+      text: "CNC CUT PANELS",
     },
 
     {
       src: require("../../assets/CncCutPanelImages/2.jpg"),
+      text: "CNC CUT PANELS",
     },
     {
       src: require("../../assets/CncCutPanelImages/3.jpg"),
+      text: "CNC CUT PANELS",
     },
     {
       src: require("../../assets/CncCutPanelImages/6.jpg"),
+      text: "CNC CUT PANELS",
     },
     {
       src: require("../../assets/CncCutPanelImages/4.jpg"),
+      text: "CNC CUT PANELS",
     },
     {
       src: require("../../assets/CncCutPanelImages/5.jpg"),
+      text: "CNC CUT PANELS",
     },
   ];
   return (

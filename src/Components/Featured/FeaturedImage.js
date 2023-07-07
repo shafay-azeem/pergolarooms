@@ -14,8 +14,13 @@ import "slick-carousel/slick/slick-theme.css";
 import fb from "../../assets/FeaturedImages/001-facebook.png";
 import insta from "../../assets/FeaturedImages/002-instagram.png";
 import { Button } from "react-bootstrap";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const FeaturedImage = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   // const images = [Image1, Image2, Image3, Image4];
   const [images, setImages] = useState([
     {
@@ -124,19 +129,32 @@ const FeaturedImage = () => {
                       <div className="row">
                         <div className="col-lg-3"></div>
                         <div className="col-lg-6 text-center">
-                          <h1 className="text-white font-face-re">
+                          <h1
+                            className="text-white font-face-re"
+                            data-aos="zoom-in"
+                            data-aos-duration="1000"
+                          >
                             Enriches Lifestyle with pergolas
                           </h1>
                           <div className="inner px-5 py-3">
-                            <p className="text-white font-face-rr">
+                            <p
+                              className="text-white font-face-rr"
+                              data-aos="zoom-in"
+                              data-aos-duration="1000"
+                            >
                               Pergola Rooms Contracting LLC excels in crafting
                               optimized outdoor spaces for the GCC's climate,
                               maximizing usage and aesthetics.
                             </p>
                           </div>
-                          <button className="quote-btn">
+                          <button
+                            className="quote-btn"
+                            data-aos="zoom-in"
+                            data-aos-duration="1000"
+                          >
                             <a
-                              href="#contact-us font-face-rr"
+                              href="#contact-us "
+                              className="font-face-rr"
                               style={{ textDecoration: "none", color: "white" }}
                             >
                               Get a Quote

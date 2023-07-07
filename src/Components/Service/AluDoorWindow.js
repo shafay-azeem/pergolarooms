@@ -25,28 +25,36 @@ const AluDoorWindow = () => {
   const imageData = [
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/1.jpg"),
+      text: "DOORS & FENCES",
     },
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/5.jpg"),
+      text: "DOORS & FENCES",
     },
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/3.jpg"),
+      text: "DOORS & FENCES",
     },
 
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/6.jpg"),
+      text: "DOORS & FENCES",
     },
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/7.jpg"),
+      text: "DOORS & FENCES",
     },
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/4.jpg"),
+      text: "DOORS & FENCES",
     },
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/8.jpg"),
+      text: "DOORS & FENCES",
     },
     {
       src: require("../../assets/AliminiumDoorsAndWindowsImages/2.jpg"),
+      text: "DOORS & FENCES",
     },
   ];
   return (

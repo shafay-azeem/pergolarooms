@@ -1,12 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../ProjectCounter/ProjectCounter.css";
 import CountUp from "react-countup";
 import projectCompleted from "../../assets/ProjectCounterImages/project-completed.png";
 import satisfiedClients from "../../assets/ProjectCounterImages/satisfied-clients.png";
 import teamMembers from "../../assets/ProjectCounterImages/team-members.png";
 import totalBranches from "../../assets/ProjectCounterImages/total-branches.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ProjectCounter = () => {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  });
   return (
     <div class="container p-5">
       <div class="row text-center">

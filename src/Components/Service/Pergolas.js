@@ -26,28 +26,36 @@ const Pergolas = () => {
   const imageData = [
     {
       src: require("../../assets/pergolas/1.jpg"),
+      text: "Pergolas",
     },
     {
       src: require("../../assets/pergolas/5.jpg"),
+      text: "Pergolas",
     },
     {
       src: require("../../assets/pergolas/2.jpg"),
+      text: "Pergolas",
     },
 
     {
       src: require("../../assets/pergolas/6.jpg"),
+      text: "Pergolas",
     },
     {
       src: require("../../assets/pergolas/7.jpg"),
+      text: "Pergolas",
     },
     {
       src: require("../../assets/pergolas/3.jpg"),
+      text: "Pergolas",
     },
     {
       src: require("../../assets/pergolas/8.jpg"),
+      text: "Pergolas",
     },
     {
       src: require("../../assets/pergolas/4.jpg"),
+      text: "Pergolas",
     },
   ];
   return (

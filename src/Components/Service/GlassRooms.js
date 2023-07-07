@@ -27,28 +27,36 @@ const GlassRooms = () => {
   const imageData = [
     {
       src: require("../../assets/GlassRoomsImages/1.jpg"),
+      text: "Glass Rooms",
     },
     {
       src: require("../../assets/GlassRoomsImages/5.jpg"),
+      text: "Glass Rooms",
     },
     {
       src: require("../../assets/GlassRoomsImages/2.jpg"),
+      text: "Glass Rooms",
     },
 
     {
       src: require("../../assets/GlassRoomsImages/6.jpg"),
+      text: "Glass Rooms",
     },
     {
       src: require("../../assets/GlassRoomsImages/7.jpg"),
+      text: "Glass Rooms",
     },
     {
       src: require("../../assets/GlassRoomsImages/3.jpg"),
+      text: "Glass Rooms",
     },
     {
       src: require("../../assets/GlassRoomsImages/8.jpg"),
+      text: "Glass Rooms",
     },
     {
       src: require("../../assets/GlassRoomsImages/4.jpg"),
+      text: "Glass Rooms",
     },
   ];
   return (
