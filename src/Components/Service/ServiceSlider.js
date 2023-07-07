@@ -15,7 +15,7 @@ const ServiceSlider = () => {
       subheading: "Elevate Outdoor Living Experience",
       description:
         "Experience the beauty of nature while staying comfortable and protected with our exquisite glass rooms. Designed to seamlessly blend the outdoors with your living space, our customized glass rooms provide a panoramic view of your surroundings.",
-      bgcolor: "#6c3433",
+      bgcolor: "#7a5959",
       route: "/glass-rooms",
     },
 
@@ -26,7 +26,7 @@ const ServiceSlider = () => {
       subheading: "Transform with custom pergolas.",
       description:
         "Elevate your outdoor space with our exquisite custom pergolas. At PERGOLAROOMS, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
-      bgcolor: "#37280e",
+      bgcolor: "#45636f",
       route: "/pergolas",
     },
     {
@@ -36,7 +36,7 @@ const ServiceSlider = () => {
       subheading: "Enhance Grilling Oasis Bliss",
       description:
         "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
-      bgcolor: "#77736f",
+      bgcolor: "#786050",
       route: "/bbq-area",
     },
 
@@ -47,46 +47,38 @@ const ServiceSlider = () => {
       subheading: "Enhance Vehicle Protection Elegantly",
       description:
         "Shield your vehicles from the elements while adding a touch of elegance to your outdoor space with our bespoke car parking shades. Our expertly designed and crafted shades offer superior protection against sun, rain, and hail.",
-      bgcolor: "#591e0a",
+      bgcolor: "#725349",
       route: "/car-parking-shades",
     },
 
     {
       id: 5,
-      imgSrc: require("../../assets/ServiceImages/doors-and-fences.jpg"),
+      imgSrc: require("../../assets/ServiceImages/door-&-fences.jpg"),
       heading: "Doors & Fences",
       subheading: "Elevate Space with Aluminum Elegance",
       description:
         "Experience the perfect combination of style, functionality, and longevity with our premium aluminum doors and windows. Crafted with precision and attention to detail, our customized solutions offer unmatched durability and aesthetic appeal.",
-      bgcolor: "#570b34",
+      bgcolor: "#394249",
       route: "/aluminium-doors",
     },
-
     {
       id: 6,
-      imgSrc: require("../../assets/ServiceImages/car-parking-pergolas.jpg"),
+      imgSrc: require("../../assets/ServiceImages/cnc-cut-panels.jpg"),
       heading: "CNC Cut Panels",
       subheading: "Enhance with CNC Cut Panels",
       description:
         "Introducing our precision-engineered CNC cut panels, the perfect addition to your custom pergola design. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
-      bgcolor: "#babc72",
+      bgcolor: "#5c5c5c",
       route: "/cnc-panel-cutter",
     },
   ];
 
-  // const [activeSlide, setActiveSlide] = useState(0);
+  const navigate = useNavigate();
 
-  // const handleDotClick = (index) => {
-  //   setActiveSlide(index);
-  // };
-
-  // const currentSlide = slides[activeSlide];
-
-  // const navigate = useNavigate();
-
-  // const goToPage = (route) => {
-  //   navigate(route);
-  // };
+  const goToPage = (route) => {
+    console.log(route);
+    navigate(route);
+  };
 
   const settings = {
     dots: true,
@@ -118,7 +110,10 @@ const ServiceSlider = () => {
 
   return (
     <>
-      <div style={{ overflow: "hidden" }}  className="Top-Main container-fluid p-0">
+      <div
+        style={{ overflow: "hidden" }}
+        className="Top-Main container-fluid p-0"
+      >
         <Slider {...settings}>
           {slides.map((x, index) => {
             return (
@@ -127,30 +122,35 @@ const ServiceSlider = () => {
                   key={index}
                   style={{
                     backgroundImage: `url(${x.imgSrc})`,
-                    backgroundSize: '80%',
-                    backgroundRepeat: 'no-repeat',
-                    height: '700px',
-                    backgroundPosition:'top right'
-                    
+                    backgroundSize: "80%",
+                    backgroundRepeat: "no-repeat",
+                    height: "450px",
+                    backgroundPosition: "top right",
+                    backgroundColor: x.bgcolor,
                   }}
                   className="main-Banner"
                 >
                   <div className="row">
-                    <div className="col-lg-6">
-                      <div className="abc py-5 px-lg-3 text-white mt-0 mb-0">
+                    <div className="col-lg-6 textCol">
+                      <div className="py-5"></div>
+
+                      <div className="px-lg-3 text-white">
                         <h2>{x.heading}</h2>
                         <p>{x.subheading}</p>
                         <p className="description">{x.description}</p>
-                        <a className="service-readmore-link font-face-rr">
+                        <a
+                          className="service-readmore-link font-face-rr"
+                          onClick={() => goToPage(x.route)}
+                        >
                           <BsFillPlusCircleFill />
                           READ MORE
                         </a>
                       </div>
+                      <div className="py-3"></div>
                     </div>
-                    <div className="col-lg-6">
-                    </div>
-                  </div>
 
+                    <div className="col-lg-6"></div>
+                  </div>
                 </div>
               </div>
             );
@@ -158,48 +158,6 @@ const ServiceSlider = () => {
         </Slider>
       </div>
     </>
-
-    // <div className="Service container-fluid">
-    //   <div className="row">
-    //     <div className="col-md-6 px-0">
-    //       <img
-    //         src={currentSlide.imgSrc}
-    //         className="img-fluid"
-    //         alt="Service Image"
-    //       />
-    //     </div>
-    //     <div
-    //       className="col-md-6 px-0"
-    //       style={{ backgroundColor: currentSlide.bgcolor }}
-    //     >
-    //       <div className="service-content">
-    //         <h5 className="font-face-rb">{currentSlide.heading}</h5>
-    //         <p className="content-subheading font-face-rr">
-    //           {currentSlide.subheading}
-    //         </p>
-    //         <p className="content-description font-face-rr">
-    //           {currentSlide.description}
-    //         </p>
-    //         <a
-    //           className="service-readmore-link font-face-rr"
-    //           onClick={() => goToPage(currentSlide.route)}
-    //         >
-    //           <BsFillPlusCircleFill />
-    //           READ MORE
-    //         </a>
-    //       </div>
-    //     </div>
-    //   </div>
-    //   <div className="slider-dots">
-    //     {slides.map((slide, index) => (
-    //       <span
-    //         key={index}
-    //         className={`dot ${activeSlide === index ? "active" : ""}`}
-    //         onClick={() => handleDotClick(index)}
-    //       ></span>
-    //     ))}
-    //   </div>
-    // </div>
   );
 };
 

@@ -92,7 +92,7 @@
 }
 
 .slick-dots li.slick-active button:before {
-  opacity: .75;
+  opacity: 0.75;
   color: white;
 }
 
@@ -133,4 +133,13 @@
 
 .description {
   width: 90%;
+}
+
+.textCol {
+  padding-left: 80px;
+}
+@media (max-width: 280px) {
+  .textCol {
+    padding-left: 20px;
+  }
 }
