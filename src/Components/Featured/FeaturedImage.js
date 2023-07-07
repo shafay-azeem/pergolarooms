@@ -124,11 +124,11 @@ const FeaturedImage = () => {
                       <div className="row">
                         <div className="col-lg-3"></div>
                         <div className="col-lg-6 text-center">
-                          <h1 className="text-white">
+                          <h1 className="text-white font-face-re">
                             Enriches Lifestyle with pergolas
                           </h1>
                           <div className="inner px-5 py-3">
-                            <p className="text-white">
+                            <p className="text-white font-face-rr">
                               Pergola Rooms Contracting LLC excels in crafting
                               optimized outdoor spaces for the GCC's climate,
                               maximizing usage and aesthetics.
@@ -136,7 +136,7 @@ const FeaturedImage = () => {
                           </div>
                           <button className="quote-btn">
                             <a
-                              href="#contact-us"
+                              href="#contact-us font-face-rr"
                               style={{ textDecoration: "none", color: "white" }}
                             >
                               Get a Quote

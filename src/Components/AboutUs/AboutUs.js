@@ -160,15 +160,15 @@ const AboutUs = () => {
       </div> */}
       <div className="First container-fluid text-black">
         <div className="container py-5">
-          <h1>PERGOLA ROOMS CONTRACTING LLC</h1>
-          <p>Established over a decade ago, Pergola Rooms Contracting LLC has garnered a strong reputation as a premier provider of exceptional outdoor living solutions. Specializing in Pergolas, Pergola Rooms, Glass Rooms, BBQ Areas, Bar Counters, and Aluminium Doors and Fences, we offer a comprehensive range of services to transform your outdoor space into a haven of comfort and style.</p>
-          <p>
-          Our team of seasoned professionals combines technical expertise with a deep understanding of design aesthetics, ensuring that every project we undertake is executed with precision and attention to detail. From concept to completion, we work closely with our clients, taking their vision and transforming it into reality.
+          <h1 className="font-face-re">PERGOLA ROOMS CONTRACTING LLC</h1>
+          <p className="font-face-rr">Established over a decade ago, Pergola Rooms Contracting LLC has garnered a strong reputation as a premier provider of exceptional outdoor living solutions. Specializing in Pergolas, Pergola Rooms, Glass Rooms, BBQ Areas, Bar Counters, and Aluminium Doors and Fences, we offer a comprehensive range of services to transform your outdoor space into a haven of comfort and style.</p>
+          <p className="font-face-rr">
+            Our team of seasoned professionals combines technical expertise with a deep understanding of design aesthetics, ensuring that every project we undertake is executed with precision and attention to detail. From concept to completion, we work closely with our clients, taking their vision and transforming it into reality.
           </p>
-          <p>
-          At Pergola Rooms Contracting LLC, we pride ourselves on delivering innovative designs, superior craftsmanship, and unparalleled customer service. Whether you desire a cozy Pergola Room, a stunning Glass Room, or a functional BBQ area, we are committed to exceeding your expectations and creating outdoor spaces that enhance your lifestyle.
+          <p className="font-face-rr">
+            At Pergola Rooms Contracting LLC, we pride ourselves on delivering innovative designs, superior craftsmanship, and unparalleled customer service. Whether you desire a cozy Pergola Room, a stunning Glass Room, or a functional BBQ area, we are committed to exceeding your expectations and creating outdoor spaces that enhance your lifestyle.
           </p>
-          <p>BBQ AREA | GLASS ROOM | PERGOLAS | VILLA EXTENSION /PATIO</p>
+          <p className="font-face-rr">BBQ AREA | GLASS ROOM | PERGOLAS | VILLA EXTENSION /PATIO</p>
         </div>
 
 
@@ -183,7 +183,7 @@ const AboutUs = () => {
       <div className="container py-5">
         <div className="row" style={{ position: 'relative', alignItems: 'end', marginBottom: '80px' }}>
           <div style={{
-            backgroundImage: `url('${img4}')`            ,
+            backgroundImage: `url('${img4}')`,
             minHeight: '600px',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
@@ -194,9 +194,8 @@ const AboutUs = () => {
           <div className="col-lg-6">
             <div className="spacer text-black">
               <div className="inner p-lg-5">
-                <h3>OUR PRINCIPLES</h3>
-                <p>We embrace customization, tailoring pergolas to reflect your unique style and complement your home perfectly. Above all, customer satisfaction is our priority, providing personalized service and exceeding expectations. With these principles, we have established ourselves as a trusted name in the industry. Experience the Pergolarooms.ae difference and let us transform your outdoor space into a haven of beauty and relaxation.</p>
-                
+                <h3 className="py-2 font-face-re">OUR PRINCIPLES</h3>
+                <p className="font-face-rr">We embrace customization, tailoring pergolas to reflect your unique style and complement your home perfectly. Above all, customer satisfaction is our priority, providing personalized service and exceeding expectations. With these principles, we have established ourselves as a trusted name in the industry.</p>
               </div>
 
             </div>
@@ -204,20 +203,19 @@ const AboutUs = () => {
         </div>
 
         <div className="row" style={{ position: 'relative', alignItems: 'end', marginBottom: '80px' }}>
-         
+
           <div className="col-lg-6 spacerCol" >
             <div className="spacer-right text-black">
               <div className="inner-right p-lg-5">
-                <h3>WORK ETHICS</h3>
-              
-                <p>We believe in transparent communication, timely delivery, and exceptional craftsmanship. By embodying these work ethics, we have earned the trust and loyalty of our valued clients. Experience the Pergolarooms.ae difference today and witness our unwavering commitment to excellence in all that we do.</p>
+                <h3 className="py-2 font-face-re">WORK ETHICS</h3>
+                <p className="font-face-rr">We believe in transparent communication, timely delivery, and exceptional craftsmanship. By embodying these work ethics, we have earned the trust and loyalty of our valued clients. Experience the Pergolarooms.ae difference today and witness our unwavering commitment to excellence in all that we do.</p>
               </div>
 
             </div>
           </div>
 
           <div style={{
-             backgroundImage: `url('${img3}')`  ,
+            backgroundImage: `url('${img3}')`,
             minHeight: '600px',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
@@ -229,7 +227,7 @@ const AboutUs = () => {
 
         <div className="row" style={{ position: 'relative', alignItems: 'end', marginBottom: '80px' }}>
           <div style={{
-             backgroundImage: `url('${img2}')`  ,
+            backgroundImage: `url('${img2}')`,
             minHeight: '600px',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
@@ -240,9 +238,9 @@ const AboutUs = () => {
           <div className="col-lg-6">
             <div className="spacer text-black">
               <div className="inner p-lg-5">
-                <h3>WHAT WE DO</h3>
-              
-                <p>We offer premium-quality aluminium doors and fences for enhanced security and durability. With our technical expertise and attention to detail, we bring your outdoor visions to life, creating exceptional spaces that stand the test of time. Trust Pergolarooms.ae for all your outdoor living needs.</p>
+                <h3 className="py-2 font-face-re">WHAT WE DO</h3>
+
+                <p className="font-face-rr">We offer premium-quality aluminium doors and fences for enhanced security and durability. With our technical expertise and attention to detail, we bring your outdoor visions to life, creating exceptional spaces that stand the test of time. Trust Pergolarooms.ae for all your outdoor living needs.</p>
               </div>
 
             </div>
@@ -250,28 +248,28 @@ const AboutUs = () => {
         </div>
 
         <div className="row" style={{ position: 'relative', alignItems: 'end', marginBottom: '80px' }}>
-         
-         <div className="col-lg-6 spacerCol" >
-           <div className="spacer-right text-black">
-             <div className="inner-right p-lg-5">
-               <h3>OUR LEGACY</h3>
-          
-               <p>Our functional BBQ areas, stylish bar counters, and durable aluminium doors and fences are specifically engineered to endure Dubai's weather conditions. Trust our legacy of innovative craftsmanship to elevate your outdoor living experience in Dubai. Experience the difference at Pergolarooms.ae today.</p>
-             </div>
 
-           </div>
-         </div>
+          <div className="col-lg-6 spacerCol" >
+            <div className="spacer-right text-black">
+              <div className="inner-right p-lg-5">
+                <h3 className="py-2 font-face-re">OUR LEGACY</h3>
 
-         <div style={{
-            backgroundImage: `url('${img1}')`  ,
-           minHeight: '600px',
-           backgroundRepeat: 'no-repeat',
-           backgroundSize: 'cover',
-           backgroundPosition: 'center'
-         }} className="col-lg-6 shadow">
+                <p className="font-face-rr">Our functional BBQ areas, stylish bar counters, and durable aluminium doors and fences are specifically engineered to endure Dubai's weather conditions. Trust our legacy of innovative craftsmanship to elevate your outdoor living experience in Dubai. Experience the difference at Pergolarooms.ae today.</p>
+              </div>
 
-         </div>
-       </div>
+            </div>
+          </div>
+
+          <div style={{
+            backgroundImage: `url('${img1}')`,
+            minHeight: '600px',
+            backgroundRepeat: 'no-repeat',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }} className="col-lg-6 shadow">
+
+          </div>
+        </div>
 
 
       </div>
