@@ -126,12 +126,12 @@ const FeaturedImage = () => {
                         <div className="col-lg-6 text-center">
                           <h1 className="text-white">Enriches Lifestyle with pergolas</h1>
                           <div className="inner px-5 py-3">
-                            <p className="text-white">Pergolarooms.ae excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.</p>
+                            <p className="text-white">Pergola Rooms Contracting LLC excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.</p>
                           </div>
                           <button
                             className="quote-btn"
                           >
-                           Get a Quote
+                            Get a Quote
                           </button>
                         </div>
 

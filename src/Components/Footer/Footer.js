@@ -33,11 +33,11 @@ const Footer = () => {
               <img src={FooterLogo} className="img-fluid" alt="footerMain" />
 
               <p className="py-4 font-face-rr">
-                PERGOLAROOMS, Your Trusted Experts in Custom Pergolas and
+              Pergola Rooms Contracting LLC, Your Trusted Experts in Custom Pergolas and
                 Outdoor Living. With a decade of experience, we bring
                 innovation, craftsmanship, and exceptional design to transform
                 your outdoor space into a haven of beauty and functionality.
-                Discover the PERGOLAROOMS difference today.
+                Discover the Pergolarooms.ae, difference today.
               </p>
             </div>
           </div>

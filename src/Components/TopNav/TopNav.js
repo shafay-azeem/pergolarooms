@@ -11,10 +11,10 @@ const TopNav = () => {
                         <div class="ltn__top-bar-menu">
                             <ul>
                                 <li>
-                                    <a href="mailto:info@webmail.com?Subject=Flower%20greetings%20to%20you"><i class="icon-mail"></i> info@webmail.com</a>
+                                    <a ><i class="icon-mail"></i> info@pergolarooms.ae</a>
                                 </li>
                                 <li>
-                                    <a href="locations.html"><i class="icon-placeholder"></i> 15/A, Nest Tower, NYC</a>
+                                    <a><i class="icon-placeholder"></i> +971585799666</a>
                                 </li>
                             </ul>
                         </div>

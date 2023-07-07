@@ -66,6 +66,36 @@
   background-color: #fff;
 }
 
+.Top-Main .slick-arrow {
+  display: none !important;
+}
+
+.Top-Main .slick-dots {
+  display: block;
+  background-color: transparent !important;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+.Top-Main .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 8px !important;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent !important;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   .Service .slider-dots {
     top: 70% !important;
@@ -88,7 +118,6 @@
 .main-Banner {
   height: 600px;
   background-size: cover;
-  overflow-x: hidden !important;
 }
 
 .text-overlay {
@@ -102,6 +131,6 @@
   /* Add more styles as needed */
 }
 
-.description{
+.description {
   width: 90%;
 }

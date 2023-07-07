@@ -38,7 +38,13 @@
   font-size: 14px;
   line-height: 20px;
 }
-.slick-dots li button:before {
+
+#testimonial-header .slick-dots li.slick-active button:before {
+  opacity: .75;
+  color: black !important;
+}
+
+/* .slick-dots li button:before {
   content: "";
   display: block;
   width: 100%;
@@ -49,4 +55,4 @@
 
 .slick-dots li.slick-active button:before {
   background-color: black;
-}
+} */

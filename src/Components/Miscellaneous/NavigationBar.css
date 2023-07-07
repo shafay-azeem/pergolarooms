@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
+  z-index: 9999 !important;
 }
 
 .Horizontal-line {
@@ -140,12 +141,13 @@ span {
   text-decoration: none;
   color: #6b6b6b;
 }
+
 .anchortag-style:hover {
   text-decoration: none;
   color: white;
 }
 
 
-.myClass{
+.myClass {
   background-color: transparent !important;
 }

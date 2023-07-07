@@ -118,7 +118,7 @@ const ServiceSlider = () => {
 
   return (
     <>
-      <div style={{ overflow: "hidden" }} className="container-fluid p-0">
+      <div style={{ overflow: "hidden" }}  className="Top-Main container-fluid p-0">
         <Slider {...settings}>
           {slides.map((x, index) => {
             return (
@@ -127,9 +127,11 @@ const ServiceSlider = () => {
                   key={index}
                   style={{
                     backgroundImage: `url(${x.imgSrc})`,
-                    backgroundSize: 'cover',
+                    backgroundSize: '80%',
                     backgroundRepeat: 'no-repeat',
-                    height: '700px'
+                    height: '700px',
+                    backgroundPosition:'top right'
+                    
                   }}
                   className="main-Banner"
                 >
