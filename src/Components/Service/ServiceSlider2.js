@@ -3,8 +3,21 @@ import "../Service/ServiceSlider2.css";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import { BsFillPlusCircleFill } from "react-icons/bs";
+import { useEffect } from "react";
 
 const ServiceSlider2 = () => {
+  let buttonText;
+  useEffect(() => {
+    document.addEventListener("click", function (event) {
+      const clickedElement = event.target;
+      const parentLi = clickedElement.closest(".slick-dots li");
+      if (parentLi) {
+        buttonText = parentLi.querySelector("button").textContent;
+        console.log(buttonText);
+      }
+    });
+  });
+
   const slides = [
     {
       id: 1,
@@ -23,17 +36,17 @@ const ServiceSlider2 = () => {
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
-        "Elevate your outdoor space with our exquisite custom pergolas. At PERGOLAROOMS, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
+        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
       bgcolor: "#45636f",
       route: "/pergolas",
     },
     {
       id: 3,
       imgSrc: require("../../assets/ServiceImages/bar-&-bbq.jpg"),
-      heading: "Bar & BBQ Counter",
-      subheading: "Enhance Grilling Oasis Bliss",
+      heading: "Bar Counters",
+      subheading: "Out Door elegance",
       description:
-        "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
+        "Transform your backyard into the ultimate entertainment spot with our custom-designed bar counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These bar counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
       bgcolor: "#786050",
       route: "/bbq-area",
     },
@@ -65,7 +78,7 @@ const ServiceSlider2 = () => {
       heading: "CNC Cut Panels",
       subheading: "Enhance with CNC Cut Panels",
       description:
-        "Introducing our precision-engineered CNC cut panels, the perfect addition to your custom pergola design. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
+        "Introducing our precision-engineered CNC cut panels, the perfect addition to your gardens, lounges, villas. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
       bgcolor: "#5c5c5c",
       route: "/cnc-panel-cutter",
     },
@@ -73,9 +86,29 @@ const ServiceSlider2 = () => {
 
   const navigate = useNavigate();
 
-  const goToPage = (route) => {
-    console.log(route);
-    navigate(route);
+  const goToPage = () => {
+    // console.log()
+    if (typeof buttonText === "undefined") {
+      navigate("/glass-rooms");
+    }
+    if (buttonText == 1) {
+      navigate("/glass-rooms");
+    }
+    if (buttonText == 2) {
+      navigate("/pergolas");
+    }
+    if (buttonText == 3) {
+      navigate("/bbq-area");
+    }
+    if (buttonText == 4) {
+      navigate("/car-parking-shades");
+    }
+    if (buttonText == 5) {
+      navigate("/aluminium-doors");
+    }
+    if (buttonText == 6) {
+      navigate("/cnc-panel-cutter");
+    }
   };
 
   const settings = {
@@ -121,7 +154,7 @@ const ServiceSlider2 = () => {
                     <p>{x.subheading}</p>
                     <p>{x.description}</p>
                     <a
-                      className="read-btn font-face-rr"
+                      className="service-readmore-link font-face-rr read-btn"
                       onClick={() => goToPage(x.route)}
                     >
                       <BsFillPlusCircleFill />

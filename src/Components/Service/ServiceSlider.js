@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Service/ServiceSlider.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -6,8 +6,26 @@ import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import ServiceSlider2 from "./ServiceSlider2.js";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const ServiceSlider = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
+
+  let buttonText;
+  useEffect(() => {
+    document.addEventListener("click", function (event) {
+      const clickedElement = event.target;
+      const parentLi = clickedElement.closest(".slick-dots li");
+      if (parentLi) {
+        buttonText = parentLi.querySelector("button").textContent;
+        console.log(buttonText);
+      }
+    });
+  });
+
   const slides = [
     {
       id: 1,
@@ -26,17 +44,17 @@ const ServiceSlider = () => {
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
-        "Elevate your outdoor space with our exquisite custom pergolas. At PERGOLAROOMS, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
+        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
       bgcolor: "#45636f",
       route: "/pergolas",
     },
     {
       id: 3,
       imgSrc: require("../../assets/ServiceImages/bar-&-bbq.jpg"),
-      heading: "Bar & BBQ Counter",
-      subheading: "Enhance Grilling Oasis Bliss",
+      heading: "Bar Counters",
+      subheading: "Out Door elegance",
       description:
-        "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
+        "Transform your backyard into the ultimate entertainment spot with our custom-designed bar counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These bar counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
       bgcolor: "#786050",
       route: "/bbq-area",
     },
@@ -68,7 +86,7 @@ const ServiceSlider = () => {
       heading: "CNC Cut Panels",
       subheading: "Enhance with CNC Cut Panels",
       description:
-        "Introducing our precision-engineered CNC cut panels, the perfect addition to your custom pergola design. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
+        "Introducing our precision-engineered CNC cut panels, the perfect addition to your gardens, lounges, villas. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
       bgcolor: "#5c5c5c",
       route: "/cnc-panel-cutter",
     },
@@ -76,9 +94,29 @@ const ServiceSlider = () => {
 
   const navigate = useNavigate();
 
-  const goToPage = (route) => {
-    console.log(route);
-    navigate(route);
+  const goToPage = () => {
+    // console.log()
+    if (typeof buttonText === "undefined") {
+      navigate("/glass-rooms");
+    }
+    if (buttonText == 1) {
+      navigate("/glass-rooms");
+    }
+    if (buttonText == 2) {
+      navigate("/pergolas");
+    }
+    if (buttonText == 3) {
+      navigate("/bbq-area");
+    }
+    if (buttonText == 4) {
+      navigate("/car-parking-shades");
+    }
+    if (buttonText == 5) {
+      navigate("/aluminium-doors");
+    }
+    if (buttonText == 6) {
+      navigate("/cnc-panel-cutter");
+    }
   };
 
   const settings = {
@@ -142,6 +180,8 @@ const ServiceSlider = () => {
                         <a
                           className="service-readmore-link font-face-rr"
                           onClick={() => goToPage(x.route)}
+                          data-aos="fade-right"
+                          data-aos-duration="500"
                         >
                           <BsFillPlusCircleFill />
                           READ MORE

@@ -69,7 +69,6 @@ const NavigationBar = () => {
 
   return (
     <>
-
       <Navbar
         className="myClass"
         style={{
@@ -77,7 +76,7 @@ const NavigationBar = () => {
           zIndex: "100",
         }}
       >
-        <Container  className="py-2">
+        <Container className="py-2">
           <Navbar.Brand href="/" className="font-face-rb">
             <img
               src={logoblack}
@@ -153,7 +152,7 @@ const NavigationBar = () => {
                   Pergolas
                 </ul>
                 <ul className="items font-face-rb" onClick={goToBbqArea}>
-                  BBQ Areas
+                  Bar Counters
                 </ul>
 
                 <ul className="items font-face-rb" onClick={goToCNCPanelCutter}>
