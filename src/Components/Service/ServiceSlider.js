@@ -42,17 +42,17 @@ const ServiceSlider = () => {
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
-        "Elevate your outdoor space with our exquisite custom pergolas. At PERGOLAROOMS, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
+        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
       bgcolor: "#45636f",
       route: "/pergolas",
     },
     {
       id: 3,
       imgSrc: require("../../assets/ServiceImages/bar-&-bbq.jpg"),
-      heading: "Bar & BBQ Counter",
-      subheading: "Enhance Grilling Oasis Bliss",
+      heading: "Bar Counters",
+      subheading: "Out Door elegance",
       description:
-        "Create the ultimate culinary haven in your backyard with our custom-designed BBQ area pergolas. Crafted with precision and style, our pergolas provide the perfect shelter for grilling enthusiasts. Enjoy the benefits of shade and protection.",
+        "Transform your backyard into the ultimate entertainment spot with our custom-designed bar counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These bar counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
       bgcolor: "#786050",
       route: "/bbq-area",
     },
@@ -84,7 +84,7 @@ const ServiceSlider = () => {
       heading: "CNC Cut Panels",
       subheading: "Enhance with CNC Cut Panels",
       description:
-        "Introducing our precision-engineered CNC cut panels, the perfect addition to your custom pergola design. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
+        "Introducing our precision-engineered CNC cut panels, the perfect addition to your gardens, lounges, villas. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
       bgcolor: "#5c5c5c",
       route: "/cnc-panel-cutter",
     },

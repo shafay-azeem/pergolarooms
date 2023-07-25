@@ -125,10 +125,10 @@ const EthicalEssence = () => {
             <h4 class="subheading font-face-rr">Custom Outdoor Solutions</h4>
             <p class="description-ethicalessence font-face-rr">
               At Pergolarooms.ae, we are experts in designing and constructing
-              bespoke pergolas, pergola rooms, and glass rooms, providing a
-              seamless blend of indoor and outdoor living. Our skilled craftsmen
-              specialize in crafting functional and aesthetically pleasing BBQ
-              areas and bar counters.
+              bespoke pergolas, and glass rooms, providing a seamless blend of
+              indoor and outdoor living. Our skilled craftsmen specialize in
+              crafting functional and aesthetically pleasing BBQ areas and bar
+              counters.
             </p>
             <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
               <BsFillPlusCircleFill />

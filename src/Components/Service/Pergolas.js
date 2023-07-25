@@ -3,6 +3,7 @@ import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
 import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
+import whatsappimg from "../../assets/whatsapp.png";
 
 const Pergolas = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -58,10 +59,35 @@ const Pergolas = () => {
       text: "Pergolas",
     },
   ];
+  const handleButton = () => {
+    var url = "https://wa.me/+971585799666";
+    window.open(url);
+  };
   return (
     <>
       <div className="pergolas">
         <h2 className="text-white text-center py-5 font-face-re">PERGOLAS</h2>
+      </div>
+      <div
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "20px",
+          zIndex: "9999",
+          height: "50px",
+          width: "50px",
+        }}
+      >
+        <img
+          src={whatsappimg}
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50px",
+            cursor: "pointer",
+          }}
+          onClick={handleButton}
+        />
       </div>
       <div className="container text-center">
         <div className="row">

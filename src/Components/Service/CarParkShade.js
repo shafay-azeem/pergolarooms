@@ -3,6 +3,8 @@ import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
 import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
+import whatsappimg from "../../assets/whatsapp.png";
+
 const CarParkShade = () => {
   const [screenDimensions, setScreenDimensions] = useState({
     width: window.innerWidth,
@@ -57,12 +59,37 @@ const CarParkShade = () => {
       text: "CAR PARKING PERGOLAS",
     },
   ];
+  const handleButton = () => {
+    var url = "https://wa.me/+971585799666";
+    window.open(url);
+  };
   return (
     <>
       <div className="carParkingShades">
         <h2 className="text-white text-center py-5 font-face-re">
           CAR PARKING PERGOLAS
         </h2>
+      </div>
+      <div
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "20px",
+          zIndex: "9999",
+          height: "50px",
+          width: "50px",
+        }}
+      >
+        <img
+          src={whatsappimg}
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50px",
+            cursor: "pointer",
+          }}
+          onClick={handleButton}
+        />
       </div>
       <div className="container text-center">
         <div className="row">

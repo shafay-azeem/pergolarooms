@@ -10,6 +10,7 @@ import img3 from "../../assets/AboutUsImages/3.png";
 import img4 from "../../assets/AboutUsImages/4.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import whatsappimg from "../../assets/whatsapp.png";
 
 const AboutUs = () => {
   useEffect(() => {
@@ -74,11 +75,36 @@ const AboutUs = () => {
       image: require("../../assets/AboutUsImages/our-legacy.jpg"),
     },
   ];
-
+  const handleButton = () => {
+    var url = "https://wa.me/+971585799666";
+    window.open(url);
+  };
   return (
     <>
       <div className="aboutUs">
         <h2 className="text-white text-center py-5 font-face-re">ABOUT US</h2>
+      </div>
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: "10px",
+          right: "20px",
+          zIndex: "9999",
+          height: "50px",
+          width: "50px",
+        }}
+      >
+        <img
+          src={whatsappimg}
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50px",
+            cursor: "pointer",
+          }}
+          onClick={handleButton}
+        />
       </div>
 
       {/* <div className="about-pergolas-designs container-fluid px-lg-5 py-5">
@@ -169,10 +195,10 @@ const AboutUs = () => {
           <p className="font-face-rr">
             Established over a decade ago, Pergola Rooms Contracting LLC has
             garnered a strong reputation as a premier provider of exceptional
-            outdoor living solutions. Specializing in Pergolas, Pergola Rooms,
-            Glass Rooms, BBQ Areas, Bar Counters, and Aluminium Doors and
-            Fences, we offer a comprehensive range of services to transform your
-            outdoor space into a haven of comfort and style.
+            outdoor living solutions. Specializing in Pergolas, Glass Rooms, BBQ
+            Areas, Bar Counters, and Aluminium Doors and Fences, we offer a
+            comprehensive range of services to transform your outdoor space into
+            a haven of comfort and style.
           </p>
           <p className="font-face-rr">
             Our team of seasoned professionals combines technical expertise with
@@ -184,9 +210,9 @@ const AboutUs = () => {
           <p className="font-face-rr">
             At Pergola Rooms Contracting LLC, we pride ourselves on delivering
             innovative designs, superior craftsmanship, and unparalleled
-            customer service. Whether you desire a cozy Pergola Room, a stunning
-            Glass Room, or a functional BBQ area, we are committed to exceeding
-            your expectations and creating outdoor spaces that enhance your
+            customer service. Whether you desire a cozy stunning Glass Room, or
+            a functional BBQ area, we are committed to exceeding your
+            expectations and creating outdoor spaces that enhance your
             lifestyle.
           </p>
           <p className="font-face-rr">
@@ -299,11 +325,12 @@ const AboutUs = () => {
                 <h3 className="py-2 font-face-re">WHAT WE DO</h3>
 
                 <p className="font-face-rr">
-                  We offer premium-quality aluminium doors and fences for
-                  enhanced security and durability. With our technical expertise
-                  and attention to detail, we bring your outdoor visions to
-                  life, creating exceptional spaces that stand the test of time.
-                  Trust Pergolarooms.ae for all your outdoor living needs.
+                  We offer premium-quality aluminium works including Pergolas,
+                  glass rooms, bar counters, bbq counters and doors and fences.
+                  With our technical expertise and attention to detail, we bring
+                  your outdoor visions to life, creating exceptional spaces that
+                  stand the test of time. Trust Pergolarooms.ae for all your
+                  outdoor living needs.
                 </p>
               </div>
             </div>
@@ -323,7 +350,7 @@ const AboutUs = () => {
           <div className="col-lg-6 spacerCol">
             <div className="spacer-right text-black">
               <div className="inner-right p-lg-5">
-                <h3 className="py-2 font-face-re">OUR LEGACY</h3>
+                <h3 className="py-2 font-face-re">UNRIVALLED EXPERIENCE</h3>
 
                 <p className="font-face-rr">
                   Our functional BBQ areas, stylish bar counters, and durable
