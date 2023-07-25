@@ -1,0 +1,54 @@
+.main-Banner2 {
+  background-image: url("../../assets/FeaturedImages/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+}
+
+.Top-Main2 .slick-arrow {
+  display: none !important;
+}
+
+.Top-Main2 .slick-dots {
+  display: block;
+  background-color: transparent !important;
+  margin-top: 25px !important;
+  margin-bottom: 25px !important;
+}
+
+.Top-Main2 .slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 8px !important;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent !important;
+}
+
+.read-btn {
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 15px;
+}
+
+.read-btn:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
+.read-btn svg {
+  margin-right: 5px;
+}

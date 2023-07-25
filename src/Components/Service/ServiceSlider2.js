@@ -1,13 +1,10 @@
-import React, { useState } from "react";
-import "../Service/ServiceSlider.css";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { BsFillPlusCircleFill } from "react-icons/bs";
+import React from "react";
+import "../Service/ServiceSlider2.css";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
-import ServiceSlider2 from "./ServiceSlider2.js";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
-const ServiceSlider = () => {
+const ServiceSlider2 = () => {
   const slides = [
     {
       id: 1,
@@ -108,49 +105,28 @@ const ServiceSlider = () => {
       },
     ],
   };
-
   return (
     <>
       <div
         style={{ overflow: "hidden" }}
-        className="Top-Main container-fluid p-0"
+        className="Top-Main2 container-fluid p-0"
       >
         <Slider {...settings}>
           {slides.map((x, index) => {
             return (
               <div>
-                <div
-                  key={index}
-                  style={{
-                    backgroundImage: `url(${x.imgSrc})`,
-                    backgroundSize: "80%",
-                    backgroundRepeat: "no-repeat",
-                    height: "450px",
-                    backgroundPosition: "top right",
-                    backgroundColor: x.bgcolor,
-                  }}
-                  className="main-Banner"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 textCol">
-                      <div className="py-5"></div>
-
-                      <div className="px-lg-3 text-white">
-                        <h2>{x.heading}</h2>
-                        <p>{x.subheading}</p>
-                        <p className="description">{x.description}</p>
-                        <a
-                          className="service-readmore-link font-face-rr"
-                          onClick={() => goToPage(x.route)}
-                        >
-                          <BsFillPlusCircleFill />
-                          READ MORE
-                        </a>
-                      </div>
-                      <div className="py-3"></div>
-                    </div>
-
-                    <div className="col-lg-6"></div>
+                <div key={index} className="main-Banner2 py-5">
+                  <div className="container text-center text-white">
+                    <h2>{x.heading}</h2>
+                    <p>{x.subheading}</p>
+                    <p>{x.description}</p>
+                    <a
+                      className="read-btn font-face-rr"
+                      onClick={() => goToPage(x.route)}
+                    >
+                      <BsFillPlusCircleFill />
+                      READ MORE
+                    </a>
                   </div>
                 </div>
               </div>
@@ -158,12 +134,8 @@ const ServiceSlider = () => {
           })}
         </Slider>
       </div>
-
-      <div className="info-content">
-        <ServiceSlider2 />
-      </div>
     </>
   );
 };
 
-export default ServiceSlider;
+export default ServiceSlider2;

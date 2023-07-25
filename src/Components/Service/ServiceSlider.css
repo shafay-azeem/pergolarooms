@@ -138,8 +138,25 @@
 .textCol {
   padding-left: 80px;
 }
+
 @media (max-width: 280px) {
   .textCol {
     padding-left: 20px;
+  }
+}
+
+.info-content {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .Top-Main {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .info-content {
+    display: block;
   }
 }
