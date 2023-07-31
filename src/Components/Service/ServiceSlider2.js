@@ -1,5 +1,7 @@
 import React from "react";
 import "../Service/ServiceSlider2.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import { useNavigate } from "react-router-dom";
 import Slider from "react-slick";
 import { BsFillPlusCircleFill } from "react-icons/bs";
