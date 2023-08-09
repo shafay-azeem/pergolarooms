@@ -4,6 +4,7 @@ import FooterLogo from "../../assets/FooterImages/logo-pergolaroom2-1-pomt600cei
 import FooterInstaLogo from "../../assets/FooterImages/instagram (1).png";
 import FooterFbLogo from "../../assets/FooterImages/facebook.png";
 import { useNavigate } from "react-router-dom";
+import blackLogo from "../../assets/FooterImages/blackLogo.png";
 
 const Footer = () => {
   const navigate = useNavigate();
@@ -44,7 +45,7 @@ const Footer = () => {
         <div className="container mt-3 py-3 px-lg-5">
           <div className="row px-lg-5 d-flex justify-content-center align-items-center text-center">
             <div className="col-md-6">
-              <img src={FooterLogo} className="img-fluid" alt="footerMain" />
+              <img style={{ maxWidth: '200px' }} src={blackLogo} className="img-fluid" alt="footerMain" />
 
               <p className="py-4 font-face-rr">
                 Pergola Rooms Contracting LLC, Your Trusted Experts in Custom

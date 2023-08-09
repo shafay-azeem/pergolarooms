@@ -25,32 +25,32 @@ const FeaturedImage = () => {
   const [images, setImages] = useState([
     {
       id: 1,
-      image: require("../../assets/FeaturedImages/1.jpg"),
-      text: "Enriches Lifestyle with pergolas",
+      image: require("../../assets/FeaturedImages/headerNew1.jpg"),
+      text: "Enrich Lifestyle with pergolas",
       description:
         "Pergolarooms.ae excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.",
     },
     {
       id: 2,
-      image: require("../../assets/FeaturedImages/2.jpg"),
-      text: "Pergolas Rooms 2",
+      image: require("../../assets/FeaturedImages/headerNew2.jpg"),
+      text: "Elevate Your Space with Captivating Glass Rooms",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
+        "Seamlessly blend indoors and outdoors with CrystalView's climate-controlled glass rooms.",
     },
     {
       id: 3,
-      image: require("../../assets/FeaturedImages/3.jpg"),
-      text: "Pergolas Rooms 3",
+      image: require("../../assets/FeaturedImages/headerNew3.jpg"),
+      text: "Revolutionize Car Parking with Innovative Pergola Structures",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
+        "Our sleek pergolas shield vehicles while harmonizing architectural aesthetics. Embrace elegance today.",
     },
-    {
-      id: 4,
-      image: require("../../assets/FeaturedImages/4.jpg"),
-      text: "Pergolas Rooms 4",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
-    },
+    // {
+    //   id: 4,
+    //   image: require("../../assets/FeaturedImages/4.jpg"),
+    //   text: "Pergolas Rooms 4",
+    //   description:
+    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione animi vitae eveniet nostrum laboriosam? Fuga cumque reiciendis voluptas quaerat dicta.",
+    // },
   ]);
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -133,6 +133,7 @@ const FeaturedImage = () => {
                             className="text-white font-face-re"
                             data-aos="zoom-in"
                             data-aos-duration="1000"
+                            style={{ textShadow: '0 0 10px #000' }}
                           >
                             {x.text}
                           </h1>
@@ -141,6 +142,7 @@ const FeaturedImage = () => {
                               className="text-white font-face-rr"
                               data-aos="zoom-in"
                               data-aos-duration="1000"
+                              style={{ textShadow: '0 0 10px #000' }}
                             >
                               {x.description}
                             </p>
