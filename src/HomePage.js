@@ -10,17 +10,68 @@ import ContactForm from "../src/Components/Contact/ContactForm";
 import Footer from "../src/Components/Footer/Footer";
 import ProjectCounter from "./Components/ProjectCounter/ProjectCounter";
 import whatsappimg from "./assets/whatsapp.png";
+import instaimg from "./assets/insta.png";
+import phoneImg from "./assets/reciever.png";
 
 const HomePage = () => {
   const handleButton = () => {
     var url = "https://wa.me/+971585799666";
     window.open(url);
   };
+
+  const handlePhoneButton = () => {
+    window.location.href = "tel:+971585799666";
+  };
+
   return (
     <>
       <div id="">
         <FeaturedImage />
       </div>
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: "70px",
+          right: "20px",
+          zIndex: "9999",
+          height: "50px",
+          width: "50px",
+        }}
+      >
+        <img
+          src={phoneImg}
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50px",
+            cursor: "pointer",
+          }}
+          onClick={handlePhoneButton}
+        />
+      </div>
+
+      {/* <div
+        style={{
+          position: "fixed",
+          bottom: "70px",
+          right: "20px",
+          zIndex: "9999",
+          height: "50px",
+          width: "50px",
+        }}
+      >
+        <img
+          src={instaimg}
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50px",
+            cursor: "pointer",
+          }}
+          onClick={handleButton}
+        />
+      </div> */}
 
       <div
         style={{

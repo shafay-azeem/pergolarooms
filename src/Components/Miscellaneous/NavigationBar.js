@@ -9,6 +9,7 @@ import closeIcon from "../../assets/NavgigationBarImages/cr1.png";
 import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
 import logoblack from "../../assets/NavgigationBarImages/whit.png";
+import FooterLogo from "../../assets/FooterImages/newLogo.png";
 import logowhite from "../../assets/NavgigationBarImages/whit.png";
 import { useNavigate } from "react-router-dom";
 
@@ -79,7 +80,7 @@ const NavigationBar = () => {
         <Container className="py-2">
           <Navbar.Brand href="/" className="font-face-rb">
             <img
-              src={logoblack}
+              src={FooterLogo}
               className="img-fluid"
               style={{ maxWidth: "200px" }}
             />
@@ -100,7 +101,7 @@ const NavigationBar = () => {
         <Offcanvas.Header>
           <Offcanvas.Title>
             <img
-              src={logowhite}
+              src={FooterLogo}
               className="img-fluid"
               style={{ maxWidth: "200px" }}
               onClick={goToHome}

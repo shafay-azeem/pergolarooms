@@ -134,7 +134,7 @@ const FeaturedImage = () => {
                             data-aos="zoom-in"
                             data-aos-duration="1000"
                           >
-                            Enriches Lifestyle with pergolas
+                            {x.text}
                           </h1>
                           <div className="inner px-5 py-3">
                             <p
@@ -142,9 +142,7 @@ const FeaturedImage = () => {
                               data-aos="zoom-in"
                               data-aos-duration="1000"
                             >
-                              Pergola Rooms Contracting LLC excels in crafting
-                              optimized outdoor spaces for the GCC's climate,
-                              maximizing usage and aesthetics.
+                              {x.description}
                             </p>
                           </div>
                           <button

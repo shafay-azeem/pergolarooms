@@ -5,6 +5,7 @@ import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
 import { useEffect } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
+import phoneImg from "../../assets/reciever.png";
 
 const GlassRooms = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -64,6 +65,10 @@ const GlassRooms = () => {
     var url = "https://wa.me/+971585799666";
     window.open(url);
   };
+
+  const handlePhoneButton = () => {
+    window.location.href = "tel:+971585799666";
+  };
   return (
     <>
       <div className="glassRooms">
@@ -71,6 +76,29 @@ const GlassRooms = () => {
           Glass Rooms
         </h2>
       </div>
+
+      <div
+        style={{
+          position: "fixed",
+          bottom: "70px",
+          right: "20px",
+          zIndex: "9999",
+          height: "50px",
+          width: "50px",
+        }}
+      >
+        <img
+          src={phoneImg}
+          style={{
+            height: "50px",
+            width: "50px",
+            borderRadius: "50px",
+            cursor: "pointer",
+          }}
+          onClick={handlePhoneButton}
+        />
+      </div>
+
       <div
         style={{
           position: "fixed",

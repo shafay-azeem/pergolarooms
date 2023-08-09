@@ -8,20 +8,34 @@ import { useNavigate } from "react-router-dom";
 const Footer = () => {
   const navigate = useNavigate();
 
-  const goToPergolas = () => {
-    navigate("/pergolas");
-  };
-
   const goToBbqArea = () => {
     navigate("/bbq-area");
   };
 
-  const goToVillaExtension = () => {
-    navigate("/villa-extensions");
+  const goToCNCPanelCutter = () => {
+    navigate("/cnc-panel-cutter");
   };
 
-  const goToPergolasRoom = () => {
-    navigate("/pergolas-room");
+  const goToPergolas = () => {
+    navigate("/pergolas");
+  };
+
+  const goToGlassRooms = () => {
+    navigate("/glass-rooms");
+  };
+
+  const goToCarParkingPergolas = () => {
+    navigate("/car-parking-shades");
+  };
+
+  const goToAluminiumDoors = () => {
+    navigate("/aluminium-doors");
+  };
+  const handlePhoneClick = () => {
+    window.location.href = "tel:+971585799666";
+  };
+  const handleEmailClick = () => {
+    window.location.href = "mailto:info@pergolasroom.ae";
   };
 
   return (
@@ -33,11 +47,11 @@ const Footer = () => {
               <img src={FooterLogo} className="img-fluid" alt="footerMain" />
 
               <p className="py-4 font-face-rr">
-              Pergola Rooms Contracting LLC, Your Trusted Experts in Custom Pergolas and
-                Outdoor Living. With a decade of experience, we bring
-                innovation, craftsmanship, and exceptional design to transform
-                your outdoor space into a haven of beauty and functionality.
-                Discover the Pergolarooms.ae, difference today.
+                Pergola Rooms Contracting LLC, Your Trusted Experts in Custom
+                Pergolas and Outdoor Living. With a decade of experience, we
+                bring innovation, craftsmanship, and exceptional design to
+                transform your outdoor space into a haven of beauty and
+                functionality. Discover the Pergolarooms.ae, difference today.
               </p>
             </div>
           </div>
@@ -47,7 +61,28 @@ const Footer = () => {
               <div className="col-lg-2 col-md-12 col-sm-12">
                 <h6 className="font-face-rb">Quick Links</h6>
                 <ul className="mb-4">
+                  <li className="font-face-rr" onClick={goToGlassRooms}>
+                    Glass Rooms
+                  </li>
                   <li className="font-face-rr" onClick={goToPergolas}>
+                    Pergolas
+                  </li>
+                  <li className="font-face-rr" onClick={goToBbqArea}>
+                    Bar Counters
+                  </li>
+                  <li className="font-face-rr" onClick={goToCNCPanelCutter}>
+                    CNC Cut Panel
+                  </li>
+
+                  <li className="font-face-rr" onClick={goToAluminiumDoors}>
+                    Doors & Fences
+                  </li>
+
+                  <li className="font-face-rr" onClick={goToCarParkingPergolas}>
+                    Car Parking Pergolas
+                  </li>
+
+                  {/* <li className="font-face-rr" onClick={goToPergolas}>
                     Pergolas
                   </li>
                   <li className="font-face-rr" onClick={goToPergolasRoom}>
@@ -58,14 +93,16 @@ const Footer = () => {
                   </li>
                   <li className="font-face-rr" onClick={goToVillaExtension}>
                     Villas Extension
-                  </li>
+                  </li> */}
                 </ul>
               </div>
 
               <div className="col-lg-2 col-md-12 col-sm-12">
                 <h6 className="font-face-rb">Call Us</h6>
                 <ul style={{ listStyle: "none" }} className="mb-4">
-                  <li className="font-face-rr">+971585799666</li>
+                  <li className="font-face-rr" onClick={handlePhoneClick}>
+                    +971585799666
+                  </li>
                 </ul>
               </div>
 
@@ -73,7 +110,9 @@ const Footer = () => {
                 <h6 className="font-face-rb">Email Us</h6>
 
                 <ul style={{ listStyle: "none" }} className="mb-4">
-                  <li className="font-face-rr">info@pergolasroom.ae</li>
+                  <li className="font-face-rr" onClick={handleEmailClick}>
+                    info@pergolasroom.ae
+                  </li>
                 </ul>
               </div>
 

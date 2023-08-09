@@ -5,6 +5,12 @@ import fbLogo from "../../assets/TopNavImages/facebook.png";
 import instaLogo from "../../assets/TopNavImages/instagram.png";
 
 const TopNav = () => {
+  const handlePhoneClick = () => {
+    window.location.href = "tel:+971585799666";
+  };
+  const handleEmailClick = () => {
+    window.location.href = "mailto:info@pergolasroom.ae";
+  };
   return (
     <div class="ltn__header-top-area top-area py-2">
       <div class="container">
@@ -13,13 +19,15 @@ const TopNav = () => {
             <div class="ltn__top-bar-menu">
               <ul>
                 <li>
-                  <a>
-                    <i class="icon-mail"></i> info@pergolarooms.ae
+                  <a onClick={handleEmailClick}>
+                    <i class="icon-mail"></i>
+                    info@pergolarooms.ae
                   </a>
                 </li>
                 <li>
-                  <a>
-                    <i class="icon-placeholder"></i> +971585799666
+                  <a onClick={handlePhoneClick}>
+                    <i class="icon-placeholder"></i>
+                    +971585799666
                   </a>
                 </li>
               </ul>

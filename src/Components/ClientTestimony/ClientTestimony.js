@@ -43,11 +43,7 @@ const ClientTestimony = () => {
     <>
       <div id="testimonial-header" className="container-fluid">
         <div className="container py-2">
-          <div className="row py-5 d-flex flex-column align-items-center justify-content-between">
-            <div className="Testimoni-first col-lg-2">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem in
-              magnam ipsa quas enim consequuntur, omnis eum non accusamus eos.
-            </div>
+          <div className="Testi-main row py-5">
             <div className="py-4 bg-white shadow col-lg-8 col-md-12 text-center">
               <img className="img-fluid" src={icon} alt="img" />
               <div className="Test-inner p-5">
@@ -66,13 +62,6 @@ const ClientTestimony = () => {
                   })}
                 </Slider>
               </div>
-            </div>
-            <div className="d-none col-lg-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim,
-              accusantium. Libero temporibus consectetur dolorum. Fugiat at modi
-              labore ipsam quo laudantium! Ipsum hic nostrum blanditiis sint
-              magnam necessitatibus laboriosam quae soluta exercitationem
-              commodi?
             </div>
           </div>
         </div>

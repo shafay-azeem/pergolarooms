@@ -15,15 +15,21 @@ import { useEffect, useRef, useState } from "react";
 
 function App() {
   const myElementRef = useRef(null);
+  const [randomValue, setRandomValue] = useState(0);
   useEffect(() => {
-
     if (myElementRef.current) {
       const height = myElementRef.current.offsetHeight;
-      document.getElementById("main-header").style.marginBottom = "-" + height + "px";
+      document.getElementById("main-header").style.marginBottom =
+        "-" + height + "px";
       console.log("Height:", height);
+      localStorage.setItem("headerMarginHeight", height);
     }
+  }, [randomValue]);
 
-  }, [])
+  useEffect(() => {
+    // Generate a random value and set it as the dependency
+    setRandomValue(Math.random());
+  }, []);
   return (
     <div>
       <header id="main-header" ref={myElementRef}>
