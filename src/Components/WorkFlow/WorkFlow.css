@@ -11,6 +11,7 @@
 }
 .card-one:hover {
   background: url("/src/assets/WorkFlowImages/1.jpg") center/cover no-repeat;
+
   transition: 0.5s;
   border: none !important;
   width: 100%;

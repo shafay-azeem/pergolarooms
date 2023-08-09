@@ -9,7 +9,7 @@ import closeIcon from "../../assets/NavgigationBarImages/cr1.png";
 import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
 import logoblack from "../../assets/NavgigationBarImages/whit.png";
-import FooterLogo from "../../assets/FooterImages/newLogo.png";
+import FooterLogo from "../../assets/FooterImages/logo.png";
 import logowhite from "../../assets/NavgigationBarImages/whit.png";
 import { useNavigate } from "react-router-dom";
 

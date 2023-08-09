@@ -39,11 +39,11 @@
 }
 
 .slick-prev:before {
-  content: '' !important;
+  content: "" !important;
 }
 
 .slick-next:before {
-  content: '' !important;
+  content: "" !important;
 }
 
 /* .Hero-slider .slick-arrow .slick-prev {
@@ -67,7 +67,6 @@
   width: 80px !important;
 } */
 
-
 @media screen and (max-width: 913px) {
   .slick-prev {
     width: 30px !important;
@@ -90,16 +89,15 @@
   }
 
   .slick-prev {
-    background-image: url('../../assets/FeaturedImages/leftArrow.png') !important;
+    background-image: url("../../assets/FeaturedImages/leftArrow.png") !important;
   }
 
   .slick-next {
-    background-image: url('../../assets/FeaturedImages/rightArrow.png') !important;
+    background-image: url("../../assets/FeaturedImages/rightArrow.png") !important;
   }
 }
 
 @media screen and (min-width: 1024px) {
-
   .Hero-slider .slick-prev {
     left: 50px !important;
     z-index: 9999 !important;
@@ -117,7 +115,6 @@
   font-size: 30px !important;
 } */
 
-
 .Hero-slider {
   overflow-y: hidden;
   overflow-x: hidden;
@@ -127,7 +124,6 @@
   opacity: .75;
   color: white !important;
 } */
-
 
 .slick-prev,
 .slick-next {
@@ -140,11 +136,11 @@
 }
 
 .slick-prev {
-  background-image: url('../../assets/FeaturedImages/leftArrow.png') !important;
+  background-image: url("../../assets/FeaturedImages/leftArrow.png") !important;
 }
 
 .slick-next {
-  background-image: url('../../assets/FeaturedImages/rightArrow.png') !important;
+  background-image: url("../../assets/FeaturedImages/rightArrow.png") !important;
 }
 
 /* .Featured-Right-Image img {
@@ -245,9 +241,9 @@
 
 .quote-btn {
   font-size: 20px;
-  width: 50%;
+  /* width: 50%; */
   background-color: black;
-  padding: 8px 15px;
+  padding: 8px 35px;
   border: none;
   color: white;
 }

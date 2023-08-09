@@ -61,7 +61,8 @@ const EthicalEssence = () => {
   return (
     <div
       style={{
-        backgroundImage: `url(${bg})`,
+        // backgroundImage: `url(${bg})`,
+        backgroundColor: "black",
         backgroundSize: "cover",
       }}
     >

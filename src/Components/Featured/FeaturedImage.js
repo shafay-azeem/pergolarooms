@@ -133,7 +133,7 @@ const FeaturedImage = () => {
                             className="text-white font-face-re"
                             data-aos="zoom-in"
                             data-aos-duration="1000"
-                            style={{ textShadow: '0 0 10px #000' }}
+                            style={{ textShadow: "0 0 10px #000" }}
                           >
                             {x.text}
                           </h1>
@@ -142,7 +142,7 @@ const FeaturedImage = () => {
                               className="text-white font-face-rr"
                               data-aos="zoom-in"
                               data-aos-duration="1000"
-                              style={{ textShadow: '0 0 10px #000' }}
+                              style={{ textShadow: "0 0 10px #000" }}
                             >
                               {x.description}
                             </p>
