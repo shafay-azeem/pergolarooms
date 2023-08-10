@@ -126,43 +126,61 @@ const FeaturedImage = () => {
                         justifyContent: "center",
                       }}
                     >
-                      <div className="row">
-                        <div className="col-lg-3"></div>
-                        <div className="col-lg-6 text-center">
-                          <h1
-                            className="text-white font-face-re"
-                            data-aos="zoom-in"
-                            data-aos-duration="1000"
-                            style={{ textShadow: "0 0 10px #000" }}
-                          >
-                            {x.text}
-                          </h1>
-                          <div className="inner px-5 py-3">
-                            <p
-                              className="text-white font-face-rr"
+                      <div
+                        className="container-fluid"
+                        style={{
+                          backgroundColor: "rgba(0, 0, 0, 0.5)",
+                          height: "100vh",
+                          backgroundSize: "cover",
+                          backgroundRepeat: "no-repeat",
+                          backgroundPosition: "center",
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                          justifyContent: "center",
+                        }}
+                      >
+                        <div className="row">
+                          <div className="col-lg-3"></div>
+                          <div className="col-lg-6 text-center">
+                            <h1
+                              className="text-white font-face-re"
                               data-aos="zoom-in"
                               data-aos-duration="1000"
                               style={{ textShadow: "0 0 10px #000" }}
                             >
-                              {x.description}
-                            </p>
-                          </div>
-                          <button
-                            className="quote-btn"
-                            data-aos="zoom-in"
-                            data-aos-duration="1000"
-                          >
-                            <a
-                              href="#contact-us "
-                              className="font-face-rr"
-                              style={{ textDecoration: "none", color: "white" }}
+                              {x.text}
+                            </h1>
+                            <div className="inner px-5 py-3">
+                              <p
+                                className="text-white font-face-rr"
+                                data-aos="zoom-in"
+                                data-aos-duration="1000"
+                                style={{ textShadow: "0 0 10px #000" }}
+                              >
+                                {x.description}
+                              </p>
+                            </div>
+                            <button
+                              className="quote-btn"
+                              data-aos="zoom-in"
+                              data-aos-duration="1000"
                             >
-                              Get a Quote
-                            </a>
-                          </button>
-                        </div>
+                              <a
+                                href="#contact-us"
+                                className="font-face-rr"
+                                style={{
+                                  textDecoration: "none",
+                                  color: "white",
+                                }}
+                              >
+                                Get a Quote
+                              </a>
+                            </button>
+                          </div>
 
-                        <div className="col-lg-3"></div>
+                          <div className="col-lg-3"></div>
+                        </div>
                       </div>
 
                       {/* <img className="d-block img-fluid" src={x.image} alt="1" /> */}

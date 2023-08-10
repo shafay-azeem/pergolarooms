@@ -45,7 +45,12 @@ const Footer = () => {
         <div className="container mt-3 py-3 px-lg-5">
           <div className="row px-lg-5 d-flex justify-content-center align-items-center text-center">
             <div className="col-md-6">
-              <img style={{ maxWidth: '200px' }} src={blackLogo} className="img-fluid" alt="footerMain" />
+              <img
+                style={{ maxWidth: "200px" }}
+                src={blackLogo}
+                className="img-fluid"
+                alt="footerMain"
+              />
 
               <p className="py-4 font-face-rr">
                 Pergola Rooms Contracting LLC, Your Trusted Experts in Custom
@@ -159,8 +164,16 @@ const Footer = () => {
         <div className="bg-black text-white text-center py-4">
           <div className="container font-face-rr">
             Copyrights & All Rights Reserved @
-            <b className="font-face-rb">pergolasroom.ae</b> Designed and
-            Developed By <span></span>
+            <b className="font-face-rb">
+              <a
+                href="https://pergolarooms.ae/"
+                target="blank"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                pergolarooms.ae
+              </a>
+            </b>{" "}
+            Designed and Developed By <span></span>
             <span class="text-white">
               <b className="font-face-rb">
                 <a

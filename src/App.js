@@ -15,28 +15,22 @@ import { useEffect, useRef, useState } from "react";
 
 function App() {
   const myElementRef = useRef(null);
-  // const windowSize = useRef(window.innerWidth);
-
-  const [winWidth, setWinWidth] = useState(window.innerWidth);
-
-  // const [randomValue, setRandomValue] = useState(0);
+  const [randomValue, setRandomValue] = useState(0);
   useEffect(() => {
-    const handleWindowResize = () => {
-      setWinWidth(window.innerWidth);
-    };
-
     if (myElementRef.current) {
       const height = myElementRef.current.offsetHeight;
-      myElementRef.current.style.marginBottom = "-" + height + "px";
-      // console.log("Height:", height);
+      document.getElementById("main-header").style.marginBottom =
+        "-" + height + "px";
+      console.log("Height:", height);
       localStorage.setItem("headerMarginHeight", height);
     }
-    window.addEventListener("resize", handleWindowResize);
-  }, [winWidth]);
+  }, [randomValue]);
 
-  // useEffect(() => {
-  //   setRandomValue(Math.random());
-  // }, []);
+  useEffect(() => {
+    // Generate a random value and set it as the dependency
+    setRandomValue(Math.random());
+  }, []);
+
   return (
     <div>
       <header id="main-header" ref={myElementRef}>

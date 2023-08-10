@@ -6,8 +6,7 @@ import img1 from "../../assets/EthicalEssenceImages/our-principles-new.png";
 import img2 from "../../assets/EthicalEssenceImages/work-ethics-new.png";
 import img3 from "../../assets/EthicalEssenceImages/what-we-do-new.png";
 import img4 from "../../assets/EthicalEssenceImages/our-legacy-new.png";
-import bg from "../../assets/EthicalEssenceImages/BACKGROUND.png";
-import Aos from "aos";
+
 import "aos/dist/aos.css";
 
 const EthicalEssence = () => {
@@ -93,7 +92,7 @@ const EthicalEssence = () => {
           </div>
         </div>
 
-        <div className="row d-md-flex align-items-center mb-5 ">
+        <div className="row d-md-flex align-items-center mb-5 ethical-second">
           <div
             class="col-md-6 py-3"
             data-aos="fade-up"
@@ -146,7 +145,7 @@ const EthicalEssence = () => {
           </div>
         </div>
 
-        <div className="row d-md-flex align-items-center mb-5">
+        <div className="row d-md-flex align-items-center mb-5 ethical-fourth">
           <div
             class="col-md-6 py-3"
             data-aos="fade-up"

@@ -15,7 +15,7 @@ const ProjectCounter = () => {
   return (
     <div class="container p-5">
       <div class="row text-center">
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-6">
           <div class="counter">
             <img src={projectCompleted} className="img-fluid" />
             <h2 class="count-title">
@@ -31,7 +31,7 @@ const ProjectCounter = () => {
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-6">
           <div class="counter">
             <img src={teamMembers} className="img-fluid" />
             <h2 class="timer count-title count-number">
@@ -47,7 +47,7 @@ const ProjectCounter = () => {
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-6">
           <div class="counter">
             <img src={satisfiedClients} className="img-fluid" />
             <h2 class="timer count-title count-number">
@@ -63,7 +63,7 @@ const ProjectCounter = () => {
           </div>
         </div>
 
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-6">
           <div class="counter">
             <img src={totalBranches} className="img-fluid" />
             <h2 class="timer count-title count-number">

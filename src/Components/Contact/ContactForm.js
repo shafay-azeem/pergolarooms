@@ -65,7 +65,7 @@ const ContactForm = () => {
                 ></textarea>
               </div>
 
-              <div class="form-submit mt-5 text-end">
+              <div class="form-submit mt-5 text-center">
                 <button class="btn-send font-face-rb">SEND</button>
               </div>
             </form>
