@@ -15,47 +15,50 @@ const TopNav = () => {
     <div class="ltn__header-top-area top-area py-2">
       <div class="container">
         <div class="row">
-          <div className="d-flex">
-            <div class="col-md-7">
-              <div class="ltn__top-bar-menu">
-                <ul>
-                  <li>
-                    <a onClick={handleEmailClick}>
-                      <i class="icon-mail"></i>
-                      info@pergolarooms.ae
-                    </a>
-                  </li>
-                  <li>
-                    <a onClick={handlePhoneClick}>
-                      <i class="icon-placeholder"></i>
-                      +971585799666
-                    </a>
-                  </li>
-                </ul>
-              </div>
+          <div class="col-7">
+            <div class="ltn__top-bar-menu">
+              <ul>
+                <li className="d-none d-lg-block d-md-block">
+                  <a onClick={handleEmailClick}>
+                    <i class="icon-mail"></i>
+                    info@pergolarooms.ae
+                  </a>
+                </li>
+                <li>
+                  <a onClick={handlePhoneClick}>
+                    <i class="icon-placeholder"></i>
+                    +971585799666
+                  </a>
+                </li>
+              </ul>
             </div>
-            <div class="col-md-5 d-none d-md-block d-lg-block">
-              <div class="top-bar-right text-end">
-                <div class="ltn__top-bar-menu">
+          </div>
+          <div class="col-5">
+            <div class="top-bar-right text-end">
+              <div class="ltn__top-bar-menu">
+                <div class="ltn__social-media">
                   <ul>
                     <li>
-                      <div class="ltn__social-media">
-                        <ul>
-                          <li>
-                            <img className="icon-img" src={fbLogo} alt="fb" />
-                            <a
-                              href="https://www.instagram.com/pergolarooms.ae/"
-                              target="_blank"
-                            >
-                              <img
-                                className="icon-img ms-2"
-                                src={instaLogo}
-                                alt="insta"
-                              />
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
+                      <img className="icon-img" src={fbLogo} alt="fb" />
+                      <a
+                        href="https://www.instagram.com/pergolarooms.ae/"
+                        target="_blank"
+                      >
+                        <img
+                          className="icon-img ms-2"
+                          src={instaLogo}
+                          alt="insta"
+                        />
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="https://www.instagram.com/tuna-theme"
+                        title="Instagram"
+                      >
+                        <i class="fab fa-instagram"></i>
+                      </a>
                     </li>
                   </ul>
                 </div>

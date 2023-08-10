@@ -9,7 +9,7 @@ import closeIcon from "../../assets/NavgigationBarImages/cr1.png";
 import fb from "../../assets/NavgigationBarImages/fb1.png";
 import insta from "../../assets/NavgigationBarImages/in1.png";
 import logoblack from "../../assets/NavgigationBarImages/whit.png";
-import FooterLogo from "../../assets/FooterImages/logo.png";
+import FooterLogo from "../../assets/FooterImages/whiteLogo.png";
 import logowhite from "../../assets/NavgigationBarImages/whit.png";
 import { useNavigate } from "react-router-dom";
 
@@ -82,9 +82,10 @@ const NavigationBar = () => {
             <img
               src={FooterLogo}
               className="img-fluid"
-              style={{ maxWidth: "200px" }}
+              style={{ maxWidth: "105px" }}
             />
           </Navbar.Brand>
+
           <div className="icons">
             {/* <img src={searchIcon} alt="search" /> */}
             <img

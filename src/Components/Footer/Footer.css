@@ -1,15 +1,17 @@
-.Footer {
-  background-color: rgba(255, 255, 255, 1);
-}
-
 ul {
   padding-left: 0px !important;
+  list-style: none;
 }
 
 ul li {
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
   cursor: pointer;
+  letter-spacing: 0.3px;
+}
+
+.f-menu li {
+  margin-bottom: 10px;
 }
 
 .FbLogo {
@@ -25,13 +27,17 @@ ul li {
 section span {
   cursor: pointer;
 }
+
 .Footer p {
   font-size: 14px;
+  text-decoration: none;
 }
+
 .anchortagfooter-style {
   text-decoration: none;
   color: black;
 }
+
 .anchortagfooter-style:hover {
   text-decoration: none;
   color: black;

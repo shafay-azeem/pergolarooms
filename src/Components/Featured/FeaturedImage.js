@@ -26,21 +26,21 @@ const FeaturedImage = () => {
     {
       id: 1,
       image: require("../../assets/FeaturedImages/headerNew1.jpg"),
-      text: "Enrich Lifestyle with pergolas",
+      text: "Innovative Pergolas Revolutionize Parking",
       description:
         "Pergolarooms.ae excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.",
     },
     {
       id: 2,
       image: require("../../assets/FeaturedImages/headerNew2.jpg"),
-      text: "Elevate Your Space with Captivating Glass Rooms",
+      text: "Enrich Lifestyle with pergolas",
       description:
         "Seamlessly blend indoors and outdoors with CrystalView's climate-controlled glass rooms.",
     },
     {
       id: 3,
       image: require("../../assets/FeaturedImages/headerNew3.jpg"),
-      text: "Revolutionize Car Parking with Innovative Pergola Structures",
+      text: "Elevate Your Space with Captivating Glass Rooms",
       description:
         "Our sleek pergolas shield vehicles while harmonizing architectural aesthetics. Embrace elegance today.",
     },
@@ -147,7 +147,10 @@ const FeaturedImage = () => {
                               className="text-white font-face-re"
                               data-aos="zoom-in"
                               data-aos-duration="1000"
-                              style={{ textShadow: "0 0 10px #000" }}
+                              style={{
+                                textShadow: "0 0 10px #000",
+                                fontSize: "40px",
+                              }}
                             >
                               {x.text}
                             </h1>
@@ -163,8 +166,8 @@ const FeaturedImage = () => {
                             </div>
                             <button
                               className="quote-btn"
-                              data-aos="zoom-in"
-                              data-aos-duration="1000"
+                              // data-aos="zoom-in"
+                              // data-aos-duration="1000"
                             >
                               <a
                                 href="#contact-us"

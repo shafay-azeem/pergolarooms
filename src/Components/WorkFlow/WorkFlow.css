@@ -136,3 +136,12 @@
 .card-three:hover .profile-image.float-md-right .original-image {
   opacity: 0;
 }
+
+.profile-page .slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: black !important;
+}
+
+.profile-page .slick-arrow {
+  display: none !important;
+}
