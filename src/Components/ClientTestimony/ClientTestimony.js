@@ -10,26 +10,26 @@ const ClientTestimony = () => {
     {
       id: "1",
       testimonyReview:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis numquam, minus saepe doloribus ab deserunt voluptatum obcaecati mollitia, veritatis, recusandae consequuntur. Hic non eligendi laboriosam impedit nam? Quibusdam, ab veritatis!",
-      testimonyName: "JOSEPH KENT / ARCHITECT",
+        "PergolaRooms transformed my backyard into a paradise! Their exceptional design and craftsmanship exceeded my expectations. Now, I enjoy my outdoor space every day. Thank you, PergolaRooms!",
+      testimonyName: "John Doe",
     },
     {
       id: "2",
       testimonyReview:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis numquam, minus saepe doloribus ab deserunt voluptatum obcaecati mollitia, veritatis, recusandae consequuntur. Hic non eligendi laboriosam impedit nam? Quibusdam, ab veritatis!",
-      testimonyName: "JOSEPH KENT / ARCHITECT",
+        "I'm thrilled with the pergola installation by PergolaRooms. It has added elegance and charm to my garden. The team's attention to detail and professionalism made the entire process smooth and enjoyable.",
+      testimonyName: "Jane Smith",
     },
     {
       id: "3",
       testimonyReview:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis numquam, minus saepe doloribus ab deserunt voluptatum obcaecati mollitia, veritatis, recusandae consequuntur. Hic non eligendi laboriosam impedit nam? Quibusdam, ab veritatis!",
-      testimonyName: "JOSEPH KENT / ARCHITECT",
+        "My experience with PergolaRooms was fantastic! They took my vision and executed it perfectly. The pergola has become my favorite place to unwind, and I'm grateful for the wonderful work they've done.",
+      testimonyName: "Lisa Anderson",
     },
     {
       id: "4",
       testimonyReview:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis numquam, minus saepe doloribus ab deserunt voluptatum obcaecati mollitia, veritatis, recusandae consequuntur. Hic non eligendi laboriosam impedit nam? Quibusdam, ab veritatis!",
-      testimonyName: "JOSEPH KENT / ARCHITECT",
+        "PergolaRooms transformed my outdoor space into a cozy retreat. The attention to detail and commitment to quality were evident throughout the process. I'm extremely pleased with the result.",
+      testimonyName: "Sarah Brown",
     },
   ];
   const settings = {

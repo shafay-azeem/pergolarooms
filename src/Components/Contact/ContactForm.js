@@ -23,8 +23,10 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
-          console.log("Email Send");
+          // console.log(result.text);
+          // console.log("Email Send");
+          form.current.reset();
+          window.alert("Email sent successfully!");
         },
         (error) => {
           console.log(error.text);

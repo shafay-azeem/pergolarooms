@@ -133,10 +133,10 @@ const CNCPanelCutter = () => {
             <p className="font-face-rr">
               Our skilled craftsmen ensure precise cuts and flawless execution,
               resulting in visually captivating panels that enhance the overall
-              aesthetics of your pergola. Elevate your pergola design with our
-              CNC cut panels, combining functionality and artistry to create a
-              truly unique outdoor experience. Contact us today to explore the
-              endless possibilities of our CNC cut panels for your project.
+              aesthetics of your villa. Elevate your pergola design with our CNC
+              cut panels, combining functionality and artistry to create a truly
+              unique outdoor experience. Contact us today to explore the endless
+              possibilities of our CNC cut panels for your project.
             </p>
           </div>
           <div className="col-lg-1"></div>
