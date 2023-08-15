@@ -1,16 +1,4 @@
-.main-Banner2 {
-  background-image: url("../../assets/FeaturedImages/2.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 500px;
-}
-
-.Top-Main2 .slick-arrow {
+/* .Top-Main2 .slick-arrow {
   display: none !important;
 }
 
@@ -33,6 +21,26 @@
   border: 0;
   outline: none;
   background: transparent !important;
+} */
+
+.Top-Main2.slick-prev {
+  background-image: url("../../assets/FeaturedImages/leftArrow.png") !important;
+}
+
+.Top-Main2.slick-next {
+  background-image: url("../../assets/FeaturedImages/rightArrow.png") !important;
+}
+
+.Top-Main2 .slick-prev {
+  margin-left: 10% !important;
+  top: 90%;
+  height: 20px !important;
+}
+
+.Top-Main2 .slick-next {
+  margin-right: 10% !important;
+  top: 90%;
+  height: 20px !important;
 }
 
 .read-btn {

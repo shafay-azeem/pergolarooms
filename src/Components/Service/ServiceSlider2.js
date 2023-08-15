@@ -23,7 +23,7 @@ const ServiceSlider2 = () => {
   const slides = [
     {
       id: 1,
-      imgSrc: require("../../assets/ServiceImages/glass-rooms.jpg"),
+      imgSrc: require("../../assets/ServiceImages/responsive section/glass-rooms.jpg"),
       heading: "Glass Rooms",
       subheading: "Elevate Outdoor Living Experience",
       description:
@@ -34,7 +34,7 @@ const ServiceSlider2 = () => {
 
     {
       id: 2,
-      imgSrc: require("../../assets/ServiceImages/pergolas.jpg"),
+      imgSrc: require("../../assets/ServiceImages/responsive section/Pergolas.jpg"),
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
@@ -44,7 +44,7 @@ const ServiceSlider2 = () => {
     },
     {
       id: 3,
-      imgSrc: require("../../assets/ServiceImages/bar-&-bbq.jpg"),
+      imgSrc: require("../../assets/ServiceImages/responsive section/Bar-counter.jpg"),
       heading: "Bar & BBQ Counters",
       subheading: "Out Door elegance",
       description:
@@ -55,7 +55,7 @@ const ServiceSlider2 = () => {
 
     {
       id: 4,
-      imgSrc: require("../../assets/ServiceImages/car-parking-pergolas.jpg"),
+      imgSrc: require("../../assets/ServiceImages/responsive section/Car-parking-shades.jpg"),
       heading: "Car Parking Pergolas",
       subheading: "Enhance Vehicle Protection Elegantly",
       description:
@@ -66,7 +66,7 @@ const ServiceSlider2 = () => {
 
     {
       id: 5,
-      imgSrc: require("../../assets/ServiceImages/door-&-fences.jpg"),
+      imgSrc: require("../../assets/ServiceImages/responsive section/Doors-and-fences.jpg"),
       heading: "Doors & Fences",
       subheading: "Elevate Space with Aluminum Elegance",
       description:
@@ -76,7 +76,7 @@ const ServiceSlider2 = () => {
     },
     {
       id: 6,
-      imgSrc: require("../../assets/ServiceImages/cnc-cut-panels.jpg"),
+      imgSrc: require("../../assets/ServiceImages/responsive section/Cnc-cut-panels.jpg"),
       heading: "CNC Cut Panels",
       subheading: "Enhance with CNC Cut Panels",
       description:
@@ -150,7 +150,21 @@ const ServiceSlider2 = () => {
           {slides.map((x, index) => {
             return (
               <div>
-                <div key={index} className="main-Banner2 py-5">
+                <div
+                  key={index}
+                  className="main-Banner2 py-5"
+                  style={{
+                    backgroundImage: `url(${x.imgSrc})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    display: "flex",
+                    flexDirection: "column",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    minHeight: "500px",
+                  }}
+                >
                   <div className="container text-center text-white">
                     <h2>{x.heading}</h2>
                     <p>{x.subheading}</p>

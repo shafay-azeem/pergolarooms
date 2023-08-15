@@ -173,15 +173,15 @@ const ServiceSlider = () => {
                     <div className="col-lg-6 textCol">
                       <div className="py-5"></div>
 
-                      <div className="px-lg-3 text-white">
+                      <div className="px-3 text-white">
                         <h2>{x.heading}</h2>
                         <p>{x.subheading}</p>
                         <p className="description">{x.description}</p>
                         <a
                           className="service-readmore-link font-face-rr"
                           onClick={() => goToPage(x.route)}
-                          data-aos="fade-right"
-                          data-aos-duration="500"
+                          // data-aos="fade-right"
+                          // data-aos-duration="500"
                         >
                           <BsFillPlusCircleFill />
                           READ MORE
