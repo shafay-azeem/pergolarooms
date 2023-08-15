@@ -217,14 +217,16 @@ const AboutUs = () => {
       </div> */}
       <div className="First container-fluid text-black">
         <div className="container py-5">
-          <h1 className="font-face-re">PERGOLA ROOMS CONTRACTING LLC</h1>
+          <h1 className="font-face-re">
+            PERGOLA ROOMS BUILDING CONTRACTING LLC
+          </h1>
           <p className="font-face-rr">
             Established over a decade ago, Pergola Rooms Contracting LLC has
             garnered a strong reputation as a premier provider of exceptional
             outdoor living solutions. Specializing in Pergolas, Glass Rooms, BBQ
-            Areas, Bar Counters, and Aluminium Doors and Fences, we offer a
-            comprehensive range of services to transform your outdoor space into
-            a haven of comfort and style.
+            Areas, Bar & BBQ Counters, and Aluminium Doors and Fences, we offer
+            a comprehensive range of services to transform your outdoor space
+            into a haven of comfort and style.
           </p>
           <p className="font-face-rr">
             Our team of seasoned professionals combines technical expertise with
@@ -277,7 +279,7 @@ const AboutUs = () => {
               <div className="inner p-lg-5">
                 <h3 className="py-2 font-face-re">OUR PRINCIPLES</h3>
                 <p className="font-face-rr">
-                  We embrace customization, tailoring pergolas to reflect your
+                  We embrace customization, tailoring designs to reflect your
                   unique style and complement your home perfectly. Above all,
                   customer satisfaction is our priority, providing personalized
                   service and exceeding expectations. With these principles, we
@@ -306,8 +308,8 @@ const AboutUs = () => {
                   We believe in transparent communication, timely delivery, and
                   exceptional craftsmanship. By embodying these work ethics, we
                   have earned the trust and loyalty of our valued clients.
-                  Experience the Pergolarooms.ae difference today and witness
-                  our unwavering commitment to excellence in all that we do.
+                  Experience the Pergolarooms difference today and witness our
+                  unwavering commitment to excellence in all that we do.
                 </p>
               </div>
             </div>
@@ -352,11 +354,11 @@ const AboutUs = () => {
 
                 <p className="font-face-rr">
                   We offer premium-quality aluminium works including Pergolas,
-                  glass rooms, bar counters, bbq counters and doors and fences.
-                  With our technical expertise and attention to detail, we bring
-                  your outdoor visions to life, creating exceptional spaces that
-                  stand the test of time. Trust Pergolarooms.ae for all your
-                  outdoor living needs.
+                  glass rooms, Bar & BBQ Counters, bbq counters and doors and
+                  fences. With our technical expertise and attention to detail,
+                  we bring your outdoor visions to life, creating exceptional
+                  spaces that stand the test of time. Trust Pergolarooms for all
+                  your outdoor living needs.
                 </p>
               </div>
             </div>
@@ -379,12 +381,12 @@ const AboutUs = () => {
                 <h3 className="py-2 font-face-re">UNRIVALLED EXPERIENCE</h3>
 
                 <p className="font-face-rr">
-                  Our functional BBQ areas, stylish bar counters, and durable
-                  aluminium doors and fences are specifically engineered to
+                  Our functional BBQ areas, stylish Bar & BBQ Counters, and
+                  durable aluminium pergolas are specifically engineered to
                   endure Dubai's weather conditions. Trust our legacy of
                   innovative craftsmanship to elevate your outdoor living
-                  experience in Dubai. Experience the difference at
-                  Pergolarooms.ae today.
+                  experience in Dubai. Experience the difference at Pergolarooms
+                  today.
                 </p>
               </div>
             </div>

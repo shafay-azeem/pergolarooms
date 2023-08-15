@@ -126,10 +126,9 @@ const CNCPanelCutter = () => {
             <p className="font-face-rr">Enhance with CNC Cut Panels</p>
             <p className="font-face-rr">
               Introducing our precision-engineered CNC cut panels, the perfect
-              addition to your custom pergola design. At PERGOLAROOMS, we
-              utilize advanced CNC technology to create intricate and stunning
-              patterns on panels, adding a touch of elegance to your outdoor
-              space.
+              addition to your villa. At Pergolarooms, we utilize advanced CNC
+              technology to create intricate and stunning patterns on panels,
+              adding a touch of elegance to your outdoor space.
             </p>
             <p className="font-face-rr">
               Our skilled craftsmen ensure precise cuts and flawless execution,
@@ -137,8 +136,7 @@ const CNCPanelCutter = () => {
               aesthetics of your pergola. Elevate your pergola design with our
               CNC cut panels, combining functionality and artistry to create a
               truly unique outdoor experience. Contact us today to explore the
-              endless possibilities of our CNC cut panels for your pergola
-              project.
+              endless possibilities of our CNC cut panels for your project.
             </p>
           </div>
           <div className="col-lg-1"></div>

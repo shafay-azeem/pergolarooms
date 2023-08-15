@@ -124,18 +124,20 @@ const Pergolas = () => {
             <p className="my-0 py-0 font-face-rb">Pergolas</p>
             <p className="font-face-rr">Transform with custom pergolas</p>
             <p className="font-face-rr">
-              Elevate your outdoor space with our exquisite custom pergolas. Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting
-              bespoke pergola designs that enhance your lifestyle. Our skilled
-              team of craftsmen creates stunning pergolas using premium
-              materials, tailored to your unique style and preferences.
+              Elevate your outdoor space with our exquisite custom pergolas.
+              Pergola Rooms Building Contracting LLC, we bring over a decade of
+              expertise in crafting bespoke pergola designs that enhance your
+              lifestyle. Our skilled team of craftsmen creates stunning pergolas
+              using premium materials, tailored to your unique style and
+              preferences.
             </p>
             <p className="font-face-rr">
-              Whether you envision a classic wooden pergola or a contemporary
-              aluminum structure, we have the expertise to make your dream a
-              reality. Trust PERGOLAROOMS for exceptional craftsmanship and
-              unparalleled outdoor transformations. Contact us today to discuss
-              your project and turn your outdoor space into a captivating oasis
-              of beauty and relaxation.
+              Whether you envision a classic pergola or a contemporary aluminum
+              structure, we have the expertise to make your dream a reality.
+              Trust Pergolarooms for exceptional craftsmanship and unparalleled
+              outdoor transformations. Contact us today to discuss your project
+              and turn your outdoor space into a captivating oasis of beauty and
+              relaxation.
             </p>
           </div>
           <div className="col-lg-1"></div>

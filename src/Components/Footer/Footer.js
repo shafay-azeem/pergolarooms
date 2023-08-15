@@ -81,11 +81,10 @@ const Footer = () => {
 
                 <p
                   className="py-4 font-face-rr text-justify"
-                  style={{ textAlign: "justify" }}
+                  // style={{ textAlign: "justify" }}
                 >
-                  Pergola Rooms Contracting LLC, Your Trusted Experts in Custom
-                  Pergolas and Outdoor Living. With a decade of experience, we
-                  bring innovation, craftsmanship.
+                  Pergola Rooms Building Contracting LLC, Your Trusted Experts
+                  in Custom Pergolas and Outdoor Living.
                 </p>
               </div>
               <div className="col-lg-3 col-md-12 col-sm-12">
@@ -105,7 +104,7 @@ const Footer = () => {
                     Pergolas
                   </li>
                   <li className="font-face-rr" onClick={goToBbqArea}>
-                    Bar Counters
+                    Bar & BBQ Counters
                   </li>
                   <li className="font-face-rr" onClick={goToCNCPanelCutter}>
                     CNC Cut Panel
@@ -304,8 +303,8 @@ const Footer = () => {
               >
                 pergolarooms.ae
               </a>
-            </b>{" "}
-            Designed and Developed By <span></span>
+            </b>
+            {/* Designed and Developed By <span></span>
             <span class="text-black">
               <b className="font-face-rb">
                 <a
@@ -316,7 +315,7 @@ const Footer = () => {
                   MEDIA ONE GROUP
                 </a>
               </b>
-            </span>
+            </span> */}
           </div>
         </div>
       </footer>

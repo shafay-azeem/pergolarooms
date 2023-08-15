@@ -1,12 +1,37 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import "../Contact/ContactForm.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   useEffect(() => {
     Aos.init({ duration: 1000 });
   });
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_9d9j4hj",
+        "template_p8svu29",
+        form.current,
+        "YYbvr8T3T2noQxmNT"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("Email Send");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <section
       class="section-padding section-dark"
@@ -17,7 +42,7 @@ const ContactForm = () => {
         <div class="row">
           <div class="col-md-6">
             <h4 class="section-title font-face-rb">CONTACT US</h4>
-            <h2 class="section-subtitle py-1 font-face-rr">REACH US OUT</h2>
+            {/* <h2 class="section-subtitle py-1 font-face-rr">REACH US OUT</h2> */}
             <p class="section-description font-face-rr">
               Contact Pergolarooms.ae Today for Exceptional Outdoor Living
               Solutions. Transform your space with our custom pergolas, patio
@@ -40,6 +65,8 @@ const ContactForm = () => {
               // method="post"
               id="contactForm"
               name="contact-form"
+              ref={form}
+              onSubmit={sendEmail}
             >
               <div class="form-group">
                 <label class="control-label font-face-rr" for="email">
@@ -49,7 +76,7 @@ const ContactForm = () => {
                   class="form-control"
                   id="email"
                   type="email"
-                  name="email"
+                  name="user_email"
                 />
               </div>
 
@@ -66,7 +93,13 @@ const ContactForm = () => {
               </div>
 
               <div class="form-submit mt-5 text-center">
-                <button class="btn-send font-face-rb">SEND</button>
+                <button
+                  class="btn-send font-face-rb"
+                  type="submit"
+                  value="Send"
+                >
+                  SEND
+                </button>
               </div>
             </form>
           </div>

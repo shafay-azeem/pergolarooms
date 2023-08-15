@@ -154,7 +154,7 @@ const NavigationBar = () => {
                   Pergolas
                 </ul>
                 <ul className="items font-face-rb" onClick={goToBbqArea}>
-                  Bar Counters
+                  Bar & BBQ Counters
                 </ul>
 
                 <ul className="items font-face-rb" onClick={goToCNCPanelCutter}>

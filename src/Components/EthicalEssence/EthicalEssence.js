@@ -73,7 +73,7 @@ const EthicalEssence = () => {
               Quality, Customization & Satisfaction
             </h4>
             <p class="description-ethicalessence font-face-rr">
-              At Pergolarooms.ae, we are driven by three core principles that
+              At Pergolarooms, we are driven by three core principles that
               define our commitment to delivering exceptional outdoor living
               solutions. Our foundation is built on excellence, ensuring
               top-notch craftsmanship and premium materials in every project.
@@ -124,7 +124,7 @@ const EthicalEssence = () => {
             <span className="py-3 mb-2 text-white">WHAT WE DO</span>
             <h4 class="subheading font-face-rr">Custom Outdoor Solutions</h4>
             <p class="description-ethicalessence font-face-rr">
-              At Pergolarooms.ae, we are experts in designing and constructing
+              At Pergolarooms, we are experts in designing and constructing
               bespoke pergolas, and glass rooms, providing a seamless blend of
               indoor and outdoor living. Our skilled craftsmen specialize in
               crafting functional and aesthetically pleasing BBQ areas and bar
@@ -161,8 +161,8 @@ const EthicalEssence = () => {
               Our company has a lasting legacy of excellence in designing and
               constructing outdoor spaces that thrive in Dubai's challenging
               climate. With our technical expertise, we create custom pergolas,
-              pergola rooms, and glass rooms that withstand the heat,
-              sandstorms, and high humidity.
+              and glass rooms that withstand the heat, sandstorms, and high
+              humidity.
             </p>
             <a className="readmore-link font-face-rr" onClick={goToAboutUs}>
               <BsFillPlusCircleFill />

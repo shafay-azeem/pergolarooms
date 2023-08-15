@@ -45,10 +45,10 @@ const ServiceSlider2 = () => {
     {
       id: 3,
       imgSrc: require("../../assets/ServiceImages/bar-&-bbq.jpg"),
-      heading: "Bar Counters",
+      heading: "Bar & BBQ Counters",
       subheading: "Out Door elegance",
       description:
-        "Transform your backyard into the ultimate entertainment spot with our custom-designed bar counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These bar counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
+        "Transform your backyard into the ultimate entertainment spot with our custom-designed Bar & BBQ Counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These Bar & BBQ Counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
       bgcolor: "#786050",
       route: "/bbq-area",
     },
