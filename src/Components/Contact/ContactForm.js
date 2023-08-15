@@ -46,7 +46,7 @@ const ContactForm = () => {
             <h4 class="section-title font-face-rb">CONTACT US</h4>
             {/* <h2 class="section-subtitle py-1 font-face-rr">REACH US OUT</h2> */}
             <p class="section-description font-face-rr">
-              Contact Pergolarooms.ae Today for Exceptional Outdoor Living
+              Contact Pergolarooms Today for Exceptional Outdoor Living
               Solutions. Transform your space with our custom pergolas, patio
               covers, and outdoor living areas. Experience our craftsmanship and
               dedication. Connect with us now for a consultation and start

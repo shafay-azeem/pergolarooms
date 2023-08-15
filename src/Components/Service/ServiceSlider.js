@@ -123,7 +123,7 @@ const ServiceSlider = () => {
     dots: true,
     infinite: true,
     slidesToShow: 1,
-    fade: true,
+    fade: false,
     slidesToScroll: 1,
     cssEase: "linear",
     centerPadding: "0px",
@@ -179,7 +179,7 @@ const ServiceSlider = () => {
                         <p className="description">{x.description}</p>
                         <a
                           className="service-readmore-link font-face-rr"
-                          onClick={() => goToPage(x.route)}
+                          onClick={() => navigate(x.route)}
                           // data-aos="fade-right"
                           // data-aos-duration="500"
                         >

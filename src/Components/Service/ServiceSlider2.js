@@ -117,7 +117,7 @@ const ServiceSlider2 = () => {
     dots: true,
     infinite: true,
     slidesToShow: 1,
-    fade: true,
+    fade: false,
     slidesToScroll: 1,
     cssEase: "linear",
     centerPadding: "0px",
@@ -171,7 +171,7 @@ const ServiceSlider2 = () => {
                     <p>{x.description}</p>
                     <a
                       className="service-readmore-link font-face-rr read-btn"
-                      onClick={() => goToPage(x.route)}
+                      onClick={() => navigate(x.route)}
                     >
                       <BsFillPlusCircleFill />
                       READ MORE
