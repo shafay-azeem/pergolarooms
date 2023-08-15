@@ -44,7 +44,7 @@ const ServiceSlider = () => {
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
-        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
+        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials.",
       bgcolor: "#45636f",
       route: "/pergolas",
     },
@@ -54,7 +54,7 @@ const ServiceSlider = () => {
       heading: "Bar & BBQ Counters",
       subheading: "Out Door elegance",
       description:
-        "Transform your backyard into the ultimate entertainment spot with our custom-designed Bar & BBQ Counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These Bar & BBQ Counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
+        "Transform your backyard into the ultimate entertainment spot with our custom-designed Bar & BBQ Counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These Bar & BBQ Counters offer the perfect setting for hosting gatherings.",
       bgcolor: "#786050",
       route: "/bbq-area",
     },
