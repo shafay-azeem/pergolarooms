@@ -14,17 +14,17 @@ const ServiceSlider = () => {
     Aos.init({ duration: 2000 });
   });
 
-  let buttonText;
-  useEffect(() => {
-    document.addEventListener("click", function (event) {
-      const clickedElement = event.target;
-      const parentLi = clickedElement.closest(".slick-dots li");
-      if (parentLi) {
-        buttonText = parentLi.querySelector("button").textContent;
-        console.log(buttonText);
-      }
-    });
-  });
+  // let buttonText;
+  // useEffect(() => {
+  //   document.addEventListener("click", function (event) {
+  //     const clickedElement = event.target;
+  //     const parentLi = clickedElement.closest(".slick-dots li");
+  //     if (parentLi) {
+  //       buttonText = parentLi.querySelector("button").textContent;
+  //       console.log(buttonText);
+  //     }
+  //   });
+  // });
 
   const slides = [
     {
@@ -94,30 +94,29 @@ const ServiceSlider = () => {
 
   const navigate = useNavigate();
 
-  const goToPage = () => {
-    // console.log()
-    if (typeof buttonText === "undefined") {
-      navigate("/glass-rooms");
-    }
-    if (buttonText == 1) {
-      navigate("/glass-rooms");
-    }
-    if (buttonText == 2) {
-      navigate("/pergolas");
-    }
-    if (buttonText == 3) {
-      navigate("/bbq-area");
-    }
-    if (buttonText == 4) {
-      navigate("/car-parking-shades");
-    }
-    if (buttonText == 5) {
-      navigate("/aluminium-doors");
-    }
-    if (buttonText == 6) {
-      navigate("/cnc-panel-cutter");
-    }
-  };
+  // const goToPage = () => {
+  //   if (typeof buttonText === "undefined") {
+  //     navigate("/glass-rooms");
+  //   }
+  //   if (buttonText == 1) {
+  //     navigate("/glass-rooms");
+  //   }
+  //   if (buttonText == 2) {
+  //     navigate("/pergolas");
+  //   }
+  //   if (buttonText == 3) {
+  //     navigate("/bbq-area");
+  //   }
+  //   if (buttonText == 4) {
+  //     navigate("/car-parking-shades");
+  //   }
+  //   if (buttonText == 5) {
+  //     navigate("/aluminium-doors");
+  //   }
+  //   if (buttonText == 6) {
+  //     navigate("/cnc-panel-cutter");
+  //   }
+  // };
 
   const settings = {
     dots: true,
