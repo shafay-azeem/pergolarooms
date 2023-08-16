@@ -158,7 +158,7 @@ const Footer = () => {
                 >
                   <GoMail size={iconSize} />
                   <li className="font-face-rr ms-2" onClick={handleEmailClick}>
-                    info@pergolasroom.ae
+                    info@pergolarooms.ae
                   </li>
                 </ul>
 
