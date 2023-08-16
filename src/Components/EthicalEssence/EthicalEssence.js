@@ -159,7 +159,7 @@ const EthicalEssence = () => {
             <h4 class="subheading font-face-rr">Excellence in Designing</h4>
             <p class="description-ethicalessence font-face-rr">
               Our company has a lasting legacy of excellence in designing and
-              constructing outdoor spaces that thrive in Dubai's challenging
+              constructing outdoor spaces that thrive in UAE challenging
               climate. With our technical expertise, we create custom pergolas,
               and glass rooms that withstand the heat, sandstorms, and high
               humidity.

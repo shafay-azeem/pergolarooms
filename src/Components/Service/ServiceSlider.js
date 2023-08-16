@@ -44,7 +44,7 @@ const ServiceSlider = () => {
       heading: "Pergolas",
       subheading: "Transform with custom pergolas.",
       description:
-        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials.",
+        "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Building Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials.",
       bgcolor: "#45636f",
       route: "/pergolas",
     },

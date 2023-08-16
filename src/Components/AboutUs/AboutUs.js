@@ -221,12 +221,12 @@ const AboutUs = () => {
             PERGOLA ROOMS BUILDING CONTRACTING LLC
           </h1>
           <p className="font-face-rr">
-            Established over a decade ago, Pergola Rooms Contracting LLC has
-            garnered a strong reputation as a premier provider of exceptional
-            outdoor living solutions. Specializing in Pergolas, Glass Rooms, BBQ
-            Areas, Bar & BBQ Counters, and Aluminium Doors and Fences, we offer
-            a comprehensive range of services to transform your outdoor space
-            into a haven of comfort and style.
+            Established over a decade ago, Pergola Rooms Building Contracting
+            LLC has garnered a strong reputation as a premier provider of
+            exceptional outdoor living solutions. Specializing in Pergolas,
+            Glass Rooms, BBQ Areas, Bar & BBQ Counters, and Aluminium Doors and
+            Fences, we offer a comprehensive range of services to transform your
+            outdoor space into a haven of comfort and style.
           </p>
           <p className="font-face-rr">
             Our team of seasoned professionals combines technical expertise with
@@ -236,11 +236,11 @@ const AboutUs = () => {
             clients, taking their vision and transforming it into reality.
           </p>
           <p className="font-face-rr">
-            At Pergola Rooms Contracting LLC, we pride ourselves on delivering
-            innovative designs, superior craftsmanship, and unparalleled
-            customer service. Whether you desire a cozy stunning Glass Room, or
-            a functional BBQ area, we are committed to exceeding your
-            expectations and creating outdoor spaces that enhance your
+            At Pergola Rooms Building Contracting LLC, we pride ourselves on
+            delivering innovative designs, superior craftsmanship, and
+            unparalleled customer service. Whether you desire a cozy stunning
+            Glass Room, or a functional BBQ area, we are committed to exceeding
+            your expectations and creating outdoor spaces that enhance your
             lifestyle.
           </p>
           <p className="font-face-rr">

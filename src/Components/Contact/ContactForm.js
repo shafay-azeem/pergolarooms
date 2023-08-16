@@ -14,6 +14,15 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    // Validate email and message fields
+    const emailInput = document.getElementById("email");
+    const messageInput = document.getElementById("message");
+
+    if (emailInput.value === "" || messageInput.value === "") {
+      alert("Please enter all fields.");
+      return;
+    }
+
     emailjs
       .sendForm(
         "service_9d9j4hj",

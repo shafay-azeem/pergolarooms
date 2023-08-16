@@ -21,11 +21,11 @@ const ProjectCounter = () => {
             <h2 class="count-title">
               <CountUp
                 start={0}
-                end={150}
+                end={10}
                 duration={2}
                 style={{ color: "black" }}
               />
-              K
+              K+
             </h2>
             <p class="count-text ">Project Completed</p>
           </div>
@@ -37,7 +37,7 @@ const ProjectCounter = () => {
             <h2 class="timer count-title count-number">
               <CountUp
                 start={0}
-                end={100}
+                end={50}
                 duration={2}
                 style={{ color: "black" }}
               />
@@ -53,11 +53,11 @@ const ProjectCounter = () => {
             <h2 class="timer count-title count-number">
               <CountUp
                 start={0}
-                end={150}
+                end={9}
                 duration={2}
                 style={{ color: "black" }}
               />
-              K
+              K+
             </h2>
             <p class="count-text ">Satisfied Clients</p>
           </div>
@@ -69,13 +69,13 @@ const ProjectCounter = () => {
             <h2 class="timer count-title count-number">
               <CountUp
                 start={0}
-                end={5}
+                end={10}
                 duration={2}
                 style={{ color: "black" }}
               />
-              K
+              +
             </h2>
-            <p class="count-text ">Total Branches</p>
+            <p class="count-text ">Experience</p>
           </div>
         </div>
       </div>

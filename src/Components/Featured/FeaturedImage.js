@@ -25,25 +25,26 @@ const FeaturedImage = () => {
   const [images, setImages] = useState([
     {
       id: 1,
-      image: require("../../assets/FeaturedImages/headerNew1.jpg"),
-      text: "Innovative Pergolas Revolutionize Parking",
-      description:
-        "Our sleek pergolas shield vehicles while harmonizing architectural aesthetics. Embrace elegance today.",
-    },
-    {
-      id: 2,
       image: require("../../assets/FeaturedImages/headerNew2.jpg"),
       text: "Enrich Your Living Area with pergolas",
       description:
         "Pergolarooms excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.",
     },
     {
-      id: 3,
+      id: 2,
       image: require("../../assets/FeaturedImages/headerNew3.jpg"),
       text: "Elevate Your Space with Captivating Glass Rooms",
       description:
         "Seamlessly blend indoors and outdoors with CrystalView's climate-controlled glass rooms.",
     },
+    {
+      id: 3,
+      image: require("../../assets/FeaturedImages/headerNew1.jpg"),
+      text: "Innovative Pergolas Revolutionize Parking",
+      description:
+        "Our sleek pergolas shield vehicles while harmonizing architectural aesthetics. Embrace elegance today.",
+    },
+
     // {
     //   id: 4,
     //   image: require("../../assets/FeaturedImages/4.jpg"),
