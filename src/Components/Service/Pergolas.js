@@ -71,17 +71,20 @@ const Pergolas = () => {
   return (
     <>
       <div className="pergolas">
-        <div className="container-fluid" style={{
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
-          height: "100vh",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}>
+        <div
+          className="container-fluid"
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.4)",
+            height: "100vh",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <h2 className="text-white text-center py-5 font-face-re">PERGOLAS</h2>
         </div>
       </div>

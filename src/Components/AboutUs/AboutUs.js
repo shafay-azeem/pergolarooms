@@ -86,17 +86,20 @@ const AboutUs = () => {
   return (
     <>
       <div className="aboutUs">
-        <div className="container-fluid" style={{
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
-          height: "100vh",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          justifyContent: "center",
-        }}>
+        <div
+          className="container-fluid"
+          style={{
+            backgroundColor: "rgba(0, 0, 0, 0.4)",
+            height: "100vh",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+            backgroundPosition: "center",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
           <h2 className="text-white text-center py-5 font-face-re">ABOUT US</h2>
         </div>
       </div>
@@ -236,9 +239,9 @@ const AboutUs = () => {
             Established over a decade ago, Pergola Rooms Building Contracting
             LLC has garnered a strong reputation as a premier provider of
             exceptional outdoor living solutions. Specializing in Pergolas,
-            Glass Rooms, BBQ Areas, Bar & BBQ Counters, and Aluminium Doors and
-            Fences, we offer a comprehensive range of services to transform your
-            outdoor space into a haven of comfort and style.
+            Glass Rooms, Bar & BBQ Counters, and Aluminium Doors and Fences, we
+            offer a comprehensive range of services to transform your outdoor
+            space into a haven of comfort and style.
           </p>
           <p className="font-face-rr">
             Our team of seasoned professionals combines technical expertise with
@@ -256,7 +259,7 @@ const AboutUs = () => {
             lifestyle.
           </p>
           <p className="font-face-rr">
-            BBQ AREA | GLASS ROOM | PERGOLAS | VILLA EXTENSION /PATIO
+            Pergolas | Glass Rooms | Villa extention/ patio | BBQ area
           </p>
         </div>
       </div>
@@ -366,11 +369,11 @@ const AboutUs = () => {
 
                 <p className="font-face-rr">
                   We offer premium-quality aluminium works including Pergolas,
-                  glass rooms, Bar & BBQ Counters, bbq counters and doors and
-                  fences. With our technical expertise and attention to detail,
-                  we bring your outdoor visions to life, creating exceptional
-                  spaces that stand the test of time. Trust Pergolarooms for all
-                  your outdoor living needs.
+                  glass rooms, Bar & BBQ Counters, and doors and fences. With
+                  our technical expertise and attention to detail, we bring your
+                  outdoor visions to life, creating exceptional spaces that
+                  stand the test of time. Trust Pergolarooms for all your
+                  outdoor living needs.
                 </p>
               </div>
             </div>
