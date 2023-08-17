@@ -306,7 +306,7 @@ const AboutUs = () => {
         </div>
 
         <div
-          className="row"
+          className="row ethics-second"
           style={{
             position: "relative",
             alignItems: "end",
@@ -381,7 +381,7 @@ const AboutUs = () => {
         </div>
 
         <div
-          className="row"
+          className="row ethics-fourth"
           style={{
             position: "relative",
             alignItems: "end",

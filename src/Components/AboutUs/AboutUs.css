@@ -77,6 +77,7 @@
 }
 
 @media only screen and (max-width: 600px) {
+
   .spacer,
   .spacer-right {
     margin: 0;
@@ -89,5 +90,23 @@
 
   .inner-right {
     margin: 0;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 500px) {
+  .ethics-second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ethics-fourth {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
