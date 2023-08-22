@@ -4,7 +4,7 @@
   cursor: pointer;
   overflow-y: scroll;
   color: #6b6b6b;
-  background-image: url("../../assets/PortfolioImages/bg-architecture-agency\ copy.jpg");
+  background-image: url("../../assets/PortfolioImages/bg-architecture-agency\ copyW.webp");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 1;
@@ -51,7 +51,6 @@
   cursor: pointer;
   color: #6b6b6b;
 }
-
 
 /* -------------MEDIA QUERIES FOR RESPONSIVENESS-------------- */
 @media screen and (min-width: 1024px) {
@@ -146,7 +145,6 @@ span {
   text-decoration: none;
   color: white;
 }
-
 
 .myClass {
   background-color: transparent !important;

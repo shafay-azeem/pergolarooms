@@ -1,5 +1,5 @@
 .aboutUs {
-  background-image: url("../../assets/AboutUsImages/header.jpg");
+  background-image: url("../../assets/AboutUsImages/headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -7,6 +7,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .aboutUs {
+    background-image: url("../../assets/AboutUsImages/AboutMobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -184px 31%;
+  }
 }
 
 .hr-style {
@@ -77,7 +86,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-
   .spacer,
   .spacer-right {
     margin: 0;
@@ -92,10 +100,6 @@
     margin: 0;
   }
 }
-
-
-
-
 
 @media screen and (max-width: 500px) {
   .ethics-second {

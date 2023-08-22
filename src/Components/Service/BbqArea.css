@@ -1,5 +1,5 @@
 .BBQ-Area {
-  background-image: url("../../assets/BBQAreaImages/BBQ\ AREA\ 2.jpg");
+  background-image: url("../../assets/BBQAreaImages//headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -10,7 +10,7 @@
 }
 
 .pergolas {
-  background-image: url("../../assets/pergolas/header.jpg");
+  background-image: url("../../assets/pergolas/headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -21,7 +21,7 @@
 }
 
 .glassRooms {
-  background-image: url("../../assets/GlassRoomsImages/header.jpg");
+  background-image: url("../../assets/GlassRoomsImages/headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -32,7 +32,7 @@
 }
 
 .cncCutPanel {
-  background-image: url("../../assets/CncCutPanelImages/header.jpg");
+  background-image: url("../../assets/CncCutPanelImages/headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -43,7 +43,7 @@
 }
 
 .carParkingShades {
-  background-image: url("../../assets/CarParkingShades/headre.jpg");
+  background-image: url("../../assets/CarParkingShades/headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -53,7 +53,7 @@
   align-items: center;
 }
 .aluWindowsDoors {
-  background-image: url("../../assets/AliminiumDoorsAndWindowsImages/header.jpg");
+  background-image: url("../../assets/AliminiumDoorsAndWindowsImages/headerW.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 450px;
@@ -61,4 +61,57 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 500px) {
+  .BBQ-Area {
+    background-image: url("../../assets/BBQAreaImages/BarBQMobileW.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .pergolas {
+    background-image: url("../../assets/pergolas/PergolasMobileW.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -161px 31%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .glassRooms {
+    background-image: url("../../assets/GlassRoomsImages/GlassRoomMobileW.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cncCutPanel {
+    background-image: url("../../assets/CncCutPanelImages/CNCMobileW.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carParkingShades {
+    background-image: url("../../assets/CarParkingShades/CarParkingMobileW.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aluWindowsDoors {
+    background-image: url("../../assets/AliminiumDoorsAndWindowsImages/DoorsMobileW.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 }

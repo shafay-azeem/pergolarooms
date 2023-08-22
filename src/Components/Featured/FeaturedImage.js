@@ -18,21 +18,21 @@ const FeaturedImage = () => {
   const [images, setImages] = useState([
     {
       id: 1,
-      image: require("../../assets/FeaturedImages/headerNew2.jpg"),
+      image: require("../../assets/FeaturedImages/headerNew2w.webp"),
       text: "Enrich Your Living Area with pergolas",
       description:
         "Pergolarooms excels in crafting optimized outdoor spaces for the GCC's climate, maximizing usage and aesthetics.",
     },
     {
       id: 2,
-      image: require("../../assets/FeaturedImages/headerNew3.jpg"),
+      image: require("../../assets/FeaturedImages/headerNew3w.webp"),
       text: "Elevate Your Space with Captivating Glass Rooms",
       description:
         "Seamlessly blend indoors and outdoors with CrystalView's climate-controlled glass rooms.",
     },
     {
       id: 3,
-      image: require("../../assets/FeaturedImages/headerNew1.jpg"),
+      image: require("../../assets/FeaturedImages/headerNew1w.webp"),
       text: "Innovative Pergolas Revolutionize Parking",
       description:
         "Our sleek pergolas shield vehicles while harmonizing architectural aesthetics. Embrace elegance today.",
@@ -133,11 +133,7 @@ const FeaturedImage = () => {
                                 {x.description}
                               </p>
                             </div>
-                            <button
-                              className="quote-btn"
-                              // data-aos="zoom-in"
-                              // data-aos-duration="1000"
-                            >
+                            <button className="quote-btn">
                               <a
                                 href="#contact-us"
                                 className="font-face-rr"

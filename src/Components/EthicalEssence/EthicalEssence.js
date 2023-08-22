@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "../EthicalEssence/EthicalEssence.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
-import img1 from "../../assets/EthicalEssenceImages/our-principles-new.png";
-import img2 from "../../assets/EthicalEssenceImages/work-ethics-new.png";
-import img3 from "../../assets/EthicalEssenceImages/what-we-do-new.png";
-import img4 from "../../assets/EthicalEssenceImages/our-legacy-new.png";
+import img1 from "../../assets/EthicalEssenceImages/our-principles-newW.webp";
+import img2 from "../../assets/EthicalEssenceImages/work-ethics-newW.webp";
+import img3 from "../../assets/EthicalEssenceImages/what-we-do-newW.webp";
+import img4 from "../../assets/EthicalEssenceImages/our-legacy-newW.webp";
 
 import "aos/dist/aos.css";
 
