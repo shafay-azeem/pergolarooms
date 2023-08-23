@@ -16,19 +16,36 @@ const ContactForm = () => {
 
     // Validate email and message fields
     const emailInput = document.getElementById("email");
+    const nameInput = document.getElementById("name");
     const messageInput = document.getElementById("message");
+    const phoneInput = document.getElementById("phone");
 
-    if (emailInput.value === "" || messageInput.value === "") {
+    if (isNaN(phoneInput.value)) {
+      alert("Enter Only Numaric Value");
+      return;
+    }
+
+    if (phoneInput.value.length > 15) {
+      alert("Max 15 digits allowed");
+      return;
+    }
+
+    if (
+      emailInput.value === "" ||
+      messageInput.value === "" ||
+      nameInput.value === "" ||
+      phoneInput.value === ""
+    ) {
       alert("Please enter all fields.");
       return;
     }
 
     emailjs
       .sendForm(
-        "service_9d9j4hj",
-        "template_p8svu29",
+        "service_qytd3bf",
+        "template_tus3c8j",
         form.current,
-        "YYbvr8T3T2noQxmNT"
+        "AhaleCQZZJAN12rAj"
       )
       .then(
         (result) => {
@@ -80,6 +97,18 @@ const ContactForm = () => {
               onSubmit={sendEmail}
             >
               <div class="form-group">
+                <label class="control-label font-face-rr" for="name">
+                  Name
+                </label>
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  name="user_name"
+                />
+              </div>
+
+              <div class="form-group">
                 <label class="control-label font-face-rr" for="email">
                   Your Email Goes Here
                 </label>
@@ -88,6 +117,18 @@ const ContactForm = () => {
                   id="email"
                   type="email"
                   name="user_email"
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="control-label font-face-rr" for="phone">
+                  Phone Number
+                </label>
+                <input
+                  class="form-control"
+                  id="phone"
+                  type="text"
+                  name="user_phone"
                 />
               </div>
 
