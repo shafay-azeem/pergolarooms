@@ -133,6 +133,18 @@ const ContactForm = () => {
               </div>
 
               <div class="form-group">
+                <label class="control-label font-face-rr" for="phone">
+                  Address
+                </label>
+                <input
+                  class="form-control"
+                  id="address"
+                  type="text"
+                  name="address"
+                />
+              </div>
+
+              <div class="form-group">
                 <label for="message" class="control-label font-face-rr">
                   Type Your Message Here
                 </label>
