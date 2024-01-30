@@ -1,6 +1,5 @@
 import React from "react";
 import "../TopNav/TopNav.css";
-import arrow from "../../assets/FeaturedImages/leftArrow.png";
 import fbLogo from "../../assets/TopNavImages/facebook.png";
 import instaLogo from "../../assets/TopNavImages/instagram.png";
 
@@ -12,11 +11,11 @@ const TopNav = () => {
     window.location.href = "mailto:info@pergolasroom.ae";
   };
   return (
-    <div class="ltn__header-top-area top-area py-2">
-      <div class="container">
-        <div class="row">
-          <div class="col-7">
-            <div class="ltn__top-bar-menu">
+    <div className="ltn__header-top-area top-area py-2">
+      <div className="container">
+        <div className="row">
+          <div className="col-7">
+            <div className="ltn__top-bar-menu">
               <ul>
                 <li className="d-none d-lg-block d-md-block">
                   <a onClick={handleEmailClick}>
@@ -33,13 +32,13 @@ const TopNav = () => {
               </ul>
             </div>
           </div>
-          <div class="col-5">
-            <div class="top-bar-right text-end">
-              <div class="ltn__top-bar-menu">
-                <div class="ltn__social-media">
+          <div className="col-5">
+            <div className="top-bar-right text-end">
+              <div className="ltn__top-bar-menu">
+                <div className="ltn__social-media">
                   <ul>
                     <li>
-                      <img className="icon-img" src={fbLogo} alt="fb" />
+                      <img className="icon-img" src={fbLogo} alt="fbLogo" />
                       <a
                         href="https://www.instagram.com/pergolarooms.ae/"
                         target="_blank"
@@ -47,7 +46,7 @@ const TopNav = () => {
                         <img
                           className="icon-img ms-2"
                           src={instaLogo}
-                          alt="insta"
+                          alt="instaLogo"
                         />
                       </a>
                     </li>
@@ -55,9 +54,9 @@ const TopNav = () => {
                     <li>
                       <a
                         href="https://www.instagram.com/tuna-theme"
-                        title="Instagram"
+                        title="instagram.com/tuna-theme"
                       >
-                        <i class="fab fa-instagram"></i>
+                        <i className="fab fa-instagram"></i>
                       </a>
                     </li>
                   </ul>

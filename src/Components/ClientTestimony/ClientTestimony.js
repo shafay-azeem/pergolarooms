@@ -45,7 +45,7 @@ const ClientTestimony = () => {
         <div className="container py-2">
           <div className="Testi-main row py-5">
             <div className="py-4 bg-white shadow col-lg-8 col-md-12 text-center">
-              <img className="img-fluid" src={icon} alt="img" />
+              <img className="img-fluid" src={icon} alt="icon" />
               <div className="Test-inner p-5">
                 <Slider {...settings}>
                   {testimonyData.map((x, index) => {

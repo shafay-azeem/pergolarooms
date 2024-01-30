@@ -14,7 +14,6 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    // Validate email and message fields
     const emailInput = document.getElementById("email");
     const nameInput = document.getElementById("name");
     const messageInput = document.getElementById("message");
@@ -49,10 +48,9 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          // console.log(result.text);
-          // console.log("Email Send");
           form.current.reset();
           window.alert("Email sent successfully!");
+          console.log(result);
         },
         (error) => {
           console.log(error.text);
@@ -62,16 +60,15 @@ const ContactForm = () => {
 
   return (
     <section
-      class="section-padding section-dark"
+      className="section-padding section-dark"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h4 class="section-title font-face-rb">CONTACT US</h4>
-            {/* <h2 class="section-subtitle py-1 font-face-rr">REACH US OUT</h2> */}
-            <p class="section-description font-face-rr">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <h4 className="section-title font-face-rb">CONTACT US</h4>
+            <p className="section-description font-face-rr">
               Contact Pergolarooms Today for Exceptional Outdoor Living
               Solutions. Transform your space with our custom pergolas, patio
               covers, and outdoor living areas. Experience our craftsmanship and
@@ -79,86 +76,85 @@ const ContactForm = () => {
               creating your dream outdoor oasis
             </p>
 
-            <div class="find-widget py-2 font-face-rr">
+            <div className="find-widget py-2 font-face-rr">
               Dubai, United Arab Emirates
             </div>
-            <div class="find-widget font-face-rr">
+            <div className="find-widget font-face-rr">
               Sharjah, United Arab Emirates
             </div>
           </div>
-          <div class="col-md-6">
+          <div className="col-md-6">
             <form
-              class="shake"
+              className="shake"
               role="form"
-              // method="post"
               id="contactForm"
               name="contact-form"
               ref={form}
               onSubmit={sendEmail}
             >
-              <div class="form-group">
-                <label class="control-label font-face-rr" for="name">
+              <div className="form-group">
+                <label className="control-label font-face-rr" for="name">
                   Name
                 </label>
                 <input
-                  class="form-control"
+                  className="form-control"
                   id="name"
                   type="text"
                   name="user_name"
                 />
               </div>
 
-              <div class="form-group">
-                <label class="control-label font-face-rr" for="email">
+              <div className="form-group">
+                <label className="control-label font-face-rr" for="email">
                   Your Email Goes Here
                 </label>
                 <input
-                  class="form-control"
+                  className="form-control"
                   id="email"
                   type="email"
                   name="user_email"
                 />
               </div>
 
-              <div class="form-group">
-                <label class="control-label font-face-rr" for="phone">
+              <div className="form-group">
+                <label className="control-label font-face-rr" for="phone">
                   Phone Number
                 </label>
                 <input
-                  class="form-control"
+                  className="form-control"
                   id="phone"
                   type="text"
                   name="user_phone"
                 />
               </div>
 
-              <div class="form-group">
-                <label class="control-label font-face-rr" for="phone">
+              <div className="form-group">
+                <label className="control-label font-face-rr" for="phone">
                   Address
                 </label>
                 <input
-                  class="form-control"
+                  className="form-control"
                   id="address"
                   type="text"
                   name="address"
                 />
               </div>
 
-              <div class="form-group">
-                <label for="message" class="control-label font-face-rr">
+              <div className="form-group">
+                <label for="message" className="control-label font-face-rr">
                   Type Your Message Here
                 </label>
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   rows="3"
                   id="message"
                   name="message"
                 ></textarea>
               </div>
 
-              <div class="form-submit mt-5 text-center">
+              <div className="form-submit mt-5 text-center">
                 <button
-                  class="btn-send font-face-rb"
+                  className="btn-send font-face-rb"
                   type="submit"
                   value="Send"
                 >

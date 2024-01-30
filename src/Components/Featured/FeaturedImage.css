@@ -6,15 +6,6 @@
   transform: rotate(90deg);
 }
 
-/* 
-.Featured-Right-Image {
-    background-image: url('../../assets/FeaturedImages/h1-port-slider-img-1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 650px;
-} */
-
 .Featured-Right-Image {
   overflow: hidden;
   min-height: 500px;
@@ -34,7 +25,6 @@
 }
 
 .Hero-slider .slick-slide {
-  /* height: 700px; */
   height: 100vh;
 }
 
@@ -45,27 +35,6 @@
 .slick-next:before {
   content: "" !important;
 }
-
-/* .Hero-slider .slick-arrow .slick-prev {
-  left: 20px !important;
-  z-index: 9999 !important;
-} */
-
-/* .Hero-slider .slick-prev {
-  left: 25% !important;
-  z-index: 9999 !important;
-  border: 2px solid white !important;
-  height: 50px !important;
-  width: 80px !important;
-}
-
-.Hero-slider .slick-next {
-  right: 25% !important;
-  z-index: 9999 !important;
-  border: 2px solid white !important;
-  height: 50px !important;
-  width: 80px !important;
-} */
 
 @media screen and (max-width: 913px) {
   .slick-prev {
@@ -146,26 +115,11 @@
 .slick-slide {
   visibility: hidden;
 }
+
 .slick-slide.slick-active {
   visibility: visible;
 }
 
-/* .Featured-Right-Image img {
-  transition: all 8s linear;
-} */
-
-/* @keyframes zoomInOut {
-  from {
-    transform: scale(0.8);
-
-    width: 80%;
-  }
-  to {
-    transform: scale(1.2);
-
-    width: 100%;
-  }
-} */
 
 .Feature-Architecture {
   position: absolute;
@@ -248,18 +202,8 @@
 
 .quote-btn {
   font-size: 20px;
-  /* width: 50%; */
   background-color: black;
   padding: 8px 35px;
   border: none;
   color: white;
 }
-
-/* .quote-btn:hover {
-  font-size: 20px;
-  width: 50%;
-  padding: 8px 15px;
-  border: none;
-  background-color: white;
-  color: black;
-} */

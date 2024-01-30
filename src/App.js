@@ -11,7 +11,7 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import CarParkShade from "./Components/Service/CarParkShade";
 import AluDoorWindow from "./Components/Service/AluDoorWindow";
 import TopNav from "./Components/TopNav/TopNav";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import NotFoundPage from "./Components/NotFoundPage";
 
 function App() {
@@ -29,9 +29,8 @@ function App() {
       }
     };
 
-    updateHeaderMargin(); // Initial setup
+    updateHeaderMargin();
 
-    // Use ResizeObserver to track changes in the element's size
     const resizeObserver = new ResizeObserver(updateHeaderMargin);
     if (myElementRef.current) {
       resizeObserver.observe(myElementRef.current);

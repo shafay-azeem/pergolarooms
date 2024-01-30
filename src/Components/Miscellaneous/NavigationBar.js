@@ -87,11 +87,10 @@ const NavigationBar = () => {
           </Navbar.Brand>
 
           <div className="icons">
-            {/* <img src={searchIcon} alt="search" /> */}
             <img
               onClick={handleShow}
               src={menuIcon}
-              alt="menu"
+              alt="menuIcon"
               className="ms-3"
             />
           </div>

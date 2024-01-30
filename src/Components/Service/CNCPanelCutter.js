@@ -115,6 +115,7 @@ const CNCPanelCutter = () => {
             cursor: "pointer",
           }}
           onClick={handlePhoneButton}
+          alt="phoneImg"
         />
       </div>
 
@@ -137,6 +138,7 @@ const CNCPanelCutter = () => {
             cursor: "pointer",
           }}
           onClick={handleButton}
+          alt="whatsappimg"
         />
       </div>
       <div className="container text-center">

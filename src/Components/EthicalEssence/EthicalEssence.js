@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../EthicalEssence/EthicalEssence.css";
 import { BsFillPlusCircleFill } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
@@ -27,19 +27,18 @@ const EthicalEssence = () => {
   return (
     <div
       style={{
-        // backgroundImage: `url(${bg})`,
         backgroundColor: "black",
         backgroundSize: "cover",
       }}
     >
       <div className="container py-5 px-lg-5">
         <div className="row d-md-flex align-items-center mb-5">
-          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000">
             <span className="py-3 mb-2 text-white">OUR PRINCIPLES</span>
-            <h4 class="subheading font-face-rr">
+            <h4 className="subheading font-face-rr">
               Quality, Customization & Satisfaction
             </h4>
-            <p class="description-ethicalessence font-face-rr">
+            <p className="description-ethicalessence font-face-rr">
               At Pergolarooms, we are driven by three core principles that
               define our commitment to delivering exceptional outdoor living
               solutions. Our foundation is built on excellence, ensuring
@@ -51,27 +50,29 @@ const EthicalEssence = () => {
             </a>
           </div>
           <div
-            class="col-md-6 py-3"
+            className="col-md-6 py-3"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <img src={img1} alt="1" className="img-fluid" />
+            <img src={img1} alt="img1" className="img-fluid" />
           </div>
         </div>
 
         <div className="row d-md-flex align-items-center mb-5 ethical-second">
           <div
-            class="col-md-6 py-3"
+            className="col-md-6 py-3"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img src={img2} alt="1" className="img-fluid" />
+            <img src={img2} alt="img2" className="img-fluid" />
           </div>
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200">
+          <div className="col-md-6" data-aos="fade-up" data-aos-duration="1200">
             <span className="py-3 mb-2 text-white">WORK ETHICS</span>
-            <h4 class="subheading font-face-rr">Integrity and Dedication</h4>
-            <p class="description-ethicalessence font-face-rr">
+            <h4 className="subheading font-face-rr">
+              Integrity and Dedication
+            </h4>
+            <p className="description-ethicalessence font-face-rr">
               Our work ethics form the bedrock of our company culture. With a
               decade of industry experience, we are committed to upholding the
               highest standards of integrity, excellence, and dedication. Our
@@ -87,10 +88,12 @@ const EthicalEssence = () => {
         </div>
 
         <div className="row d-md-flex align-items-center mb-5">
-          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1000">
+          <div className="col-md-6" data-aos="fade-up" data-aos-duration="1000">
             <span className="py-3 mb-2 text-white">WHAT WE DO</span>
-            <h4 class="subheading font-face-rr">Custom Outdoor Solutions</h4>
-            <p class="description-ethicalessence font-face-rr">
+            <h4 className="subheading font-face-rr">
+              Custom Outdoor Solutions
+            </h4>
+            <p className="description-ethicalessence font-face-rr">
               At Pergolarooms, we are experts in designing and constructing
               bespoke pergolas, and glass rooms, providing a seamless blend of
               indoor and outdoor living. Our skilled craftsmen specialize in
@@ -104,27 +107,27 @@ const EthicalEssence = () => {
           </div>
 
           <div
-            class="col-md-6 py-3"
+            className="col-md-6 py-3"
             data-aos="fade-up"
             data-aos-duration="1200"
           >
-            <img src={img3} alt="1" className="img-fluid" />
+            <img src={img3} alt="img3" className="img-fluid" />
           </div>
         </div>
 
         <div className="row d-md-flex align-items-center mb-5 ethical-fourth">
           <div
-            class="col-md-6 py-3"
+            className="col-md-6 py-3"
             data-aos="fade-up"
             data-aos-duration="1300"
           >
-            <img src={img4} alt="1" className="img-fluid" />
+            <img src={img4} alt="img4" className="img-fluid" />
           </div>
 
-          <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200">
+          <div className="col-md-6" data-aos="fade-up" data-aos-duration="1200">
             <span className="py-3 mb-2 text-white">Our Legacy</span>
-            <h4 class="subheading font-face-rr">Excellence in Designing</h4>
-            <p class="description-ethicalessence font-face-rr">
+            <h4 className="subheading font-face-rr">Excellence in Designing</h4>
+            <p className="description-ethicalessence font-face-rr">
               Our company has a lasting legacy of excellence in designing and
               constructing outdoor spaces that thrive in UAE challenging
               climate. With our technical expertise, we create custom pergolas,

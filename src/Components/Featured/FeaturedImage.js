@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import fb from "../../assets/FeaturedImages/001-facebook.png";
 import insta from "../../assets/FeaturedImages/002-instagram.png";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -47,9 +46,6 @@ const FeaturedImage = () => {
     slidesToScroll: 1,
     cssEase: "linear",
     centerPadding: "0px",
-    // autoplay: true,
-    // speed: 700,
-    // autoplaySpeed: 5000,
     pauseOnHover: false,
     arrows: true,
     responsive: [

@@ -13,12 +13,16 @@ const ProjectCounter = () => {
     Aos.init({ duration: 1000 });
   });
   return (
-    <div class="container p-5">
-      <div class="row text-center">
-        <div class="col-md-3 col-6">
-          <div class="counter">
-            <img src={projectCompleted} className="img-fluid" />
-            <h2 class="count-title">
+    <div className="container p-5">
+      <div className="row text-center">
+        <div className="col-md-3 col-6">
+          <div className="counter">
+            <img
+              src={projectCompleted}
+              classNameName="img-fluid"
+              alt="projectCompleted"
+            />
+            <h2 className="count-title">
               <CountUp
                 start={0}
                 end={10}
@@ -27,14 +31,18 @@ const ProjectCounter = () => {
               />
               K+
             </h2>
-            <p class="count-text ">Project Completed</p>
+            <p className="count-text ">Project Completed</p>
           </div>
         </div>
 
-        <div class="col-md-3 col-6">
-          <div class="counter">
-            <img src={teamMembers} className="img-fluid" />
-            <h2 class="timer count-title count-number">
+        <div className="col-md-3 col-6">
+          <div className="counter">
+            <img
+              src={teamMembers}
+              classNameName="img-fluid"
+              alt="teamMembers"
+            />
+            <h2 className="timer count-title count-number">
               <CountUp
                 start={0}
                 end={50}
@@ -43,14 +51,18 @@ const ProjectCounter = () => {
               />
               +
             </h2>
-            <p class="count-text ">Team Members</p>
+            <p className="count-text ">Team Members</p>
           </div>
         </div>
 
-        <div class="col-md-3 col-6">
-          <div class="counter">
-            <img src={satisfiedClients} className="img-fluid" />
-            <h2 class="timer count-title count-number">
+        <div className="col-md-3 col-6">
+          <div className="counter">
+            <img
+              src={satisfiedClients}
+              classNameName="img-fluid"
+              alt="satisfiedClients"
+            />
+            <h2 className="timer count-title count-number">
               <CountUp
                 start={0}
                 end={9}
@@ -59,14 +71,18 @@ const ProjectCounter = () => {
               />
               K+
             </h2>
-            <p class="count-text ">Satisfied Clients</p>
+            <p className="count-text ">Satisfied Clients</p>
           </div>
         </div>
 
-        <div class="col-md-3 col-6">
-          <div class="counter">
-            <img src={totalBranches} className="img-fluid" />
-            <h2 class="timer count-title count-number">
+        <div className="col-md-3 col-6">
+          <div className="counter">
+            <img
+              src={totalBranches}
+              classNameName="img-fluid"
+              alt="totalBranches"
+            />
+            <h2 className="timer count-title count-number">
               <CountUp
                 start={0}
                 end={10}
@@ -75,7 +91,7 @@ const ProjectCounter = () => {
               />
               +
             </h2>
-            <p class="count-text ">Experience</p>
+            <p className="count-text ">Experience</p>
           </div>
         </div>
       </div>

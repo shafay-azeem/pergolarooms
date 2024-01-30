@@ -1,5 +1,4 @@
 import React from "react";
-
 import "../../Components/Service/BbqArea.css";
 import ServiceGallery from "./ServiceGallery";
 import ContactForm from "../Contact/ContactForm";
@@ -118,6 +117,7 @@ const BbqArea = () => {
             cursor: "pointer",
           }}
           onClick={handlePhoneButton}
+          alt="phoneImg"
         />
       </div>
 
@@ -140,6 +140,7 @@ const BbqArea = () => {
             cursor: "pointer",
           }}
           onClick={handleButton}
+          alt="whatsappimg"
         />
       </div>
       <div className="container text-center">
@@ -147,9 +148,6 @@ const BbqArea = () => {
           <div className="col-lg-1"></div>
           <div className="col-lg-10 py-5">
             <p className="my-0 py-0 font-face-rb">BAR & BBQ COUNTERS</p>
-            {/* <p className="font-face-rr">
-              Elevate Your Outdoor Cooking Experience with a BBQ Area Pergola
-            </p> */}
             <p className="font-face-rr">
               Transform your backyard into the ultimate entertainment spot with
               our custom-designed bar & bbq counters, exquisitely crafted using

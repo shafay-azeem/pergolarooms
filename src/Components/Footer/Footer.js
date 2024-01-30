@@ -50,25 +50,6 @@ const Footer = () => {
     <>
       <footer className="Footer mt-5">
         <div className="container mt-3 py-3 px-lg-5">
-          {/* <div className="row px-lg-5 d-flex justify-content-center align-items-center text-center">
-            <div className="col-md-6">
-              <img
-                style={{ maxWidth: "200px" }}
-                src={blackLogo}
-                className="img-fluid"
-                alt="footerMain"
-              />
-
-              <p className="py-4 font-face-rr">
-                Pergola Rooms Contracting LLC, Your Trusted Experts in Custom
-                Pergolas and Outdoor Living. With a decade of experience, we
-                bring innovation, craftsmanship, and exceptional design to
-                transform your outdoor space into a haven of beauty and
-                functionality. Discover the Pergolarooms.ae, difference today.
-              </p>
-            </div>
-          </div> */}
-
           <section className="container">
             <div className="row">
               <div className="col-lg-3 col-md-12 col-sm-12 pe-lg-4">
@@ -76,13 +57,10 @@ const Footer = () => {
                   style={{ maxWidth: "120px" }}
                   src={blackLogo}
                   className="img-fluid"
-                  alt="footerMain"
+                  alt="blackLogo"
                 />
 
-                <p
-                  className="py-4 font-face-rr text-justify"
-                  // style={{ textAlign: "justify" }}
-                >
+                <p className="py-4 font-face-rr text-justify">
                   Pergola Rooms Building Contracting LLC, Your Trusted Experts
                   in Custom Pergolas and Outdoor Living.
                 </p>
@@ -117,19 +95,6 @@ const Footer = () => {
                   <li className="font-face-rr" onClick={goToCarParkingPergolas}>
                     Car Parking Pergolas
                   </li>
-
-                  {/* <li className="font-face-rr" onClick={goToPergolas}>
-                    Pergolas
-                  </li>
-                  <li className="font-face-rr" onClick={goToPergolasRoom}>
-                    Pergola Room
-                  </li>
-                  <li className="font-face-rr" onClick={goToBbqArea}>
-                    BBQ Area
-                  </li>
-                  <li className="font-face-rr" onClick={goToVillaExtension}>
-                    Villas Extension
-                  </li> */}
                 </ul>
               </div>
 
@@ -184,49 +149,7 @@ const Footer = () => {
                     <li className="font-face-rr ms-2">Instagram</li>
                   </a>
                 </ul>
-
-                {/* <h6 className="font-face-rb pt-3 mb-1">Follow Us</h6> */}
-                {/* <div
-                  style={{
-                    borderTop: "2px solid #a9a9a9",
-                    paddingTop: "10px",
-                    width: "60px",
-                  }}
-                ></div> */}
-
-                {/* <ul
-                  style={{ listStyle: "none" }}
-                  className="list-unstyled mb-2"
-                >
-                  <li className="d-sm-flex">
-                    <a>
-                      <AiOutlineFacebook color="#202529" size={iconSize} />
-            
-                    </a>
-                    <a
-                      href="https://www.instagram.com/pergolarooms.ae/"
-                      target="_blank"
-                    >
-                    
-                      <CiInstagram
-                        className="ms-2"
-                        color="#202529"
-                        size={iconSize}
-                      />
-                    </a>
-                  </li>
-                </ul> */}
               </div>
-
-              {/* <div className="col-lg-3 col-md-12 sm-12">
-                <h6 className="font-face-rb">Email Us</h6>
-
-                <ul style={{ listStyle: "none" }} className="mb-4">
-                  <li className="font-face-rr" onClick={handleEmailClick}>
-                    info@pergolasroom.ae
-                  </li>
-                </ul>
-              </div> */}
 
               <div class="col-lg-3 col-md-12 col-sm-12">
                 <h6 class="text-uppercase font-face-rb mb-1">Visit Us</h6>
@@ -257,31 +180,6 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-
-              {/* <div className="Footer-Social-Icons col-lg-2 col-md-12 col-sm-12">
-                <h6 className="font-face-rb">Follow Us</h6>
-
-                <ul
-                  style={{ listStyle: "none" }}
-                  className="list-unstyled mb-2"
-                >
-                  <li className="d-sm-flex">
-                    <a>
-                      <img className="FbLogo" src={FooterFbLogo} alt="fb" />
-                    </a>
-                    <a
-                      href="https://www.instagram.com/pergolarooms.ae/"
-                      target="_blank"
-                    >
-                      <img
-                        className="ms-2 InstaLogo"
-                        src={FooterInstaLogo}
-                        alt="insta"
-                      />
-                    </a>
-                  </li>
-                </ul>
-              </div> */}
             </div>
           </section>
         </div>
@@ -304,18 +202,6 @@ const Footer = () => {
                 pergolarooms.ae
               </a>
             </b>
-            {/* Designed and Developed By <span></span>
-            <span class="text-black">
-              <b className="font-face-rb">
-                <a
-                  href="https://media-one-group.com"
-                  target="blank"
-                  style={{ textDecoration: "none", color: "black" }}
-                >
-                  MEDIA ONE GROUP
-                </a>
-              </b>
-            </span> */}
           </div>
         </div>
       </footer>

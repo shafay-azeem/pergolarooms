@@ -6,11 +6,6 @@ const ServiceGallery = (props) => {
   let imageData = props?.imageData;
   const [data, setData] = useState({ img: "", i: 0 });
 
-  const viewImage = (img, i) => {
-    // console.log(img, i, "mm");
-    setData({ img, i });
-  };
-
   const imageAction = (action) => {
     let i = data.i;
     if (action === "next-img" && i < imageData.length - 1) {
@@ -68,16 +63,15 @@ const ServiceGallery = (props) => {
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 4 }}>
         <Masonry gutter="0px">
           {imageData.map((image, i) => (
-            <div class="box">
+            <div className="box">
               <img
                 key={i}
                 src={image.src}
                 style={{ width: "100%", display: "block", cursor: "pointer" }}
-                // onClick={() => viewImage(image.src, i)}
               />
-              <div class="box-content">
-                <h3 class="name">{image.text}</h3>
-                <span class="post">{image.text}</span>
+              <div className="box-content">
+                <h3 className="name">{image.text}</h3>
+                <span className="post">{image.text}</span>
               </div>
             </div>
           ))}

@@ -1,16 +1,12 @@
 import React from "react";
-import NavigationBar from "../src/Components/Miscellaneous/NavigationBar";
 import FeaturedImage from "../src/Components/Featured/FeaturedImage";
 import WorkFlow from "../src/Components/WorkFlow/WorkFlow";
-import Portfolio from "../src/Components/Portfolio/Portfolio";
 import ServiceSlider from "../src/Components/Service/ServiceSlider";
 import EthicalEssence from "../src/Components/EthicalEssence/EthicalEssence";
 import ClientTestimony from "../src/Components/ClientTestimony/ClientTestimony";
 import ContactForm from "../src/Components/Contact/ContactForm";
-import Footer from "../src/Components/Footer/Footer";
 import ProjectCounter from "./Components/ProjectCounter/ProjectCounter";
 import whatsappimg from "./assets/whatsapp.png";
-import instaimg from "./assets/insta.png";
 import phoneImg from "./assets/reciever.png";
 
 const HomePage = () => {
@@ -48,30 +44,9 @@ const HomePage = () => {
             cursor: "pointer",
           }}
           onClick={handlePhoneButton}
+          alt="phoneImg"
         />
       </div>
-
-      {/* <div
-        style={{
-          position: "fixed",
-          bottom: "70px",
-          right: "20px",
-          zIndex: "9999",
-          height: "50px",
-          width: "50px",
-        }}
-      >
-        <img
-          src={instaimg}
-          style={{
-            height: "50px",
-            width: "50px",
-            borderRadius: "50px",
-            cursor: "pointer",
-          }}
-          onClick={handleButton}
-        />
-      </div> */}
 
       <div
         style={{
@@ -92,28 +67,27 @@ const HomePage = () => {
             cursor: "pointer",
           }}
           onClick={handleButton}
+          alt="whatsappimg"
         />
       </div>
 
-      <div id="">
+      <div>
         <WorkFlow />
       </div>
 
-      <div id="">{/* <Portfolio /> */}</div>
-
-      <div id="">
+      <div>
         <ServiceSlider />
       </div>
 
-      <div id="">
+      <div>
         <EthicalEssence />
       </div>
 
-      <div id="">
+      <div>
         <ProjectCounter />
       </div>
 
-      <div id="">
+      <div>
         <ClientTestimony />
       </div>
 

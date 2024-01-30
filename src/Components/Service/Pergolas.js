@@ -113,6 +113,7 @@ const Pergolas = () => {
             cursor: "pointer",
           }}
           onClick={handlePhoneButton}
+          alt="phoneImg"
         />
       </div>
 
@@ -135,6 +136,7 @@ const Pergolas = () => {
             cursor: "pointer",
           }}
           onClick={handleButton}
+          alt="whatsappimg"
         />
       </div>
       <div className="container text-center">
