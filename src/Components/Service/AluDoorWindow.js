@@ -5,6 +5,7 @@ import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
 import phoneImg from "../../assets/reciever.png";
+import DynamicSeo from "../../utils.seo/DynamicSeo";
 
 const AluDoorWindow = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -70,6 +71,10 @@ const AluDoorWindow = () => {
   };
   return (
     <>
+      <DynamicSeo
+        title="Elevate Your Space with Premium Aluminum Doors & Windows"
+        description="Elevate your space with premium aluminum doors and windows. Crafted with precision, our solutions offer unmatched durability and aesthetic appeal. Choose from customizable options to suit your unique style. Transform your home or office today."
+      />
       <div className="aluWindowsDoors">
         <div
           className="container-fluid"

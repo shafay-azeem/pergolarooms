@@ -8,7 +8,7 @@ const Portfolio = () => {
   const navigate = useNavigate();
 
   const goToAboutUs = () => {
-    navigate("/about-us");
+    navigate("/about-us/");
   };
   return (
     <div className="portfolio container-fluid">

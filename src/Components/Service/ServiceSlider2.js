@@ -29,7 +29,7 @@ const ServiceSlider2 = () => {
       description:
         "Experience the beauty of nature while staying comfortable and protected with our exquisite glass rooms. Designed to seamlessly blend the outdoors with your living space, our customized glass rooms provide a panoramic view of your surroundings.",
       bgcolor: "#7a5959",
-      route: "/glass-rooms",
+      route: "/glass-rooms/",
     },
 
     {
@@ -40,7 +40,7 @@ const ServiceSlider2 = () => {
       description:
         "Elevate your outdoor space with our exquisite custom pergolas. At Pergola Rooms Building Contracting LLC, we bring over a decade of expertise in crafting bespoke pergola designs that enhance your lifestyle. Our skilled team of craftsmen creates stunning pergolas using premium materials, tailored to your unique style and preferences.",
       bgcolor: "#45636f",
-      route: "/pergolas",
+      route: "/pergolas/",
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ const ServiceSlider2 = () => {
       description:
         "Transform your backyard into the ultimate entertainment spot with our custom-designed Bar & BBQ Counters, exquisitely crafted using high-quality aluminum for unparalleled durability and style. These Bar & BBQ Counters offer the perfect setting for hosting gatherings, where you can enjoy refreshing drinks and socialize in the great outdoors.",
       bgcolor: "#786050",
-      route: "/bbq-area",
+      route: "/bbq-area/",
     },
 
     {
@@ -61,7 +61,7 @@ const ServiceSlider2 = () => {
       description:
         "Shield your vehicles from the elements while adding a touch of elegance to your outdoor space with our bespoke car parking shades. Our expertly designed and crafted shades offer superior protection against sun, rain, and hail.",
       bgcolor: "#725349",
-      route: "/car-parking-shades",
+      route: "/car-parking-shades/",
     },
 
     {
@@ -72,7 +72,7 @@ const ServiceSlider2 = () => {
       description:
         "Experience the perfect combination of style, functionality, and longevity with our premium aluminum doors and windows. Crafted with precision and attention to detail, our customized solutions offer unmatched durability and aesthetic appeal.",
       bgcolor: "#394249",
-      route: "/aluminium-doors",
+      route: "/aluminium-doors/",
     },
     {
       id: 6,
@@ -82,7 +82,7 @@ const ServiceSlider2 = () => {
       description:
         "Introducing our precision-engineered CNC cut panels, the perfect addition to your gardens, lounges, villas. At PERGOLAROOMS, we utilize advanced CNC technology to create intricate and stunning patterns on panels, adding a touch of elegance to your outdoor space.",
       bgcolor: "#5c5c5c",
-      route: "/cnc-panel-cutter",
+      route: "/cnc-panel-cutter/",
     },
   ];
 
@@ -91,25 +91,25 @@ const ServiceSlider2 = () => {
   const goToPage = () => {
     // console.log()
     if (typeof buttonText === "undefined") {
-      navigate("/glass-rooms");
+      navigate("/glass-rooms/");
     }
     if (buttonText == 1) {
-      navigate("/glass-rooms");
+      navigate("/glass-rooms/");
     }
     if (buttonText == 2) {
-      navigate("/pergolas");
+      navigate("/pergolas/");
     }
     if (buttonText == 3) {
-      navigate("/bbq-area");
+      navigate("/bbq-area/");
     }
     if (buttonText == 4) {
-      navigate("/car-parking-shades");
+      navigate("/car-parking-shades/");
     }
     if (buttonText == 5) {
-      navigate("/aluminium-doors");
+      navigate("/aluminium-doors/");
     }
     if (buttonText == 6) {
-      navigate("/cnc-panel-cutter");
+      navigate("/cnc-panel-cutter/");
     }
   };
 

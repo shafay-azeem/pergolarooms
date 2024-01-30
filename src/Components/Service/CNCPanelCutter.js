@@ -5,6 +5,8 @@ import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
 import phoneImg from "../../assets/reciever.png";
+import DynamicSeo from "../../utils.seo/DynamicSeo";
+
 const CNCPanelCutter = () => {
   const [screenDimensions, setScreenDimensions] = useState({
     width: window.innerWidth,
@@ -69,6 +71,10 @@ const CNCPanelCutter = () => {
   };
   return (
     <>
+      <DynamicSeo
+        title="Elevate Your Villa with Precision CNC Cut Panels | Pergolarooms"
+        description="Discover the perfect addition to your villa with our precision-engineered CNC cut panels. Add elegance and unique aesthetics to your outdoor space with visually captivating designs. Elevate your pergola design with functionality and artistry. Explore endless possibilities today!"
+      />
       <div className="cncCutPanel">
         <div
           className="container-fluid"

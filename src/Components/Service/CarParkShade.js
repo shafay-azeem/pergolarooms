@@ -5,6 +5,7 @@ import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
 import phoneImg from "../../assets/reciever.png";
+import DynamicSeo from "../../utils.seo/DynamicSeo";
 
 const CarParkShade = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -71,6 +72,10 @@ const CarParkShade = () => {
 
   return (
     <>
+      <DynamicSeo
+        title="Transform Your Outdoor Space with Pergola Rooms Building Contracting LLC"
+        description="Pergola Rooms Building Contracting LLC specializes in crafting exceptional outdoor living solutions including pergolas, glass rooms, bar & BBQ counters, and aluminium doors and fences. With a decade of experience, trust us to transform your outdoor space into a haven of comfort and style."
+      />
       <div className="carParkingShades">
         <div
           className="container-fluid"

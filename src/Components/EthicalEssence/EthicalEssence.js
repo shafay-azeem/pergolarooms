@@ -21,7 +21,7 @@ const EthicalEssence = () => {
   const navigate = useNavigate();
 
   const goToAboutUs = () => {
-    navigate("/about-us");
+    navigate("/about-us/");
   };
 
   return (

@@ -5,6 +5,7 @@ import ContactForm from "../Contact/ContactForm";
 import { useState } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
 import phoneImg from "../../assets/reciever.png";
+import DynamicSeo from "../../utils.seo/DynamicSeo";
 
 const Pergolas = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -70,6 +71,10 @@ const Pergolas = () => {
   };
   return (
     <>
+      <DynamicSeo
+        title="Custom Pergolas: Elevate Your Outdoor Space | Pergola Rooms LLC"
+        description="Transform your outdoor space with exquisite custom pergolas from Pergola Rooms LLC. With over a decade of expertise, we craft bespoke designs tailored to your style. Contact us to create your oasis of beauty and relaxation."
+      />
       <div className="pergolas">
         <div
           className="container-fluid"

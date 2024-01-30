@@ -12,6 +12,7 @@ import CarParkShade from "./Components/Service/CarParkShade";
 import AluDoorWindow from "./Components/Service/AluDoorWindow";
 import TopNav from "./Components/TopNav/TopNav";
 import { useEffect, useRef, useState } from "react";
+import NotFoundPage from "./Components/NotFoundPage";
 
 function App() {
   const myElementRef = useRef(null);
@@ -51,14 +52,15 @@ function App() {
       </header>
 
       <Routes>
+        <Route path="*" element={<NotFoundPage />} />
         <Route path="/" element={<HomePage />} />
-        <Route path="/bbq-area" element={<BbqArea />} />
-        <Route path="/cnc-panel-cutter" element={<CNCPanelCutter />} />
-        <Route path="/pergolas" element={<Pergolas />} />
-        <Route path="/glass-rooms" element={<GlassRooms />} />
-        <Route path="/car-parking-shades" element={<CarParkShade />} />
-        <Route path="/aluminium-doors" element={<AluDoorWindow />} />
-        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/bbq-area/" element={<BbqArea />} />
+        <Route path="/cnc-panel-cutter/" element={<CNCPanelCutter />} />
+        <Route path="/pergolas/" element={<Pergolas />} />
+        <Route path="/glass-rooms/" element={<GlassRooms />} />
+        <Route path="/car-parking-shades/" element={<CarParkShade />} />
+        <Route path="/aluminium-doors/" element={<AluDoorWindow />} />
+        <Route path="/about-us/" element={<AboutUs />} />
       </Routes>
 
       <Footer />

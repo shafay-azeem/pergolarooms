@@ -20,32 +20,32 @@ const NavigationBar = () => {
   const handleShow = () => setShow(true);
 
   const goToBbqArea = () => {
-    navigate("/bbq-area");
+    navigate("/bbq-area/");
     setShow(false);
   };
 
   const goToCNCPanelCutter = () => {
-    navigate("/cnc-panel-cutter");
+    navigate("/cnc-panel-cutter/");
     setShow(false);
   };
 
   const goToPergolas = () => {
-    navigate("/pergolas");
+    navigate("/pergolas/");
     setShow(false);
   };
 
   const goToGlassRooms = () => {
-    navigate("/glass-rooms");
+    navigate("/glass-rooms/");
     setShow(false);
   };
 
   const goToCarParkingPergolas = () => {
-    navigate("/car-parking-shades");
+    navigate("/car-parking-shades/");
     setShow(false);
   };
 
   const goToAluminiumDoors = () => {
-    navigate("/aluminium-doors");
+    navigate("/aluminium-doors/");
     setShow(false);
   };
 
@@ -55,7 +55,7 @@ const NavigationBar = () => {
   };
 
   const goToAboutUs = () => {
-    navigate("/about-us");
+    navigate("/about-us/");
     setShow(false);
   };
 

@@ -6,6 +6,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
 import phoneImg from "../../assets/reciever.png";
+import DynamicSeo from "../../utils.seo/DynamicSeo";
 
 const GlassRooms = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -71,6 +72,10 @@ const GlassRooms = () => {
   };
   return (
     <>
+      <DynamicSeo
+        title="Transform Your Outdoor Space | Premium GCC Glass Rooms"
+        description="Elevate your outdoor living experience with our custom aluminium glass rooms designed for the hot and humid climate of the GCC. Enjoy panoramic views, abundant natural light, and protection from the elements while seamlessly blending indoors with outdoors."
+      />
       <div className="glassRooms">
         <div
           className="container-fluid"

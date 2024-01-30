@@ -7,6 +7,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import whatsappimg from "../../assets/whatsapp.png";
 import phoneImg from "../../assets/reciever.png";
+import DynamicSeo from "../../utils.seo/DynamicSeo";
 
 const BbqArea = () => {
   const [screenDimensions, setScreenDimensions] = useState({
@@ -73,6 +74,10 @@ const BbqArea = () => {
 
   return (
     <>
+      <DynamicSeo
+        title="Elevate Outdoor Entertainment with Custom Bar & BBQ Counters"
+        description="Transform your backyard into the ultimate entertainment spot with our custom-designed bar & BBQ counters. Crafted with high-quality aluminum for durability, enjoy socializing outdoors with shaded comfort and protection. Experience luxury and functionality in your custom outdoor bar area."
+      />
       <div className="BBQ-Area">
         <div
           className="container-fluid"

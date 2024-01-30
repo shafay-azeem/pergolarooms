@@ -17,27 +17,27 @@ const Footer = () => {
   const iconSize = 16;
 
   const goToBbqArea = () => {
-    navigate("/bbq-area");
+    navigate("/bbq-area/");
   };
 
   const goToCNCPanelCutter = () => {
-    navigate("/cnc-panel-cutter");
+    navigate("/cnc-panel-cutter/");
   };
 
   const goToPergolas = () => {
-    navigate("/pergolas");
+    navigate("/pergolas/");
   };
 
   const goToGlassRooms = () => {
-    navigate("/glass-rooms");
+    navigate("/glass-rooms/");
   };
 
   const goToCarParkingPergolas = () => {
-    navigate("/car-parking-shades");
+    navigate("/car-parking-shades/");
   };
 
   const goToAluminiumDoors = () => {
-    navigate("/aluminium-doors");
+    navigate("/aluminium-doors/");
   };
   const handlePhoneClick = () => {
     window.location.href = "tel:+971585799666";
