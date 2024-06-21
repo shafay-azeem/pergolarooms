@@ -11,7 +11,7 @@ import phoneImg from "./assets/reciever.png";
 
 const HomePage = () => {
   const handleButton = () => {
-    var url = "https://wa.me/+971585799666";
+    var url = "https://wa.me/+971542799669";
     window.open(url);
   };
 

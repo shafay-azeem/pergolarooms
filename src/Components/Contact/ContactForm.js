@@ -11,16 +11,62 @@ const ContactForm = () => {
 
   const form = useRef();
 
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   const emailInput = document.getElementById("email");
+  //   const nameInput = document.getElementById("name");
+  //   const messageInput = document.getElementById("message");
+  //   const phoneInput = document.getElementById("phone");
+
+  //   if (isNaN(phoneInput.value)) {
+  //     alert("Enter Only Numaric Value");
+  //     return;
+  //   }
+
+  //   if (phoneInput.value.length > 15) {
+  //     alert("Max 15 digits allowed");
+  //     return;
+  //   }
+
+  //   if (
+  //     emailInput.value === "" ||
+  //     messageInput.value === "" ||
+  //     nameInput.value === "" ||
+  //     phoneInput.value === ""
+  //   ) {
+  //     alert("Please enter all fields.");
+  //     return;
+  //   }
+
+  //   emailjs
+  //     .sendForm(
+  //       "service_qytd3bf",
+  //       "template_tus3c8j",
+  //       form.current,
+  //       "AhaleCQZZJAN12rAj"
+  //     )
+  //     .then(
+  //       (result) => {
+  //         form.current.reset();
+  //         window.alert("Email sent successfully!");
+  //         console.log(result);
+  //       },
+  //       (error) => {
+  //         console.log(error.text);
+  //       }
+  //     );
+  // };
+
   const sendEmail = (e) => {
     e.preventDefault();
-
-    const emailInput = document.getElementById("email");
-    const nameInput = document.getElementById("name");
-    const messageInput = document.getElementById("message");
-    const phoneInput = document.getElementById("phone");
+    const emailInput = form.current.querySelector("#email");
+    const nameInput = form.current.querySelector("#name");
+    const messageInput = form.current.querySelector("#message");
+    const phoneInput = form.current.querySelector("#phone");
 
     if (isNaN(phoneInput.value)) {
-      alert("Enter Only Numaric Value");
+      alert("Enter Only Numeric Value");
       return;
     }
 
@@ -39,12 +85,17 @@ const ContactForm = () => {
       return;
     }
 
+    const formData = new FormData(form.current);
+
+    // Append CC email address
+    formData.append("cc_email", "sales@pergolarooms.ae");
+
     emailjs
       .sendForm(
-        "service_qytd3bf",
-        "template_tus3c8j",
-        form.current,
-        "AhaleCQZZJAN12rAj"
+        "service_qytd3bf", // Your email service ID
+        "template_tus3c8j", // Your template ID
+        form.current, // Use the ref to the form element
+        "AhaleCQZZJAN12rAj" // Your user ID
       )
       .then(
         (result) => {
