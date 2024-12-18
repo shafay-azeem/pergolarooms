@@ -18,6 +18,13 @@ function App() {
   const myElementRef = useRef(null);
 
   useEffect(() => {
+    // Trigger the conversion event
+    window.gtag("event", "conversion", {
+      send_to: "AW-11321340570/g8ytCJCkvbEZEJrlt5Yq",
+    });
+  }, []);
+
+  useEffect(() => {
     const updateHeaderMargin = () => {
       if (myElementRef.current) {
         const height = myElementRef.current.offsetHeight;

@@ -5,7 +5,7 @@ import instaLogo from "../../assets/TopNavImages/instagram.png";
 
 const TopNav = () => {
   const handlePhoneClick = () => {
-    window.location.href = "tel:+971585799666";
+    window.location.href = "tel:+971567466996";
   };
   const handleEmailClick = () => {
     window.location.href = "mailto:info@pergolasroom.ae";
@@ -26,7 +26,7 @@ const TopNav = () => {
                 <li>
                   <a onClick={handlePhoneClick}>
                     <i class="icon-placeholder"></i>
-                    +971585799666
+                    +971567466996
                   </a>
                 </li>
               </ul>

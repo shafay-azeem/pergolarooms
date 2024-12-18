@@ -64,11 +64,11 @@ const BbqArea = () => {
   ];
 
   const handleButton = () => {
-    var url = "https://wa.me/+971585799666";
+    var url = "https://wa.me/+971567466996";
     window.open(url);
   };
   const handlePhoneButton = () => {
-    window.location.href = "tel:+971585799666";
+    window.location.href = "tel:+971567466996";
   };
 
   return (

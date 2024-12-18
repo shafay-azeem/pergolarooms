@@ -40,7 +40,7 @@ const Footer = () => {
     navigate("/aluminium-doors/");
   };
   const handlePhoneClick = () => {
-    window.location.href = "tel:+971585799666";
+    window.location.href = "tel:+971567466996";
   };
   const handleEmailClick = () => {
     window.location.href = "mailto:info@pergolasroom.ae";
@@ -113,7 +113,7 @@ const Footer = () => {
                 >
                   <BsTelephone size={iconSize} />
                   <li className="font-face-rr ms-2" onClick={handlePhoneClick}>
-                    +971585799666
+                    +971567466996
                   </li>
                 </ul>
 

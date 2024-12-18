@@ -122,7 +122,7 @@ const NavigationBar = () => {
             <div className="row">
               <div className="first col-lg-2 font-face-rb ">
                 Call Us <br />
-                <small className="font-face-rr">+971585799666</small>
+                <small className="font-face-rr">+971567466996</small>
               </div>
               <div className="second col-lg-2 pb-2 font-face-rb ">
                 Email Us <br />
